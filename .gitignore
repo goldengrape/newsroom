@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data
+raw_news.json
+test_output.json
+
+# Environment
+.env
+venv/
+env/
