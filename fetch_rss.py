@@ -26,7 +26,19 @@ RSS_FEEDS = {
     "The Next Web (TNW)": "https://thenextweb.com/feed",
     "Mashable": "https://mashable.com/feed",
     "Fast Company": "https://www.fastcompany.com/latest/rss",
-    "Business Insider": "https://www.businessinsider.com/rss"
+    "Business Insider": "https://www.businessinsider.com/rss",
+
+    # 4. Medical & Clinical Research
+    "The New England Journal of Medicine (NEJM)": "https://www.nejm.org/action/showFeed?type=etoc&feed=rss&jc=nejm",
+    "The Lancet": "https://www.thelancet.com/rssfeed/lancet_current.xml",
+    "The BMJ (Recent)": "https://www.bmj.com/rss/recent.xml",
+    "British Journal of Ophthalmology": "https://bjo.bmj.com/rss/current.xml",
+    "BMJ Open Ophthalmology": "https://bmjophth.bmj.com/rss/current.xml",
+
+    # Note: JAMA Network feeds (including JAMA Ophthalmology) are currently returning 403 Forbidden
+    # due to strict anti-bot protections, so they are excluded for now.
+    # "JAMA Current Issue": "https://jamanetwork.com/rss/site_3/67.xml",
+    # "JAMA Ophthalmology": "https://jamanetwork.com/rss/site_18/55.xml"
 }
 
 def fetch_rss_feeds():
