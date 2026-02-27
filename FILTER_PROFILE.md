@@ -13,6 +13,10 @@
 2. **结构性变动**: 涉及全球硬件/能源/基础软件供应链的结构性变动。
 3. **深层机制发现**: 基于生物/物理学深层机制而非表象观察的科学发现。
 4. **实用工具**: 具有实际降本增效或隐私保护意义的实用工具。
+5. **临床研究与医疗机制**: 优先放行以下疾病领域的临床研究与发病机制解析：
+    - **眼科**: 白内障 (Cataracts)、近视防控 (Myopia Prevention)。
+    - **神经/代谢**: 帕金森 (Parkinson's)、糖尿病 (Diabetes)、高血脂 (Hyperlipidemia)。
+    - *注意*: 需侧重于“机制性突破”或“确定的临床效果”，避免单纯的药物市场推广。
 
 ### [BLOCK_GATES] (拦截标准)
 1. **政治与游说**: 任何涉及具体政客、党派斗争或政策游说的非技术性新闻。
@@ -45,6 +49,13 @@
 - **IEEE Spectrum**: `https://spectrum.ieee.org/rss/fulltext` (电气工程与机器人权威)
 - **Scientific American**: `https://www.scientificamerican.com/section/news/rss/` (老牌科普新闻)
 - **Nature News**: `https://www.nature.com/nature.rss` (顶级期刊的动态报道)
+
+### Medical & Clinical Research
+- **NEJM**: `https://www.nejm.org/action/showFeed?type=etoc&feed=rss&jc=nejm` (新英格兰医学杂志)
+- **The Lancet**: `https://www.thelancet.com/rssfeed/lancet_current.xml` (柳叶刀)
+- **The BMJ**: `https://www.bmj.com/rss/recent.xml` (英国医学杂志)
+- **BMJ Ophthalmology**: `https://bjo.bmj.com/rss/current.xml` (眼科子刊)
+- *Note*: **JAMA Network** feeds are currently unavailable due to platform restrictions.
 
 ### Business & Internet Trends
 - **The Next Web (TNW)**: `https://thenextweb.com/feed`
