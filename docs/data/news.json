@@ -1,152 +1,202 @@
 [
     {
-        "title": "Perplexity 发布元代理系统 \"Computer\"",
-        "source": "Ars Technica",
-        "link": "https://arstechnica.com/ai/2026/02/perplexity-announces-computer-an-ai-agent-that-assigns-work-to-other-ai-agents/",
-        "summary": "Perplexity 推出名为 \"Computer\" 的 AI 代理系统，其核心逻辑为元调度器（Meta-Scheduler）。该系统不直接执行单一任务，而是解析复杂意图并分发给专用的子代理网络执行。这种分层控制架构旨在降低单一模型的幻觉率，通过任务模块化提升复杂工作流的执行成功率。"
+        "source": "Wired",
+        "title": "红光疗法设备促进生发临床试验",
+        "link": "https://www.wired.com/story/best-red-light-therapy-for-hair-growth/",
+        "summary": "16周的红光疗法设备使用显示出明显的毛发再生效果。",
+        "published": "Fri, 27 Feb 2026 10:30:00 +0000",
+        "fetched_at": "2026-02-28T15:03:05.874336"
     },
     {
-        "title": "Archer Aviation 集成 Starlink 低轨卫星通讯",
-        "source": "Fast Company",
-        "link": "https://www.fastcompany.com/91499487/archer-aviation-starlink-in-flight-air-taxi-internet",
-        "summary": "Archer Aviation 宣布在其 Midnight eVTOL 飞行器上集成 Starlink 终端。该方案利用低轨卫星星座（LEO）提供高带宽遥测与乘客网络连接，解决了低空飞行器（AAM）在城市峡谷与偏远区域的通信盲区问题，标志着航空电子架构与卫星互联网的深度融合。"
+        "source": "IEEE Spectrum",
+        "title": "Carenector推出基于算法的康复分诊系统",
+        "link": "https://spectrum.ieee.org/carenector-health-care-startup",
+        "summary": "Carenector构建了基于公开医保数据和人工智能算法的电子分诊系统，将患者自动匹配至特定专科。系统通过API集成医疗记录与位置数据，替代了低效的人工转诊操作。",
+        "published": "Thu, 26 Feb 2026 19:00:03 +0000",
+        "fetched_at": "2026-02-28T15:03:08.252305"
     },
     {
-        "title": "Andrew Ng 剖析 Agentic AI 与 AGI 泡沫",
-        "source": "Fast Company",
-        "link": "https://www.fastcompany.com/91499247/andrew-ng-agi-decades-away-interview",
-        "summary": "Andrew Ng 在访谈中指出，当前 AI 价值在于多步推理工作流（Multi-step Workflows）而非遥不可及的通用智能（AGI）。他警告模型训练层（Training Layer）存在过度投资泡沫，建议企业转向推理层（Inference Layer）的架构优化与应用落地，利用代理架构解决实际工程问题。"
+        "source": "IEEE Spectrum",
+        "title": "基于近场射频反射的连续血压监测架构",
+        "link": "https://spectrum.ieee.org/blood-pressure-monitor-smartwatch",
+        "summary": "得克萨斯大学奥斯汀分校研发利用腕部反射的2.4GHz近场射频信号监测血压。通过分析收缩期与舒张期间信号相位偏移得出数据，系统功耗3.4毫瓦，消除了光学容积脉搏波的肤色误差。",
+        "published": "Tue, 24 Feb 2026 15:00:03 +0000",
+        "fetched_at": "2026-02-28T15:03:08.252381"
     },
     {
-        "title": "Block 裁员 40% 转向 AI 驱动架构",
-        "source": "Fast Company",
-        "link": "https://www.fastcompany.com/91499931/jack-dorseys-fintech-company-block-laying-off-thousands-citing-gains-ai",
-        "summary": "Block CEO Jack Dorsey 宣布裁员 40%，明确指出“智能工具”已改变公司运营的底层逻辑。此举标志着科技企业组织架构从“人力密集型”向“算法辅助型”的结构性转型，企业不再依赖规模化团队，而是通过 AI 代理与自动化工具链提升人效比。"
+        "source": "Nature News",
+        "title": "干细胞疗法增加老年虚弱患者耐力",
+        "link": "https://www.nature.com/articles/d41586-026-00672-z",
+        "summary": "一项研究表明单剂量干细胞给药后，老年虚弱症患者的耐力指标出现提升。",
+        "published": "2026-02-26",
+        "fetched_at": "2026-02-28T15:03:08.690172"
     },
     {
-        "title": "OpenAI Codex 推动代理工程范式转移",
-        "source": "Fast Company",
-        "link": "https://www.fastcompany.com/91498841/openai-codex-growing-fast-agentic-engineering",
-        "summary": "OpenAI Codex 用户量激增，GPT-5.3-Codex 模型增强了对长上下文的推理能力。新模型支持更复杂的“代理工程”（Agentic Engineering）工作流，允许开发者以自然语言定义架构，由 AI 执行具体代码实现与测试，重构了软件开发的交互层级。"
+        "source": "Nature News",
+        "title": "胎儿脊柱裂的胎内干细胞治疗临床试验",
+        "link": "https://www.nature.com/articles/d41586-026-00602-z",
+        "summary": "6名孕妇参与早期试验，使用来源于胎盘的干细胞修复胎儿脊髓，初步证实安全性。",
+        "published": "2026-02-26",
+        "fetched_at": "2026-02-28T15:03:08.690204"
     },
     {
-        "title": "Samsung S26 Ultra 部署物理隐私显示层",
-        "source": "Engadget",
-        "link": "https://www.engadget.com/mobile/smartphones/samsung-galaxy-s26-ultra-hands-on-meaningful-tweaks-plus-a-slick-new-privacy-display-205256169.html?src=rss",
-        "summary": "Samsung 在 S26 Ultra 屏幕面板中集成 Flex Magic Pixel 技术。该技术通过控制 OLED 像素的光线发射角度，在硬件层面实现可视角度的动态调节。此物理级隐私解决方案替代了传统的软件防窥滤镜，解决了防窥模式下的亮度衰减与能效问题。"
+        "source": "Nature News",
+        "title": "基于器官微囊过滤的胰腺靶向脂质纳米颗粒",
+        "link": "https://www.nature.com/articles/s41586-026-10158-7",
+        "summary": "阐明胰腺靶向机制，开发出可向胰腺精准递送核酸药物的脂质纳米颗粒，为胰腺疾病治疗提供载药架构。",
+        "published": "2026-02-25",
+        "fetched_at": "2026-02-28T15:03:08.690292"
     },
     {
-        "title": "Google Maps 获准导出韩国高精地理数据",
-        "source": "Engadget",
-        "link": "https://www.engadget.com/apps/google-maps-will-finally-be-usable-in-south-korea-104301396.html?src=rss",
-        "summary": "Google Maps 获准将韩国高精地理信息数据（GIS）导出境外，解决了因国家安全法规导致的长期服务缺失。协议涉及对军事敏感设施的脱敏处理与数据跨境传输的安全审计，标志着全球地理信息服务在合规层面的关键突破。"
+        "source": "Nature News",
+        "title": "噬菌体裂解蛋白抑制MurJ翻转酶机制",
+        "link": "https://www.nature.com/articles/s41586-026-10163-w",
+        "summary": "三种不同噬菌体编码的单基因裂解蛋白通过共同机制抑制核心脂质II翻转酶MurJ，为抗菌药物研发提供新靶点。",
+        "published": "2026-02-25",
+        "fetched_at": "2026-02-28T15:03:08.690321"
     },
     {
-        "title": "NATO 认证 Apple 设备用于机密通信",
-        "source": "Engadget",
-        "link": "https://www.engadget.com/mobile/nato-approves-the-iphone-and-ipad-for-classified-use-200857276.html?src=rss",
-        "summary": "北约（NATO）正式批准 iPhone 和 iPad 用于处理特定级别的机密信息。此认证基于对 iOS 26 安全架构（包括硬件安全隔区与内核完整性保护）的深度审计。这标志着消费级移动设备在军事级加密通信领域获得了结构性的合规地位。"
+        "source": "Nature News",
+        "title": "OR7A10 GPCR增强针对实体瘤的CAR-NK细胞疗法",
+        "link": "https://www.nature.com/articles/s41586-026-10149-8",
+        "summary": "在嵌合抗原受体构型中直接驱动基因过表达的增强子机制被证实可以提升CAR-NK细胞对抗实体瘤的疗效。",
+        "published": "2026-02-25",
+        "fetched_at": "2026-02-28T15:03:08.690328"
     },
     {
-        "title": "Burger King 部署语音情感分析系统",
-        "source": "Engadget",
-        "link": "https://www.engadget.com/ai/burger-king-will-use-ai-to-monitor-employee-friendliness-173349148.html?src=rss",
-        "summary": "Burger King 部署基于 OpenAI 的实时语音分析系统 \"Patty\"。该系统集成于员工通讯耳机中，通过自然语言处理（NLP）实时监测员工与顾客的交互脚本及语调情感。此技术实施标志着算法管理从单纯的效率指标向非结构化情感劳动指标的延伸。"
+        "source": "Nature News",
+        "title": "干细胞作为虚弱症的潜在治疗手段",
+        "link": "https://www.nature.com/articles/d41586-026-00584-y",
+        "summary": "影响25%的50岁以上人群的虚弱症在单剂量干细胞治疗后耐力增加。",
+        "published": "2026-02-25",
+        "fetched_at": "2026-02-28T15:03:08.690473"
     },
     {
-        "title": "NASA 推迟 Artemis 登月验证着陆器架构",
-        "source": "Engadget",
-        "link": "https://www.engadget.com/science/nasa-overhauls-artemis-program-delaying-moon-landing-to-2028-164255318.html?src=rss",
-        "summary": "NASA 宣布推迟 Artemis 载人登月至 2028 年，任务架构调整为优先验证商业着陆器（HLS）。此次调整受限于 SLS 火箭上面级氦气加压问题及 Orion 飞船隔热盾侵蚀风险，反映了深空探测任务在系统集成复杂性面前的工程妥协。"
+        "source": "Nature News",
+        "title": "帕金森病影响躯体-认知动作网络",
+        "link": "https://www.nature.com/articles/d41586-026-00573-1",
+        "summary": "帕金森病高精度神经成像揭示躯体-认知动作网络的异常高连接性。药理及脑刺激干预可使该神经网络连接参数正常化。",
+        "published": "2026-02-25",
+        "fetched_at": "2026-02-28T15:03:08.690531"
     },
     {
-        "title": "Ultrahuman 推出长续航生物监测戒指",
-        "source": "Engadget",
-        "link": "https://www.engadget.com/wearables/ultrahumans-new-pro-ring-comes-with-15-days-battery-life-120038820.html?src=rss",
-        "summary": "Ultrahuman 发布 Ring Pro 智能戒指，通过优化电源管理 IC 与传感器占空比，实现长达 15 天的续航。该硬件更新解决了连续生物监测（如夜间心率变异性）与设备充电频率之间的矛盾，提升了被动健康追踪数据的连续性与完整性。"
+        "source": "Nature News",
+        "title": "污水处理设施的温室气体排放模型偏差",
+        "link": "https://www.nature.com/articles/d41586-026-00514-y",
+        "summary": "数据表明污水处理罐及相关基础设施的实际温室气体排放量高于现行报告参数。",
+        "published": "2026-02-24",
+        "fetched_at": "2026-02-28T15:03:08.690654"
     },
     {
-        "title": "Google 收购 Form Energy 100 小时铁空气电池技术",
-        "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/02/26/google-paid-startup-form-energy-1b-for-its-massive-100-hour-battery/",
-        "summary": "Google 斥资 10 亿美元收购 Form Energy 的铁空气电池项目。该技术通过铁的可逆氧化反应实现长达 100 小时的放电持续时间，旨在解决可再生能源电网的间歇性存储问题。此交易标志着超长时储能技术（LDES）从实验室走向电网级商业化应用。"
+        "source": "The New England Journal of Medicine (NEJM)",
+        "title": "Tecovirimat 治疗猴痘的临床研究",
+        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2506495?af=R&rss=currentIssue",
+        "summary": "关于特考韦瑞治疗猴痘有效性与安全性的最新临床数据报告。",
+        "published": "2026-02-25T10:00:03Z",
+        "fetched_at": "2026-02-28T15:03:11.266441"
     },
     {
-        "title": "全球 RAM 短缺导致智能手机出货量结构性下滑",
-        "source": "The Verge",
-        "link": "https://www.theverge.com/gadgets/885638/smartphone-decline-ram-shortage-idc",
-        "summary": "IDC 数据显示，受 AI 数据中心对高带宽内存（HBM）需求激增的挤压，移动端 RAM 供应出现结构性短缺。预计 2026 年全球智能手机出货量将下降 12.9% 至 11.2 亿部，揭示了 AI 基础设施建设对消费电子供应链造成的资源掠夺效应。"
+        "source": "The New England Journal of Medicine (NEJM)",
+        "title": "养老院居民降压治疗强度的调整研究",
+        "link": "https://www.nejm.org/doi/full/10.1056/NEJMc2518217?af=R&rss=currentIssue",
+        "summary": "针对养老院居民减少抗高血压治疗的临床评估与机制影响。",
+        "published": "2026-02-25T10:00:03Z",
+        "fetched_at": "2026-02-28T15:03:11.266497"
     },
     {
-        "title": "Cisco 网络设备发现长期被利用的底层漏洞",
-        "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/02/26/cisco-says-hackers-have-been-exploiting-a-critical-bug-to-break-into-big-customer-networks-since-2023/",
-        "summary": "Cisco 确认其网络设备中存在一个已被利用多年的高危漏洞。攻击者自 2023 年起利用该漏洞绕过身份验证机制，渗透进入大型企业与政府网络的核心路由设施。此事件暴露了基础网络设施在固件层面长期维护与漏洞检测机制上的滞后性。"
+        "source": "The New England Journal of Medicine (NEJM)",
+        "title": "长效HIV疗法从有效性验证到应用可及性",
+        "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2518334?af=R&rss=currentIssue",
+        "summary": "长效HIV药物的系统性部署问题及临床转化分析。",
+        "published": "2026-02-18T10:02:14Z",
+        "fetched_at": "2026-02-28T15:03:11.266533"
     },
     {
-        "title": "AirSnitch 攻击破解 Wi-Fi 加密协议",
-        "source": "Ars Technica",
-        "link": "https://arstechnica.com/security/2026/02/new-airsnitch-attack-breaks-wi-fi-encryption-in-homes-offices-and-enterprises/",
-        "summary": "安全研究人员披露名为 \"AirSnitch\" 的新型攻击向量。该技术利用 Wi-Fi 协议在握手阶段的缺陷，无需交互即可解密 WPA2/WPA3 流量。该漏洞影响广泛，波及家庭及企业级无线网络设备，迫使 Wi-Fi 联盟需对加密标准进行底层协议修补。"
+        "source": "The New England Journal of Medicine (NEJM)",
+        "title": "HER2阳性早期乳腺癌的个体化治疗",
+        "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2600247?af=R&rss=currentIssue",
+        "summary": "探讨针对HER2阳性早期乳腺癌治疗路径和靶点干预的优化策略。",
+        "published": "2026-02-25T10:00:03Z",
+        "fetched_at": "2026-02-28T15:03:11.266540"
     },
     {
-        "title": "基因组学揭示尼安德特人与现代人互动的沙漠区域",
-        "source": "Ars Technica",
-        "link": "https://arstechnica.com/science/2026/02/genomes-chart-the-history-of-neanderthal-modern-human-interactions/",
-        "summary": "最新基因组测序分析发现现代人类基因组中存在“尼安德特人沙漠”，即完全缺失尼安德特人基因的特定区域。这一发现基于统计遗传学方法，揭示了特定染色体片段在杂交后代中的强负选择机制，提供了生殖隔离与基因组兼容性的分子证据。"
+        "source": "The New England Journal of Medicine (NEJM)",
+        "title": "遗传性耳聋的DB-OTO基因疗法",
+        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2400521?af=R&rss=currentIssue",
+        "summary": "针对遗传性耳聋采用DB-OTO基因疗法恢复听力的临床前与早期临床结果。",
+        "published": "2025-10-12T02:18:00Z",
+        "fetched_at": "2026-02-28T15:03:11.266605"
     },
     {
-        "title": "运动鞋摩擦发声的物理声学机制",
-        "source": "Ars Technica",
-        "link": "https://arstechnica.com/science/2026/02/the-physics-of-squeaking-sneakers/",
-        "summary": "物理学家解析了橡胶鞋底与地面接触产生尖锐噪音的“粘滑摩擦”（Stick-Slip Friction）机制。研究表明，声音频率主要由鞋底纹理的几何形状决定。此机制已被应用于设计可发出特定音调的功能性鞋底，展示了声学超材料在消费品中的工程应用。"
+        "source": "The New England Journal of Medicine (NEJM)",
+        "title": "慢性淋巴细胞白血病固定疗程与持续治疗对比",
+        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2515458?af=R&rss=currentIssue",
+        "summary": "评估CLL患者在固定疗程干预与持续性药物抑制下的生存率与复发指标。",
+        "published": "2025-12-06T01:30:00Z",
+        "fetched_at": "2026-02-28T15:03:11.266634"
     },
     {
-        "title": "ULA Vulcan 火箭助推器与 GPS 干扰关联分析",
-        "source": "Ars Technica",
-        "link": "https://arstechnica.com/space/2026/02/ula-isnt-making-the-space-forces-gps-interference-problem-any-easier/",
-        "summary": "美国太空军调查发现，ULA Vulcan 火箭助推器的异常振动频谱与 GPS 信号频段存在干扰耦合。这种硬件层面的电磁兼容性（EMC）问题导致发射过程中的定位信号丢失，迫使航天发射任务需重新进行助推器频率屏蔽设计。"
+        "source": "The New England Journal of Medicine (NEJM)",
+        "title": "AAV9基因疗法治疗II型GM1神经节苷脂沉积症: 1-2期试验",
+        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2510935?af=R&rss=currentIssue",
+        "summary": "以AAV9为载体的基因转导在II型GM1神经节苷脂沉积症1-2期临床中的药代动力学及安全性数据。",
+        "published": "2026-02-06T05:00:00Z",
+        "fetched_at": "2026-02-28T15:03:11.266661"
     },
     {
-        "title": "Intrinsic 并购 Google 机器人部门整合中间件平台",
-        "source": "Engadget",
-        "link": "https://www.engadget.com/ai/ai-robotics-company-started-by-alphabet-is-joining-google-proper-144421411.html?src=rss",
-        "summary": "Alphabet 旗下 Intrinsic 公司并入 Google，旨在整合机器人软件中间件平台。此举意在建立通用的机器人操作系统标准，利用 Gemini 模型增强工业机器人的感知与规划能力，降低跨硬件平台的开发与部署门槛。"
+        "source": "The New England Journal of Medicine (NEJM)",
+        "title": "Enfortumab Vedotin联合Pembrolizumab的围手术期治疗",
+        "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2515777?af=R&rss=currentIssue",
+        "summary": "ADC药物联合PD-1抑制剂在围手术期应用的协同机制及临床结局分析。",
+        "published": "2026-02-18T10:00:00Z",
+        "fetched_at": "2026-02-28T15:03:11.266690"
     },
     {
-        "title": "Pixel Agents 实现 AI 编码日志的可视化交互",
-        "source": "Fast Company",
-        "link": "https://www.fastcompany.com/91497413/this-charming-pixel-art-game-solves-one-of-ai-codings-most-annoying-ux-problems",
-        "summary": "开发者推出 Pixel Agents 扩展，将 Anthropic Claude Code 的 JSONL 执行日志转化为可视化的像素角色动画。该工具解决了并发 AI 代理在后台执行任务时状态不可见的问题，通过空间化的 UI 映射，提升了开发者对多线程代理行为的监控效率与调试能力。"
+        "source": "The Lancet",
+        "title": "精神分裂症抗多巴胺药物进展",
+        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00038-3/fulltext?rss=yes",
+        "summary": "抗精神病药物的药理学回顾，分析多巴胺受体拮抗剂在疗效和耐受性层面的限制，并总结了最新随机对照试验数据。",
+        "published": "2026-02-28",
+        "fetched_at": "2026-02-28T15:03:11.490032"
     },
     {
-        "title": "开源捐赠基金建立软件供应链资金新机制",
-        "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/02/26/a-vc-and-some-big-name-programmers-are-trying-to-solve-open-sources-funding-problem-permanently/",
-        "summary": "针对开源基础设施维护者缺乏资金的长期结构性问题，风投机构与核心开发者联合发起“开源捐赠基金”。该机制旨在通过算法化的资金分配协议，为关键底层代码库提供持续性财务支持，以降低全球软件供应链的单点失效风险。"
+        "source": "The Lancet",
+        "title": "BI 764198试验数据修正",
+        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00378-8/fulltext?rss=yes",
+        "summary": "TRPC6抑制剂用于治疗局灶节段性肾小球硬化的2期随机试验剂量参数修正记录。",
+        "published": "2026-02-28",
+        "fetched_at": "2026-02-28T15:03:11.490208"
     },
     {
-        "title": "带状疱疹疫苗与痴呆症预防的免疫机制关联",
-        "source": "Ars Technica",
-        "link": "https://arstechnica.com/health/2026/02/could-a-vaccine-prevent-dementia-shingles-shot-data-only-getting-stronger/",
-        "summary": "流行病学数据分析显示，接种带状疱疹疫苗与降低痴呆症风险之间存在显著统计学关联。研究假设这可能涉及病毒复活对神经系统的慢性炎症机制，或疫苗激发的交叉免疫反应对神经退行性病变的抑制作用，为阿尔茨海默病的预防提供了新的免疫学路径。"
+        "source": "The Lancet",
+        "title": "子宫内脊柱裂细胞修复的1期单臂试验 (CuRe Trial)",
+        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)02466-3/fulltext?rss=yes",
+        "summary": "同种异体活干细胞治疗的安全验证。由于未产生细胞相关不良效应，该项目进入35例非交叉注册的1/2a期临床。",
+        "published": "2026-02-28",
+        "fetched_at": "2026-02-28T15:03:11.490230"
     },
     {
-        "title": "Einride 融资加速无驾驶室货运网络部署",
-        "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/02/26/self-driving-truck-startup-einride-raises-113m-pipe-ahead-of-public-debut/",
-        "summary": "自动驾驶货运公司 Einride 完成 1.13 亿美元融资。资金将用于扩建其基于“Pod”设计的无驾驶室卡车网络。该技术路线移除了人类驾驶员物理空间，重构了物流车辆的空气动力学与载货效率，推动干线物流向全自动化与电气化转型。"
+        "source": "The Lancet",
+        "title": "GLP-1受体激动剂与下一代肠促胰岛素药物的心血管和肾脏代谢收益",
+        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)02105-1/fulltext?rss=yes",
+        "summary": "GLP-1受体激动剂除降低血糖和体重外，临床数据证明其降低了心肌梗死、卒中等不良心血管事件风险，并减缓肾小球滤过率下降。",
+        "published": "2026-01-14T23:30:01Z",
+        "fetched_at": "2026-02-28T15:03:11.490244"
     },
     {
-        "title": "NASA 削减火星轨道器科学载荷",
-        "source": "Ars Technica",
-        "link": "https://arstechnica.com/space/2026/02/a-non-public-document-reveals-that-science-may-not-be-prioritized-on-next-mars-mission/",
-        "summary": "内部文件显示，受预算与工程约束，NASA 下一代火星轨道任务将大幅削减科学仪器载荷。任务优先级转向为火星样本取回任务（MSR）提供通信中继支持。此决策反映了深空探测任务在基础设施建设与科学发现之间的资源分配权衡。"
+        "source": "The BMJ (Recent)",
+        "title": "Orforglipron在2型糖尿病控制中优于口服索马鲁肽",
+        "link": "http://www.bmj.com/content/392/bmj.s399.short?rss=1",
+        "summary": "3期随机对照试验(1698人)显示新型GLP-1受体激动剂Orforglipron (不受饮食限制) 在血糖控制与体重减轻指标上优于口服索马鲁肽。",
+        "published": "2026-02-27T00:32:09-08:00",
+        "fetched_at": "2026-02-28T15:03:11.795323"
     },
     {
-        "title": "OpenAI 获得 FedRAMP 授权进入政府云市场",
-        "source": "Fast Company",
-        "link": "https://www.fastcompany.com/91498730/openai-felipe-millon-interview",
-        "summary": "OpenAI 获得 FedRAMP 安全认证，允许其模型部署于联邦政府合规云环境。此举消除了政府机构采购生成式 AI 的主要合规障碍，预计将加速 AI 技术在税务处理、住房援助等公共服务自动化流程中的系统性整合。"
+        "source": "The BMJ (Recent)",
+        "title": "Bictegravir与Lenacapavir复合制剂简化HIV用药",
+        "link": "http://www.bmj.com/content/392/bmj.s389.short?rss=1",
+        "summary": "一项含557名受试者的3期临床试验表明，Bictegravir和Lenacapavir合剂作为每日单片方案，可替代目前耐药株引发的每日多达11片的复杂抗逆转录病毒治疗架构。",
+        "published": "2026-02-26T04:56:49-08:00",
+        "fetched_at": "2026-02-28T15:03:11.795330"
     }
 ]
