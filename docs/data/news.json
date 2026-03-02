@@ -1,202 +1,202 @@
 [
     {
+        "source": "TechCrunch",
+        "title": "苹果将​​人工智能融入其售价 599 美元的新款 iPhone 17e 中",
+        "link": "https://techcrunch.com/2026/03/02/apples-bakes-in-ai-smarts-into-its-new-599-iphone-17e/",
+        "summary": "基本型号配备 256 GB 存储空间，苹果表示，在相同起价下，这是上一代入门存储空间的两倍。",
+        "published": "Mon, 02 Mar 2026 14:53:14 +0000",
+        "fetched_at": "2026-03-02T15:11:58.438756"
+    },
+    {
         "source": "Wired",
-        "title": "红光疗法设备促进生发临床试验",
-        "link": "https://www.wired.com/story/best-red-light-therapy-for-hair-growth/",
-        "summary": "16周的红光疗法设备使用显示出明显的毛发再生效果。",
-        "published": "Fri, 27 Feb 2026 10:30:00 +0000",
-        "fetched_at": "2026-02-28T15:03:05.874336"
+        "title": "数据中心已抵达北极圈边缘",
+        "link": "https://www.wired.com/story/ai-supremacy-data-center-expansion-arctic-circle/",
+        "summary": "随着人工智能实验室对计算的渴求，数据中心运营商纷纷向北寻找廉价而充足的能源。",
+        "published": "Mon, 02 Mar 2026 10:00:00 +0000",
+        "fetched_at": "2026-03-02T15:11:58.802191"
+    },
+    {
+        "source": "Wired",
+        "title": "用于选择退出监视状态的视频门铃建议和设置",
+        "link": "https://www.wired.com/story/how-to-secure-your-video-doorbell/",
+        "summary": "可视门铃很方便，但它们对隐私构成威胁。我与专家讨论了为什么你可能会放弃门铃，以及如何保护你的视频。",
+        "published": "Sun, 01 Mar 2026 12:02:00 +0000",
+        "fetched_at": "2026-03-02T15:11:58.802234"
+    },
+    {
+        "source": "Wired",
+        "title": "区域男子意外入侵 6,700 个带摄像头的扫地机器人",
+        "link": "https://www.wired.com/story/security-news-this-week-area-man-accidentally-hacks-6700-camera-enabled-robot-vacuums/",
+        "summary": "另外：美国最高网络机构陷入混乱，人工智能模型对核武器产生了令人不安的偏好，等等。",
+        "published": "Sat, 28 Feb 2026 11:30:00 +0000",
+        "fetched_at": "2026-03-02T15:11:58.802402"
+    },
+    {
+        "source": "Wired",
+        "title": "美国军方将其标记为“供应链风险”后，Anthropic 进行了反击",
+        "link": "https://www.wired.com/story/anthropic-supply-chain-risk-shockwaves-silicon-valley/",
+        "summary": "Anthropic 表示，在有关人工智能模型军事用途的谈判破裂后，五角大楼将其技术列入黑名单是“不合法的”。",
+        "published": "Sat, 28 Feb 2026 03:30:41 +0000",
+        "fetched_at": "2026-03-02T15:11:58.802470"
+    },
+    {
+        "source": "Wired",
+        "title": "华尔街有人工智能精神病",
+        "link": "https://www.wired.com/story/wall-street-has-ai-psychosis/",
+        "summary": "本周早些时候，一项关于人工智能影响的“思想实验”导致股市暴跌。这种情况可能会继续发生。",
+        "published": "Fri, 27 Feb 2026 16:00:00 +0000",
+        "fetched_at": "2026-03-02T15:11:58.802554"
+    },
+    {
+        "source": "Wired",
+        "title": "Huxe 将为您提供由 AI 提供支持的个性化每日音频摘要",
+        "link": "https://www.wired.com/story/huxe-personalized-daily-audio-podcasts-powered-by-ai/",
+        "summary": "该应用程序会读取您的电子邮件收件箱和会议日历，然后为您提供简短的音频摘要。它可以帮助您减少滚动时间，但当然，需要考虑隐私方面的缺点。",
+        "published": "Fri, 27 Feb 2026 12:00:00 +0000",
+        "fetched_at": "2026-03-02T15:11:58.802570"
+    },
+    {
+        "source": "Wired",
+        "title": "Tin Can 是一款适合儿童使用的哑手机。有人可以教他们如何使用它吗？",
+        "link": "https://www.wired.com/story/tin-can-is-a-dumb-phone-for-kids-can-someone-teach-them-how-to-use-it/",
+        "summary": "Tin Can 凭借其缠绕的电线和类似固定电话的功能，为孩子们提供了电话礼仪速成课程。例如：说话吧！",
+        "published": "Fri, 27 Feb 2026 11:00:00 +0000",
+        "fetched_at": "2026-03-02T15:11:58.802594"
+    },
+    {
+        "source": "Ars Technica",
+        "title": "空军新型洲际弹道导弹即将起飞，但无处安放",
+        "link": "https://arstechnica.com/space/2026/02/the-air-forces-new-icbm-is-nearly-ready-to-fly-but-theres-nowhere-to-put-them/",
+        "summary": "“战略中做出的一些假设显然没有实现。”",
+        "published": "Sat, 28 Feb 2026 00:32:24 +0000",
+        "fetched_at": "2026-03-02T15:11:58.974618"
+    },
+    {
+        "source": "Engadget",
+        "title": "加拿大大规模枪击案凶手的第二个账户被发现后，OpenAI 将向当局通报可信威胁",
+        "link": "https://www.engadget.com/ai/openai-will-notify-authorities-of-credible-threats-after-canada-mass-shooters-second-account-was-discovered-112706548.html?src=rss",
+        "summary": "<p>根据<a class=\"link\" href=\"https://www.politico.com/news/2026/02/26/canada-openai-chatgpt-shooting-00802746\" target=\"_blank\"><em>Politico</em></a>和<em>，OpenAI 在致加拿大当局的一封信中誓言加强其安全协议，并尽快向执法部门通报可信威胁</em><a class=\"link\" href=\"https://www.washingtonpost.com/world/2026/02/26/canada-school-shooting-open-ai-chatgpt/74a82c04-137f-11f1-8e8d-fe91db44677b_story.html\" target=\"_blank\"><em>华盛顿邮报</em></a>。如果您还记得的话，在有报道称该公司在禁止不列颠哥伦比亚省 Tumbler Ridge 大规模枪击案嫌疑人拥有的帐户时没有通知当局后，加拿大政界人士<a class=\"link\" href=\"https://www.engadget.com/ai/canadian-government-demands-safety-changes-from-openai-204924604.html\" target=\"_blank\">传唤</a>该公司的领导人2025 年。OpenAI 的一些领导人已经会见了加拿大官员和不列颠哥伦比亚省州长 David Eby <a class=\"link\" href=\"https://www.washingtonpost.com/world/2026/02/26/canada-school-shooting-open-ai-chatgpt/74a82c04-137f-11f1-8e8d-fe91db44677b_story.html\" target=\"_blank\">说</a>萨姆·奥尔特曼也同意与他会面。 </p><p>虽然 OpenAI 尚未宣布对其规则进行修改，但据报道，其全球政策副总裁 Ann O’Leary 在信中写道，该公司将调整其检测系统，以便更好地防止被禁止的用户返回该平台。显然，在 OpenAI 以“可能存在实施现实世界暴力的警告”为由禁止枪击者的原始帐户后，犯罪者能够创建另一个帐户。该公司在枪手名字被公布后才发现了第二个账户，并已通知当局。 </p><p>此外，如果 OpenAI 在 ChatGPT 对话中检测到“迫在眉睫且可信”的威胁，即使用户没有透露“计划暴力的目标、手段和时间”，它也会通知当局。奥利里解释说，如果新规定在 2025 年枪手账户被封时生效，该公司就会通知警方。 OpenAI 还将为加拿大执法部门建立一个联络点，以便在需要时能够快速与当局共享信息。 </p><p>加拿大政府认为 OpenAI 不报告枪手原始账户的决定是失败的。它威胁说，如果人工智能聊天机器人的创建者无法证明他们有适当的保障措施来保护其用户，则将对其进行监管。目前尚不清楚 OpenAI 是否也计划在美国和世界其他地方推出相同的更改。</p>本文最初发表在 Engadget 上，网址为 https://www.engadget.com/ai/openai-will-notify-authorities-of-credible-threats-after-canada-mass-shooters-second-account-was-discovered-112706548.html?src=rss",
+        "published": "Fri, 27 Feb 2026 11:27:06 +0000",
+        "fetched_at": "2026-03-02T15:11:59.711910"
+    },
+    {
+        "source": "CNET",
+        "title": "MWC 2026 实时更新：所有手机、机器人和狂野概念在巴塞罗那首次亮相",
+        "link": "https://www.cnet.com/news-live/mwc-2026-news-updates-product-announcements/",
+        "summary": "全球最大的移动科技展今天开幕，CNET 现场报道三星、小米、荣耀、谷歌、华为等公司的公告。",
+        "published": "Mon, 02 Mar 2026 13:46:21 +0000",
+        "fetched_at": "2026-03-02T15:11:59.878030"
+    },
+    {
+        "source": "ScienceAlert",
+        "title": "一种简单的技巧可以帮助缓步动物在火星泥土中生存",
+        "link": "https://www.sciencealert.com/one-simple-trick-could-help-tardigrades-survive-in-martian-dirt",
+        "summary": "<p><img alt=\"一个简单的技巧可以帮助缓步动物在火星泥土中生存\" class=\"attachment-large size-large wp-post-image\" height=\"675\" src=\"https://www.sciencealert.com/images/2026/03/tardigrade_on_mars2_header.jpg\" style=\"float: left; margin: 0 15px 15px 0;\" width=\"1200\" />一个令人鼓舞的发现。</p>",
+        "published": "Mon, 02 Mar 2026 11:00:08 +0000",
+        "fetched_at": "2026-03-02T15:12:00.564790"
+    },
+    {
+        "source": "ScienceAlert",
+        "title": "新型 Ozempic 型药丸在主要试验中优于口服索马鲁肽",
+        "link": "https://www.sciencealert.com/new-ozempic-style-pill-outperformed-oral-semaglutide-in-major-trial",
+        "summary": "<p><img alt=\"吃药的人\" class=\"attachment-large size-large wp-post-image\" height=\"675\" src=\"https://www.sciencealert.com/images/2026/02/PillTaking.jpg\" style=\"float: left; margin: 0 15px 15px 0;\" width=\"1200\" />但是，有一个缺点。</p>",
+        "published": "Mon, 02 Mar 2026 00:21:37 +0000",
+        "fetched_at": "2026-03-02T15:12:00.564824"
+    },
+    {
+        "source": "ScienceAlert",
+        "title": "世界上最小的二维码小到人眼看不见",
+        "link": "https://www.sciencealert.com/worlds-smallest-qr-code-is-so-tiny-its-invisible-to-the-human-eye",
+        "summary": "<p><img alt=\"世界上最小的二维码非常小，人眼看不见\" class=\"attachment-large size-large wp-post-image\" height=\"675\" src=\"https://www.sciencealert.com/images/2026/02/TinyQRCode.jpg\" style=\"float: left; margin: 0 15px 15 像素 0;\" width=\"1200\" />\"用光学显微镜根本看不到。\"</p>",
+        "published": "Sun, 01 Mar 2026 23:19:18 +0000",
+        "fetched_at": "2026-03-02T15:12:00.564832"
+    },
+    {
+        "source": "ScienceAlert",
+        "title": "研究发现细菌在肾结石中发挥着以前未知的作用",
+        "link": "https://www.sciencealert.com/bacteria-play-previously-unknown-role-in-kidney-stones-study-finds",
+        "summary": "<p><img alt=\"研究发现，细菌在肾结石中扮演着以前未知的角色\" class=\"attachment-large size-large wp-post-image\" height=\"675\" src=\"https://www.sciencealert.com/images/2026/01/CTScanShowingRibsPelvisKidneyStones.jpg\" style=\"float: left; margin: 0 15px 15px 0;” width=\"1200\" />为新的治疗策略带来希望。</p>",
+        "published": "Sun, 01 Mar 2026 18:00:53 +0000",
+        "fetched_at": "2026-03-02T15:12:00.564840"
+    },
+    {
+        "source": "MIT Tech Review",
+        "title": "下载：抗议人工智能和漂浮在太空中的东西",
+        "link": "https://www.technologyreview.com/2026/03/02/1133811/the-download-protesting-ai-and-whats-floating-in-space/",
+        "summary": "这是今天的“下载”版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。我查看了有史以来最大的反人工智能抗议之一“拔掉插头！”拔掉插头！别再泼了！别再泼了！ 2 月 28 日这个星期六，我花了几个小时观看了《",
+        "published": "Mon, 02 Mar 2026 13:20:00 +0000",
+        "fetched_at": "2026-03-02T15:12:00.890006"
+    },
+    {
+        "source": "MIT Tech Review",
+        "title": "下载：美国如何在寻找外星生命方面失去领先地位，以及雄心勃勃的电池声明",
+        "link": "https://www.technologyreview.com/2026/02/26/1133734/the-download-how-america-lost-its-lead-in-the-hunt-for-alien-life-and-ambitious-battery-claims/",
+        "summary": "这是今天版本的《下载》，这是我们的平日时事通讯，每天提供技术世界中正在发生的事情。美国正在赢得寻找火星生命的竞赛。然后中国介入了。2024 年 7 月，美国宇航局的毅力号火星车在火星上发现了一块奇特的岩石露头，上面布满了奇怪的斑点。在地球上，&#8230;",
+        "published": "Thu, 26 Feb 2026 13:10:00 +0000",
+        "fetched_at": "2026-03-02T15:12:00.890069"
+    },
+    {
+        "source": "MIT Tech Review",
+        "title": "该公司声称在电池方面取得了突破。现在他们需要证明这一点。",
+        "link": "https://www.technologyreview.com/2026/02/26/1133722/solid-state-batteries-donut-lab/",
+        "summary": "当一家公司声称已经创造了电池的圣杯时，肯定会出现一些问题。自从芬兰公司 Donut Lab 上个月宣布拥有一种新的固态电池技术并准备大规模生产以来，人们的兴趣一直在浓厚。该公司表示，其电池可以“",
+        "published": "Thu, 26 Feb 2026 11:00:00 +0000",
+        "fetched_at": "2026-03-02T15:12:00.890077"
     },
     {
         "source": "IEEE Spectrum",
-        "title": "Carenector推出基于算法的康复分诊系统",
-        "link": "https://spectrum.ieee.org/carenector-health-care-startup",
-        "summary": "Carenector构建了基于公开医保数据和人工智能算法的电子分诊系统，将患者自动匹配至特定专科。系统通过API集成医疗记录与位置数据，替代了低效的人工转诊操作。",
-        "published": "Thu, 26 Feb 2026 19:00:03 +0000",
-        "fetched_at": "2026-02-28T15:03:08.252305"
+        "title": "周五视频：机器狗从田间拖运农产品",
+        "link": "https://spectrum.ieee.org/quadruped-farming-robots",
+        "summary": "<图片src =“https://spectrum.ieee.org/media-library/quadruped-robots-with-crates-on-their-backs-carry-product-on-a-pa th-amid-lush-leafy-green-crops.png?id=65095903&amp;宽度=1200&amp;高度=800&amp;坐标=54%2C0%2C54%2C0\" /><br /><br /><p><span>视频星期五是您每周精选的精彩机器人视频，由您在 </span><em>IEEE Spectrum</em><span> 机器人领域的朋友收集。我们还发布了未来几个月即将举行的机器人活动的每周日历。请将</span><a href=\"mailto:automaton@ieee.org?subject=Robotics%20event%20suggestion%20for%20Video%20Friday\">向我们发送您的活动</a><span>以供收录。</span></p><h5><a href=\"https://2026.ieee-icra.org/\">ICRA 2026</a>：6 月 1-5 日2026，维也纳</h5><p>欣赏今天的视频！</p><div class=\"horizontal-rule\"></div><div><span style=\"display: none;\"> </span></div><blockquote class=\"rm-anchors\" id=\"vzjcvzyi2wq\"><em>我们的机器人 Lynx M20 帮助运输山区农田收获的农作物，解决农村“最后的问题”英里”物流挑战。</em></blockquote><p class=\"shortcode-media Shortcode-media-youtube\"><span class=\"rm-shortcode\" style=\"display: block; padding-top: 56.25%;\"></span></p><p>[ <a href=\"https://www.deeprobotics.cn/en\">DEEP Robotics</a> ]</p><div class=\"horizontal-rule\"></div><p class=\"rm-anchors\" id=\"eqpyvr-b7hc\">我要再次指出，既然我们已经达到了人形机器人做人形事情的巅峰，我们不可避免地会看到人形机器人做非人形事情。</p><p class=\"shortcode-media Shortcode-media-youtube\"><span class=\"rm-shortcode\" style=\"display: block; padding-top: 56.25%;\"></span></p><p>[ <a href=\"https://www.unitree.com/\">Unitree</a> ]</p><div class=\"horizontal-rule\"></div><blockquote class=\"rm-anchors\" id=\"g9oyrplrig8\"><em>在一项研究中，来自马克斯普朗克智能系统研究所、密歇根大学和康奈尔大学的一组研究人员表明，<a href=\"https://spectrum.ieee.org/magic-microbots-to-fight-cancer\" target=\"_blank\">磁性微型机器人</a>可以产生足够强大的流体力，使物体在不接触物体的情况下向不同方向旋转。这些微型机器人群可以转动齿轮系统、旋转比机器人本身大得多的物体、自行组装结构，甚至可以拉动或推开许多小物体。</em></blockquote><p class=\"shortcode-media Shortcode-media-youtube\"><span class=\"rm-shortcode\" style=\"display: block; padding-top: 56.25%;\"></span></p><p>[ <a href=\"https://www.science.org/doi/10.1126/sciadv.aea9947\">科学</a>]来自[<a href=\"https://is.mpg.de/en/news/magic-microrobot-swarms-enable-contactless-manipulation-of-objects-through-fluidic-torque\">马克斯·普朗克研究所</a>]</p><div class=\"horizontal-rule\"></div><blockquote class=\"rm-anchors\" id=\"klhx6qfrzes\"><em>双足（或两条腿）自主机器人可以非常敏捷。这使得它们非常适合在不平坦的地形上执行任务，例如在室外环境中携带设备或在远洋船舶上进行维护。然而，不稳定或不可预测的条件也会增加机器人全军覆没的可能性。到目前为止，对于机器人在方向改变时如何恢复的研究还严重缺乏——例如，机器人在卡车快速转弯时失去平衡。该团队旨在弥补这一研究空白。</em></blockquote><p class=\"shortcode-media Shortcode-media-youtube\"><span class=\"rm-shortcode\" style=\"display: block; padding-top: 56.25%;\"></span></p><p>[ <a href=\"https://news.gatech.edu/news/2026/02/18/ humanoid-robots-make-confident-strides-toward-walking-stability\">佐治亚理工学院</a>]</p><div class=\"horizontal-rule\"></div><blockquote class=\"rm-anchors\" id=\"u7tsdb4nuge\"><em>机器人是关于控制现实中的能量、运动和不确定性</em></blockquote><p class=\"shortcode-media Shortcode-media-youtube\"><span class=\"rm-shortcode\" style=\"display: block; padding-top: 56.25%;\"></span></p><p>[ <a href=\"https://www.cs.cmu.edu/~16311/current/labs/lab01/index.html\">卡内基梅隆大学</a> ]</p><div class=\"horizontal-rule\"></div><blockquote class=\"rm-anchors\" id=\"fftskxohrxm\"><em>我们的机器人 Robody 烹制的美味晚餐。我们已请投资者讲述他们为何参与其中。</em></blockquote><p class=\"shortcode-media Shortcode-media-youtube\"><span class=\"rm-shortcode\" style=\"display: block; padding-top: 56.25%;\"></span></p><p>[ <a href=\"https://www.devanthro.com/\">Devanthro</a> ]</p><div class=\"horizontal-rule\"></div><blockquote class=\"rm-anchors\" id=\"7oc55almc4u\"><em>倾斜旋翼空中机器人可通过推力矢量实现全向机动，但由于关节和旋翼动力学之间的强耦合，带来了重大的控制挑战。这项工作研究了过驱动可倾斜四旋翼飞行器全向空中运动控制的强化学习...",
+        "published": "Fri, 27 Feb 2026 18:00:55 +0000",
+        "fetched_at": "2026-03-02T15:12:01.356390"
     },
     {
         "source": "IEEE Spectrum",
-        "title": "基于近场射频反射的连续血压监测架构",
-        "link": "https://spectrum.ieee.org/blood-pressure-monitor-smartwatch",
-        "summary": "得克萨斯大学奥斯汀分校研发利用腕部反射的2.4GHz近场射频信号监测血压。通过分析收缩期与舒张期间信号相位偏移得出数据，系统功耗3.4毫瓦，消除了光学容积脉搏波的肤色误差。",
-        "published": "Tue, 24 Feb 2026 15:00:03 +0000",
-        "fetched_at": "2026-02-28T15:03:08.252381"
+        "title": "粘合强度、生物相容性及其他",
+        "link": "https://content.knowledgehub.wiley.com/a-guide-to-selecting-adhesives-for-medical-device-applications/",
+        "summary": "<img src=\"https://spectrum.ieee.org/media-library/master-bond-logo.png?id=28859628&amp;width=980\" /><br /><br /><p>设计医疗设备？本白皮书可帮助您评估粘合剂选项的生物相容性、耐灭菌性和可制造性，以便您尽早做出正确的材料决定。</p><p><strong>与会者将学到什么</strong></p><ol><li>如何根据您的设备要求在环氧树脂、有机硅、氰基丙烯酸酯和 UV/LED 固化粘合剂之间进行选择</li><li>哪些粘合剂系统符合 USP VI 级和 ISO 10993-5 生物相容性标准</li><li>不同的灭菌方法（例如高压灭菌、EtO、伽马射线、化学浸泡）如何影响重复循环中的粘合剂性能</li><li>为什么在设计过程中尽早整合粘合剂选择可以减少性能和可制造性之间代价高昂的权衡</li><li>立即下载这份免费白皮书！</li></ol><p><span><a href=\"https://content.knowledgehub.wiley.com/a-guide-to-selecting-adhesives-for-medical-device-applications/\" target=\"_blank\">立即下载这份免费白皮书！</a></span></p>",
+        "published": "Fri, 27 Feb 2026 11:00:02 +0000",
+        "fetched_at": "2026-03-02T15:12:01.356399"
     },
     {
-        "source": "Nature News",
-        "title": "干细胞疗法增加老年虚弱患者耐力",
-        "link": "https://www.nature.com/articles/d41586-026-00672-z",
-        "summary": "一项研究表明单剂量干细胞给药后，老年虚弱症患者的耐力指标出现提升。",
-        "published": "2026-02-26",
-        "fetched_at": "2026-02-28T15:03:08.690172"
+        "source": "IEEE Spectrum",
+        "title": "实现微米级公差：针对 10μm 以下 3D 打印的 CAD 优化",
+        "link": "https://content.knowledgehub.wiley.com/designing-for-precision-cad-tips-for-micro-scale-3d-printing/",
+        "summary": "<img src=\"https://spectrum.ieee.org/media-library/boston-micro-fabrication-logo-with-red-cubic-design-next-to-bold-bmf-text.png?id=64987960&amp;width=980\" /><br /><br /><p><span>通过优化公差、壁厚、支撑，成功实现微型 3D 打印从一开始就在 CAD 模型中选择策略、微流体通道和材料。</span></p><p><strong><span>与会者将学到什么</span></strong></p><ol><li><span>公差驱动设计 - 如何定义分辨率和公差约束，将 CAD 意图直接转换为 10 微米以下的打印几何形状。</span></li><li><span>几何感知制造 - 工程墙原理厚度、纵横比和方向，以保持微米级的结构保真度。</span></li><li><span>无支撑设计策略 - 利用自支撑几何形状和构建方向来保持特征完整性，无需进行后处理权衡。</span></li><li><span>集成材料工艺思维 - 将树脂特性、收缩行为和导出参数与应用程序的功能相匹配</span></li></ol><div><span><a href=\"https://content.knowledgehub.wiley.com/designing-for- precision-cad-tips-for-micro-scale-3d-printing/\" target=\"_blank\">立即下载此免费白皮书！</a></span></div>",
+        "published": "Thu, 26 Feb 2026 11:00:02 +0000",
+        "fetched_at": "2026-03-02T15:12:01.356443"
     },
     {
-        "source": "Nature News",
-        "title": "胎儿脊柱裂的胎内干细胞治疗临床试验",
-        "link": "https://www.nature.com/articles/d41586-026-00602-z",
-        "summary": "6名孕妇参与早期试验，使用来源于胎盘的干细胞修复胎儿脊髓，初步证实安全性。",
-        "published": "2026-02-26",
-        "fetched_at": "2026-02-28T15:03:08.690204"
+        "source": "IEEE Spectrum",
+        "title": "人工智能的数学技巧不适用于科学计算",
+        "link": "https://spectrum.ieee.org/number-formats-ai-scientific-computing",
+        "summary": "<img src=\"https://spectrum.ieee.org/media-library/abstract-image-with-colorful-bar-graphs-numbers-and-lines-on-a-pastel-background.png?id=64959805&amp;宽度=1200&amp;height=800&amp;坐标=0%2C19%2C0%2C20\" /><br /><br /><p>人工智能推动了新数字格式的爆炸式增长——数字以数字方式表示的方式。工程师们正在寻找各种可能的方法来<a href=\"https://spectrum.ieee.org/mems-time\" target=\"_blank\">节省计算时间和能量</a>，包括缩短用于表示数据的位数。但适用于人工智能的东西不一定适用于科学计算，无论是计算物理、生物学、流体动力学还是工程模拟。 <em><em>IEEE Spectrum</em></em> 与 <a href=\"https://laslo.hunhold.de/\" target=\"_blank\">Laslo Hunhold</a> 进行了交谈，后者最近作为人工智能工程师加入了巴塞罗那的 <a href=\"https://openchip.com/\" target=\"_blank\">Openchip</a>，了解了他为科学计算开发定制数字格式的努力。</p><h3>LASLO HUNHOLD</h3><br /><p><a href=\"https://laslo.hunhold.de/\" rel=\"noopener noreferrer\" target=\"_blank\">Laslo Hunhold</a> 是巴塞罗那初创公司 Openchip 的高级人工智能加速器工程师。他最近完成了博士学位。德国科隆大学计算机科学博士。</p><p><strong>是什么让您对数字格式感兴趣？</strong></p><p><strong>Laslo Hunhold：</strong>我不知道还有哪个领域的例子很少有人感兴趣，但影响力却如此之大。如果您制定一种[能源]效率提高 10% 的数字格式，那么所有应用程序的效率都会提高 10%，这样您就可以节省大量能源。</p><p><strong>为什么会出现这么多新的数字格式？</strong></p><p><strong>Hunhold：</strong>几十年来，计算机用户的使用非常简单。他们只需每隔几年购买新系统，就可以免费获得性能优势。但过去 10 年情况并非如此。在计算机中，您使用一定数量的位数来表示单个数字，多年来默认值为 64 位。对于人工智能，公司注意到他们不需要每个数字 64 位。因此，他们有强烈的动机降低到 16 位、8 位，甚至 2 位（以节省能源）。问题是，用 64 位表示数字的主导标准并未针对较低位数进行良好设计。所以在人工智能领域，他们想出了更适合人工智能的新格式。</p><p><strong>为什么人工智能需要与科学计算不同的数字格式？ </strong></p><p><strong>Hunhold：</strong>科学计算需要高动态范围：您需要非常大的数字或非常小的数字，并且在这两种情况下都需要非常高的精度。 64 位标准具有过大的动态范围，并且在大多数情况下比您需要的位数要多得多。人工智能则不同。这些数字通常遵循特定的分布，并且您不需要那么高的精度。</p><p><strong>什么使数字格式“好”？</strong></p><p><strong>Hunhold：</strong>您有无限的数字，但只有有限的位表示。因此，您需要决定如何分配数字。最重要的部分是表示您实际要使用的数字。因为如果你表示一个你不使用的数字，那么你就浪费了一个表示。最简单的事情就是动态范围。接下来是分配：如何将您的位分配给某些值？你们有统一分布吗，还是其他什么？存在无限的可能性。</p><p><strong>是什么促使您引入塔库姆数字格式？</strong></p><p><strong>Hunhold：</strong><span>塔库姆基于<a href=\"https://spectrum.ieee.org/floating-point-numbers-posits-processor\" target=\"_blank\">假设</a>。在命题中，使用更频繁的数字可以用更高的密度来表示。但假设不适用于科学计算，这是一个大问题。它们的[接近于一的数字]密度很高，这对人工智能来说非常好，但是一旦你看到更大或更小的值，密度就会急剧下降。在过去的几年里，人们已经提出了数十种数字格式，但 takums 是唯一真正为科学计算量身定制的数字格式。如果您查看所有领域，我会发现您在科学计算中使用的值的动态范围，并设计塔库姆，以便当您去掉位时，您不会减小该动态范围</span></p><p><em>本文在 2026 年 3 月的印刷版中出现为“Laslo Hunhold”。</em></p>",
+        "published": "Mon, 23 Feb 2026 13:00:03 +0000",
+        "fetched_at": "2026-03-02T15:12:01.356496"
     },
     {
-        "source": "Nature News",
-        "title": "基于器官微囊过滤的胰腺靶向脂质纳米颗粒",
-        "link": "https://www.nature.com/articles/s41586-026-10158-7",
-        "summary": "阐明胰腺靶向机制，开发出可向胰腺精准递送核酸药物的脂质纳米颗粒，为胰腺疾病治疗提供载药架构。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690292"
+        "source": "IEEE Spectrum",
+        "title": "网络安全人工智能：承诺、实践和陷阱",
+        "link": "https://events.bizzabo.com/734412",
+        "summary": "<img src=\"https://spectrum.ieee.org/media-library/johns-hopkins-whiting-school-of-engineering-logo-with-blue-shield-and-text-on-a-white-background.png?id=64967459&amp;width=980\" /><br /><br /><p>人工智能正在彻底改变网络安全格局。从加速威胁检测到实现实时自动响应，人工智能正在重塑组织防御日益复杂的攻击的方式。但随着这些进步，也带来了新的复杂风险——人工智能系统本身可能被利用、操纵或产生偏见，从而产生新的漏洞。 </p><p>在本次会议中，我们将探讨人工智能如何应用于现实世界的网络安全场景——从异常检测和行为分析到预测威胁建模。我们还将面对随之而来的挑战，包括对抗性人工智能、数据偏见和自主决策的道德困境。 </p><p>展望未来，我们将研究智能网络防御的未来以及如何应对不断变化的威胁。加入我们，了解如何负责任、有效地利用人工智能，平衡创新与安全、自动化与责任。</p><p><span><a href=\"https://events.bizhabo.com/734412\" target=\"_blank\">立即注册参加本次免费网络研讨会！</a></span></p>",
+        "published": "Mon, 23 Feb 2026 11:00:02 +0000",
+        "fetched_at": "2026-03-02T15:12:01.356504"
     },
     {
-        "source": "Nature News",
-        "title": "噬菌体裂解蛋白抑制MurJ翻转酶机制",
-        "link": "https://www.nature.com/articles/s41586-026-10163-w",
-        "summary": "三种不同噬菌体编码的单基因裂解蛋白通过共同机制抑制核心脂质II翻转酶MurJ，为抗菌药物研发提供新靶点。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690321"
+        "source": "IEEE Spectrum",
+        "title": "诗：黑莓的吸引力",
+        "link": "https://spectrum.ieee.org/poetry-for-engineers-blackberries",
+        "summary": "<img src=\"https://spectrum.ieee.org/media-library/two-blackberry-leaning-against-each-other.png?id=64958665&amp;width=1200&amp;height=800&amp;coordinates=0%2C108%2C0%2C108\" /><br /><br /><p>她第一次尝试勾引我，<br />（真空中落下的原子）<br />她问了黑莓——<br />（每个质量都会产生一定的重力）</p><p>我知道它们的季节，它们生长的地方吗？<br />（检流计，重力计）<br />我可以轻松回答这两个问题——<br />（测量小吸引力的工具）</p><p>九月的土路上。<br />（报告的设备，不干扰）<br />她热切地和我一起去那里，<br />（读数发生变化）</p><p>我们吃的浆果比我们保留的还要多。<br />（电子交换可以解释这一点）<br />甜甜的黑汁涂在我们的嘴唇上。<br />（平衡然后熵）</p>",
+        "published": "Sun, 22 Feb 2026 13:00:02 +0000",
+        "fetched_at": "2026-03-02T15:12:01.356521"
     },
     {
-        "source": "Nature News",
-        "title": "OR7A10 GPCR增强针对实体瘤的CAR-NK细胞疗法",
-        "link": "https://www.nature.com/articles/s41586-026-10149-8",
-        "summary": "在嵌合抗原受体构型中直接驱动基因过表达的增强子机制被证实可以提升CAR-NK细胞对抗实体瘤的疗效。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690328"
-    },
-    {
-        "source": "Nature News",
-        "title": "干细胞作为虚弱症的潜在治疗手段",
-        "link": "https://www.nature.com/articles/d41586-026-00584-y",
-        "summary": "影响25%的50岁以上人群的虚弱症在单剂量干细胞治疗后耐力增加。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690473"
-    },
-    {
-        "source": "Nature News",
-        "title": "帕金森病影响躯体-认知动作网络",
-        "link": "https://www.nature.com/articles/d41586-026-00573-1",
-        "summary": "帕金森病高精度神经成像揭示躯体-认知动作网络的异常高连接性。药理及脑刺激干预可使该神经网络连接参数正常化。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690531"
-    },
-    {
-        "source": "Nature News",
-        "title": "污水处理设施的温室气体排放模型偏差",
-        "link": "https://www.nature.com/articles/d41586-026-00514-y",
-        "summary": "数据表明污水处理罐及相关基础设施的实际温室气体排放量高于现行报告参数。",
-        "published": "2026-02-24",
-        "fetched_at": "2026-02-28T15:03:08.690654"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "Tecovirimat 治疗猴痘的临床研究",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2506495?af=R&rss=currentIssue",
-        "summary": "关于特考韦瑞治疗猴痘有效性与安全性的最新临床数据报告。",
-        "published": "2026-02-25T10:00:03Z",
-        "fetched_at": "2026-02-28T15:03:11.266441"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "养老院居民降压治疗强度的调整研究",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMc2518217?af=R&rss=currentIssue",
-        "summary": "针对养老院居民减少抗高血压治疗的临床评估与机制影响。",
-        "published": "2026-02-25T10:00:03Z",
-        "fetched_at": "2026-02-28T15:03:11.266497"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "长效HIV疗法从有效性验证到应用可及性",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2518334?af=R&rss=currentIssue",
-        "summary": "长效HIV药物的系统性部署问题及临床转化分析。",
-        "published": "2026-02-18T10:02:14Z",
-        "fetched_at": "2026-02-28T15:03:11.266533"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "HER2阳性早期乳腺癌的个体化治疗",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2600247?af=R&rss=currentIssue",
-        "summary": "探讨针对HER2阳性早期乳腺癌治疗路径和靶点干预的优化策略。",
-        "published": "2026-02-25T10:00:03Z",
-        "fetched_at": "2026-02-28T15:03:11.266540"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "遗传性耳聋的DB-OTO基因疗法",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2400521?af=R&rss=currentIssue",
-        "summary": "针对遗传性耳聋采用DB-OTO基因疗法恢复听力的临床前与早期临床结果。",
-        "published": "2025-10-12T02:18:00Z",
-        "fetched_at": "2026-02-28T15:03:11.266605"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "慢性淋巴细胞白血病固定疗程与持续治疗对比",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2515458?af=R&rss=currentIssue",
-        "summary": "评估CLL患者在固定疗程干预与持续性药物抑制下的生存率与复发指标。",
-        "published": "2025-12-06T01:30:00Z",
-        "fetched_at": "2026-02-28T15:03:11.266634"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "AAV9基因疗法治疗II型GM1神经节苷脂沉积症: 1-2期试验",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2510935?af=R&rss=currentIssue",
-        "summary": "以AAV9为载体的基因转导在II型GM1神经节苷脂沉积症1-2期临床中的药代动力学及安全性数据。",
-        "published": "2026-02-06T05:00:00Z",
-        "fetched_at": "2026-02-28T15:03:11.266661"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "Enfortumab Vedotin联合Pembrolizumab的围手术期治疗",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2515777?af=R&rss=currentIssue",
-        "summary": "ADC药物联合PD-1抑制剂在围手术期应用的协同机制及临床结局分析。",
-        "published": "2026-02-18T10:00:00Z",
-        "fetched_at": "2026-02-28T15:03:11.266690"
-    },
-    {
-        "source": "The Lancet",
-        "title": "精神分裂症抗多巴胺药物进展",
-        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00038-3/fulltext?rss=yes",
-        "summary": "抗精神病药物的药理学回顾，分析多巴胺受体拮抗剂在疗效和耐受性层面的限制，并总结了最新随机对照试验数据。",
-        "published": "2026-02-28",
-        "fetched_at": "2026-02-28T15:03:11.490032"
-    },
-    {
-        "source": "The Lancet",
-        "title": "BI 764198试验数据修正",
-        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00378-8/fulltext?rss=yes",
-        "summary": "TRPC6抑制剂用于治疗局灶节段性肾小球硬化的2期随机试验剂量参数修正记录。",
-        "published": "2026-02-28",
-        "fetched_at": "2026-02-28T15:03:11.490208"
-    },
-    {
-        "source": "The Lancet",
-        "title": "子宫内脊柱裂细胞修复的1期单臂试验 (CuRe Trial)",
-        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)02466-3/fulltext?rss=yes",
-        "summary": "同种异体活干细胞治疗的安全验证。由于未产生细胞相关不良效应，该项目进入35例非交叉注册的1/2a期临床。",
-        "published": "2026-02-28",
-        "fetched_at": "2026-02-28T15:03:11.490230"
-    },
-    {
-        "source": "The Lancet",
-        "title": "GLP-1受体激动剂与下一代肠促胰岛素药物的心血管和肾脏代谢收益",
-        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)02105-1/fulltext?rss=yes",
-        "summary": "GLP-1受体激动剂除降低血糖和体重外，临床数据证明其降低了心肌梗死、卒中等不良心血管事件风险，并减缓肾小球滤过率下降。",
-        "published": "2026-01-14T23:30:01Z",
-        "fetched_at": "2026-02-28T15:03:11.490244"
-    },
-    {
-        "source": "The BMJ (Recent)",
-        "title": "Orforglipron在2型糖尿病控制中优于口服索马鲁肽",
-        "link": "http://www.bmj.com/content/392/bmj.s399.short?rss=1",
-        "summary": "3期随机对照试验(1698人)显示新型GLP-1受体激动剂Orforglipron (不受饮食限制) 在血糖控制与体重减轻指标上优于口服索马鲁肽。",
-        "published": "2026-02-27T00:32:09-08:00",
-        "fetched_at": "2026-02-28T15:03:11.795323"
-    },
-    {
-        "source": "The BMJ (Recent)",
-        "title": "Bictegravir与Lenacapavir复合制剂简化HIV用药",
-        "link": "http://www.bmj.com/content/392/bmj.s389.short?rss=1",
-        "summary": "一项含557名受试者的3期临床试验表明，Bictegravir和Lenacapavir合剂作为每日单片方案，可替代目前耐药株引发的每日多达11片的复杂抗逆转录病毒治疗架构。",
-        "published": "2026-02-26T04:56:49-08:00",
-        "fetched_at": "2026-02-28T15:03:11.795330"
+        "source": "IEEE Spectrum",
+        "title": "人工智能将如何改变芯片设计",
+        "link": "https://spectrum.ieee.org/ai-chip-design-matlab",
+        "summary": "<img src=\"https://spectrum.ieee.org/media-library/layered-rendering-of-colorful-semiconductor-wafers-with-a-bright-white-light-sitting-on-one.jpg?id=29285079&amp;宽度=1200&amp;height=800&amp;坐标=0%2C0%2C0%2C0\" /><br /><br /><p><a href=\"https://spectrum.ieee.org/on-beyond-moores-law-4-new-laws-of-computing\" target=\"_self\">摩尔定律</a>的终结迫在眉睫。工程师和设计人员能做的只有这么多<a href=\"https://spectrum.ieee.org/ibm-introduces-the-worlds-first-2nm-node-chip\" target=\"_self\">微型化晶体管</a>和<a href=\"https://spectrum.ieee.org/cerebras-giant-ai-chip-now-has-a-trillions-more-transistors\" target=\"_self\">将尽可能多的晶体管封装到芯片</a>。因此，他们正在转向其他芯片设计方法，将人工智能等技术融入到流程中。</p><p>例如，三星<a href=\"https://spectrum.ieee.org/processing-in-dram-accelerates-ai\" target=\"_self\">将人工智能添加到其内存芯片中</a>以实现内存中的处理，从而节省能源并加速机器学习。说到速度，与之前的版本相比，Google 的 TPU V4 AI 芯片<a href=\"https://spectrum.ieee.org/heres-how-googles-tpu-v4-ai-chip-stacked-up-in-training-tests\" target=\"_self\">处理能力提高了一倍</a>。</p><p>但 AI 为半导体行业带来了更多希望和潜力。为了更好地了解 AI 如何彻底改变芯片设计，我们采访了 <a href=\"https://www.mathworks.com/\" rel=\"noopener noreferrer\" target=\"_blank\">MathWorks</a>' MATLAB 高级产品经理 <a href=\"https://www.linkedin.com/in/heather-gorr-phd\" rel=\"noopener noreferrer\" target=\"_blank\">Heather Gorr</a> </p><p><strong>人工智能目前如何用于设计下一代芯片？</strong></p><p><strong>Heather Gorr：</strong>人工智能是如此重要的技术，因为它涉及周期的大部分部分，包括设计和制造过程。这里有很多重要的应用，甚至在我们想要优化的一般过程工程中也是如此。我认为缺陷检测在流程的各个阶段都是一项重要工作，尤其是在制造领域。但即使在设计过程中提前思考，当您设计灯光、传感器以及所有不同的组件时，[人工智能现在也发挥着重要作用]。您确实需要考虑很多异常检测和故障缓解措施。</p><p class=\"shortcode-media Shortcode-media-rebelmouse-image rm-resized-container rm-resized-container-25 rm-float-left\" style=\"float: left;\">\n<img alt=\"对着镜头微笑的金发红发女人的肖像\" class=\"rm-shortcode rm-resized-image\" id=\"2dc00\" src=\"https://spectrum.ieee.org/media-library/portrait-of-a-woman-with-blonde-red-hair-smiling-at-the-camera.jpg?id=29288554&amp;width=980\" />\n<small class=\"image-media media-caption\">Heather Gorr</small><small class=\"image-media media-photo-credit\">MathWorks</small></p><p>然后，考虑一下您在任何行业中看到的物流模型，总会有您想要减少的计划停机时间；但您最终也会遇到计划外停机。因此，回顾一下历史数据，当你遇到制造某些东西的时间可能比预期要长一些的时刻时，你可以查看所有这些数据，并使用人工智能来尝试识别直接原因，或者看看即使在处理和设计阶段也可能会出现问题。我们通常认为人工智能是一种预测工具，或者是一个做某事的机器人，但很多时候你可以通过人工智能从数据中获得很多洞察力。</p><p><strong>使用人工智能进行芯片设计有什么好处？</strong></p><p><strong>Gorr：</strong>历史上，我们见过很多基于物理的建模，这是一个非常密集的过程。我们想要做一个<a href=\"https://en.wikipedia.org/wiki/Model_order_reduction\" rel=\"noopener noreferrer\" target=\"_blank\">降阶模型</a>，我们可以做一些更便宜的事情，而不是解决这样一个计算成本昂贵且广泛的模型。您可以创建一个基于物理的模型的代理模型，使用数据，然后进行<a href=\"https://institutefordiseasemodeling.github.io/idmtools/parameter-sweeps.html\" rel=\"noopener noreferrer\" target=\"_blank\">参数扫描</a>、您的优化、您的<a href=\"https://www.ibm.com/cloud/learn/monte-carlo-simulation\" rel=\"noopener noreferrer\" target=\"_blank\">使用代理模型进行蒙特卡洛模拟</a>。与直接求解基于物理的方程相比，这花费的计算时间要少得多。因此，我们在很多方面都看到了这种好处，包括快速迭代实验和模拟所带来的效率和经济性，这将真正有助于设计。</p><p><strong>所以，从某种意义上说，这就像拥有一个数字孪生？</strong>...",
+        "published": "Tue, 08 Feb 2022 14:00:01 +0000",
+        "fetched_at": "2026-03-02T15:12:01.356573"
     }
 ]
