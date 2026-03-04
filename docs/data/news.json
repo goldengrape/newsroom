@@ -1,202 +1,202 @@
 [
     {
-        "source": "Wired",
-        "title": "红光疗法设备促进生发临床试验",
-        "link": "https://www.wired.com/story/best-red-light-therapy-for-hair-growth/",
-        "summary": "16周的红光疗法设备使用显示出明显的毛发再生效果。",
-        "published": "Fri, 27 Feb 2026 10:30:00 +0000",
-        "fetched_at": "2026-02-28T15:03:05.874336"
+        "source": "BMJ Open Ophthalmology",
+        "title": "IBI324治疗糖尿病黄斑水肿的1期剂量递增试验",
+        "link": "http://bmjophth.bmj.com/cgi/content/short/11/1/e002035?rss=1",
+        "summary": "一项多中心、开放标签的1期临床试验证实，VEGF-A/Ang-2双特异性抗体IBI324在糖尿病黄斑水肿患者中具有良好的耐受性，且表现出视力与解剖结构的改善迹象。",
+        "published": "2026-01-05T23:10:27-08:00",
+        "fetched_at": "2026-03-04T15:26:38.566649"
     },
     {
-        "source": "IEEE Spectrum",
-        "title": "Carenector推出基于算法的康复分诊系统",
-        "link": "https://spectrum.ieee.org/carenector-health-care-startup",
-        "summary": "Carenector构建了基于公开医保数据和人工智能算法的电子分诊系统，将患者自动匹配至特定专科。系统通过API集成医疗记录与位置数据，替代了低效的人工转诊操作。",
-        "published": "Thu, 26 Feb 2026 19:00:03 +0000",
-        "fetched_at": "2026-02-28T15:03:08.252305"
-    },
-    {
-        "source": "IEEE Spectrum",
-        "title": "基于近场射频反射的连续血压监测架构",
-        "link": "https://spectrum.ieee.org/blood-pressure-monitor-smartwatch",
-        "summary": "得克萨斯大学奥斯汀分校研发利用腕部反射的2.4GHz近场射频信号监测血压。通过分析收缩期与舒张期间信号相位偏移得出数据，系统功耗3.4毫瓦，消除了光学容积脉搏波的肤色误差。",
-        "published": "Tue, 24 Feb 2026 15:00:03 +0000",
-        "fetched_at": "2026-02-28T15:03:08.252381"
+        "source": "BMJ Open Ophthalmology",
+        "title": "AI-MK：用于评估和监测微生物性角膜炎的人工智能",
+        "link": "http://bmjophth.bmj.com/cgi/content/short/11/1/e002556?rss=1",
+        "summary": "一种基于DeepLabV3网络的人工智能模型利用眼前节光学相干断层扫描（AS-OCT）准确捕获了93%的微生物性角膜炎病灶，展现出高敏感性与特异性。",
+        "published": "2026-01-13T06:19:13-08:00",
+        "fetched_at": "2026-03-04T15:26:38.566810"
     },
     {
         "source": "Nature News",
-        "title": "干细胞疗法增加老年虚弱患者耐力",
-        "link": "https://www.nature.com/articles/d41586-026-00672-z",
-        "summary": "一项研究表明单剂量干细胞给药后，老年虚弱症患者的耐力指标出现提升。",
-        "published": "2026-02-26",
-        "fetched_at": "2026-02-28T15:03:08.690172"
-    },
-    {
-        "source": "Nature News",
-        "title": "胎儿脊柱裂的胎内干细胞治疗临床试验",
+        "title": "全球首例胎内干细胞治疗脊柱裂临床试验显示初步安全性",
         "link": "https://www.nature.com/articles/d41586-026-00602-z",
-        "summary": "6名孕妇参与早期试验，使用来源于胎盘的干细胞修复胎儿脊髓，初步证实安全性。",
+        "summary": "6名孕妇参与的早期试验表明，将胎盘来源的干细胞应用于胎儿脊髓的治疗方案具备安全性。",
         "published": "2026-02-26",
-        "fetched_at": "2026-02-28T15:03:08.690204"
-    },
-    {
-        "source": "Nature News",
-        "title": "基于器官微囊过滤的胰腺靶向脂质纳米颗粒",
-        "link": "https://www.nature.com/articles/s41586-026-10158-7",
-        "summary": "阐明胰腺靶向机制，开发出可向胰腺精准递送核酸药物的脂质纳米颗粒，为胰腺疾病治疗提供载药架构。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690292"
-    },
-    {
-        "source": "Nature News",
-        "title": "噬菌体裂解蛋白抑制MurJ翻转酶机制",
-        "link": "https://www.nature.com/articles/s41586-026-10163-w",
-        "summary": "三种不同噬菌体编码的单基因裂解蛋白通过共同机制抑制核心脂质II翻转酶MurJ，为抗菌药物研发提供新靶点。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690321"
-    },
-    {
-        "source": "Nature News",
-        "title": "OR7A10 GPCR增强针对实体瘤的CAR-NK细胞疗法",
-        "link": "https://www.nature.com/articles/s41586-026-10149-8",
-        "summary": "在嵌合抗原受体构型中直接驱动基因过表达的增强子机制被证实可以提升CAR-NK细胞对抗实体瘤的疗效。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690328"
-    },
-    {
-        "source": "Nature News",
-        "title": "干细胞作为虚弱症的潜在治疗手段",
-        "link": "https://www.nature.com/articles/d41586-026-00584-y",
-        "summary": "影响25%的50岁以上人群的虚弱症在单剂量干细胞治疗后耐力增加。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690473"
-    },
-    {
-        "source": "Nature News",
-        "title": "帕金森病影响躯体-认知动作网络",
-        "link": "https://www.nature.com/articles/d41586-026-00573-1",
-        "summary": "帕金森病高精度神经成像揭示躯体-认知动作网络的异常高连接性。药理及脑刺激干预可使该神经网络连接参数正常化。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690531"
-    },
-    {
-        "source": "Nature News",
-        "title": "污水处理设施的温室气体排放模型偏差",
-        "link": "https://www.nature.com/articles/d41586-026-00514-y",
-        "summary": "数据表明污水处理罐及相关基础设施的实际温室气体排放量高于现行报告参数。",
-        "published": "2026-02-24",
-        "fetched_at": "2026-02-28T15:03:08.690654"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "Tecovirimat 治疗猴痘的临床研究",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2506495?af=R&rss=currentIssue",
-        "summary": "关于特考韦瑞治疗猴痘有效性与安全性的最新临床数据报告。",
-        "published": "2026-02-25T10:00:03Z",
-        "fetched_at": "2026-02-28T15:03:11.266441"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "养老院居民降压治疗强度的调整研究",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMc2518217?af=R&rss=currentIssue",
-        "summary": "针对养老院居民减少抗高血压治疗的临床评估与机制影响。",
-        "published": "2026-02-25T10:00:03Z",
-        "fetched_at": "2026-02-28T15:03:11.266497"
+        "fetched_at": "2026-03-04T15:26:29.644307"
     },
     {
         "source": "The New England Journal of Medicine (NEJM)",
         "title": "长效HIV疗法从有效性验证到应用可及性",
         "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2518334?af=R&rss=currentIssue",
-        "summary": "长效HIV药物的系统性部署问题及临床转化分析。",
+        "summary": "系统性分析长效HIV药物从临床试验到广泛部署过程中的转化问题及机制影响。",
         "published": "2026-02-18T10:02:14Z",
-        "fetched_at": "2026-02-28T15:03:11.266533"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "HER2阳性早期乳腺癌的个体化治疗",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2600247?af=R&rss=currentIssue",
-        "summary": "探讨针对HER2阳性早期乳腺癌治疗路径和靶点干预的优化策略。",
-        "published": "2026-02-25T10:00:03Z",
-        "fetched_at": "2026-02-28T15:03:11.266540"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "遗传性耳聋的DB-OTO基因疗法",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2400521?af=R&rss=currentIssue",
-        "summary": "针对遗传性耳聋采用DB-OTO基因疗法恢复听力的临床前与早期临床结果。",
-        "published": "2025-10-12T02:18:00Z",
-        "fetched_at": "2026-02-28T15:03:11.266605"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "慢性淋巴细胞白血病固定疗程与持续治疗对比",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2515458?af=R&rss=currentIssue",
-        "summary": "评估CLL患者在固定疗程干预与持续性药物抑制下的生存率与复发指标。",
-        "published": "2025-12-06T01:30:00Z",
-        "fetched_at": "2026-02-28T15:03:11.266634"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "AAV9基因疗法治疗II型GM1神经节苷脂沉积症: 1-2期试验",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2510935?af=R&rss=currentIssue",
-        "summary": "以AAV9为载体的基因转导在II型GM1神经节苷脂沉积症1-2期临床中的药代动力学及安全性数据。",
-        "published": "2026-02-06T05:00:00Z",
-        "fetched_at": "2026-02-28T15:03:11.266661"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "Enfortumab Vedotin联合Pembrolizumab的围手术期治疗",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2515777?af=R&rss=currentIssue",
-        "summary": "ADC药物联合PD-1抑制剂在围手术期应用的协同机制及临床结局分析。",
-        "published": "2026-02-18T10:00:00Z",
-        "fetched_at": "2026-02-28T15:03:11.266690"
+        "fetched_at": "2026-03-04T15:26:37.401935"
     },
     {
         "source": "The Lancet",
-        "title": "精神分裂症抗多巴胺药物进展",
+        "title": "精神分裂症抗多巴胺药物的机制局限与进展",
         "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00038-3/fulltext?rss=yes",
-        "summary": "抗精神病药物的药理学回顾，分析多巴胺受体拮抗剂在疗效和耐受性层面的限制，并总结了最新随机对照试验数据。",
+        "summary": "抗精神病药物药理学回顾指出，多巴胺受体拮抗剂在疗效和耐受性层面存在显著机制限制，需结合最新随机对照试验数据优化临床指南。",
         "published": "2026-02-28",
-        "fetched_at": "2026-02-28T15:03:11.490032"
-    },
-    {
-        "source": "The Lancet",
-        "title": "BI 764198试验数据修正",
-        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00378-8/fulltext?rss=yes",
-        "summary": "TRPC6抑制剂用于治疗局灶节段性肾小球硬化的2期随机试验剂量参数修正记录。",
-        "published": "2026-02-28",
-        "fetched_at": "2026-02-28T15:03:11.490208"
+        "fetched_at": "2026-03-04T15:26:37.650111"
     },
     {
         "source": "The Lancet",
         "title": "子宫内脊柱裂细胞修复的1期单臂试验 (CuRe Trial)",
         "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)02466-3/fulltext?rss=yes",
-        "summary": "同种异体活干细胞治疗的安全验证。由于未产生细胞相关不良效应，该项目进入35例非交叉注册的1/2a期临床。",
+        "summary": "同种异体活干细胞的首次人体试验证实无细胞相关不良反应。基于安全性验证，该项目已进入包含35例患者的1/2a期临床阶段。",
         "published": "2026-02-28",
-        "fetched_at": "2026-02-28T15:03:11.490230"
+        "fetched_at": "2026-03-04T15:26:37.650273"
+    },
+    {
+        "source": "BMJ Open Ophthalmology",
+        "title": "结膜恶性黑色素瘤转移疾病的风险因子分析",
+        "link": "http://bmjophth.bmj.com/cgi/content/short/11/1/e002172?rss=1",
+        "summary": "一项包含167例患者的回顾性分析表明，切除后进行辅助治疗可显著降低局部复发及造血系统扩散的风险，钌-106近距离放疗可降低74%的血源性转移风险。",
+        "published": "2026-01-30T02:02:15-08:00",
+        "fetched_at": "2026-03-04T15:26:38.566675"
+    },
+    {
+        "source": "BMJ Open Ophthalmology",
+        "title": "Avacincaptad pegol联合雷珠单抗治疗新生血管性AMD的安全性和耐受性",
+        "link": "http://bmjophth.bmj.com/cgi/content/short/11/1/e002232?rss=1",
+        "summary": "1期和2a期临床数据显示，在初治新生血管性年龄相关性黄斑变性患者中，联合应用ACP与雷珠单抗在多种给药方案下耐受性良好，未出现剂量限制性毒性。",
+        "published": "2026-02-03T06:55:06-08:00",
+        "fetched_at": "2026-03-04T15:26:38.566697"
+    },
+    {
+        "source": "BMJ Open Ophthalmology",
+        "title": "二甲双胍与糖尿病患者年龄相关性黄斑变性发病率的关联",
+        "link": "http://bmjophth.bmj.com/cgi/content/short/11/1/e002339?rss=1",
+        "summary": "一项基于5年人群病例对照研究发现，使用二甲双胍与糖尿病患者中期年龄相关性黄斑变性发病率降低37%显著相关。",
+        "published": "2026-02-02T20:00:24-08:00",
+        "fetched_at": "2026-03-04T15:26:38.566728"
+    },
+    {
+        "source": "BMJ Open Ophthalmology",
+        "title": "生物类似药FYB203与阿柏西普治疗新生血管性AMD的疗效对比",
+        "link": "http://bmjophth.bmj.com/cgi/content/short/11/1/e002398?rss=1",
+        "summary": "一项随机双盲试验证明，在新生血管性年龄相关性黄斑变性患者中，生物类似药FYB203与原研阿柏西普在提高最佳矫正视力方面具有治疗等效性。",
+        "published": "2026-01-05T23:10:27-08:00",
+        "fetched_at": "2026-03-04T15:26:38.566743"
+    },
+    {
+        "source": "BMJ Open Ophthalmology",
+        "title": "法力西单抗治疗糖尿病黄斑水肿的首年真实世界结局",
+        "link": "http://bmjophth.bmj.com/cgi/content/short/11/1/e002467?rss=1",
+        "summary": "瑞士视网膜研究网络报告显示，12个月随访期内，法力西单抗在初治和经治糖尿病黄斑水肿患眼中均表现出良好的有效性和安全性，显著降低了中心子区厚度。",
+        "published": "2026-01-30T02:02:15-08:00",
+        "fetched_at": "2026-03-04T15:26:38.566773"
+    },
+    {
+        "source": "BMJ Open Ophthalmology",
+        "title": "眼科问答中具备类人思维的推理大语言模型评估",
+        "link": "http://bmjophth.bmj.com/cgi/content/short/11/1/e002615?rss=1",
+        "summary": "对DeepSeek-R1、QwQ-32B及LLaMA-3.3-70B的评估表明，具有推理能力的语言模型在眼科问答中准确率更高。逻辑推理错误是导致模型失效的主要机制。",
+        "published": "2026-01-27T03:19:06-08:00",
+        "fetched_at": "2026-03-04T15:26:38.566839"
+    },
+    {
+        "source": "IEEE Spectrum",
+        "title": "基于电化学原理的新型电池级锂提纯路径",
+        "link": "https://spectrum.ieee.org/mangrove-lithium-refining-ev-bottleneck",
+        "summary": "初创公司Mangrove Lithium开发了一种电化学提炼工艺，利用电、水和氧气在包含离子交换膜的电解槽中将硫酸锂转化为电池级氢氧化锂。该架构消除了传统热化学反应中对大量试剂的需求及硫酸钠废料的产生。",
+        "published": "Thu, 26 Feb 2026 17:00:03 +0000",
+        "fetched_at": "2026-03-04T15:26:29.219150"
+    },
+    {
+        "source": "Nature News",
+        "title": "干细胞疗法增强老年虚弱患者耐力",
+        "link": "https://www.nature.com/articles/d41586-026-00672-z",
+        "summary": "临床数据表明，单剂量干细胞给药可有效提升老年虚弱症患者的生理耐力指标。",
+        "published": "2026-02-26",
+        "fetched_at": "2026-03-04T15:26:29.644286"
+    },
+    {
+        "source": "Nature News",
+        "title": "基于器官微囊过滤的胰腺靶向脂质纳米颗粒",
+        "link": "https://www.nature.com/articles/s41586-026-10158-7",
+        "summary": "研究阐明了胰腺靶向的底层机制，并开发出可向胰腺精准递送核酸药物的脂质纳米颗粒架构，为胰腺疾病治疗提供了新载体。",
+        "published": "2026-02-25",
+        "fetched_at": "2026-03-04T15:26:29.644401"
+    },
+    {
+        "source": "Nature News",
+        "title": "噬菌体裂解蛋白抑制MurJ翻转酶机制",
+        "link": "https://www.nature.com/articles/s41586-026-10163-w",
+        "summary": "三种不同噬菌体编码的单基因裂解蛋白通过共同机制抑制核心脂质II翻转酶MurJ，为抗菌药物研发提供了全新的靶点分析。",
+        "published": "2026-02-25",
+        "fetched_at": "2026-03-04T15:26:29.644431"
+    },
+    {
+        "source": "Nature News",
+        "title": "OR7A10 GPCR增强针对实体瘤的CAR-NK细胞疗法",
+        "link": "https://www.nature.com/articles/s41586-026-10149-8",
+        "summary": "在嵌合抗原受体构型中直接驱动基因过表达的增强子机制被证实可提升CAR-NK细胞对抗实体瘤的疗效，提供了一种可扩展的工程化策略。",
+        "published": "2026-02-25",
+        "fetched_at": "2026-03-04T15:26:29.644438"
+    },
+    {
+        "source": "The New England Journal of Medicine (NEJM)",
+        "title": "Tecovirimat 治疗猴痘的临床研究",
+        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2506495?af=R&rss=currentIssue",
+        "summary": "最新临床数据评估了抗病毒药物特考韦瑞治疗猴痘感染的有效性、系统性不良反应及其体内作用机制。",
+        "published": "2026-02-25T10:00:03Z",
+        "fetched_at": "2026-03-04T15:26:37.401845"
+    },
+    {
+        "source": "The New England Journal of Medicine (NEJM)",
+        "title": "HER2阳性早期乳腺癌的个体化治疗",
+        "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2600247?af=R&rss=currentIssue",
+        "summary": "探讨针对HER2阳性早期乳腺癌治疗路径和靶点干预的优化策略与相关药理机制。",
+        "published": "2026-02-25T10:00:03Z",
+        "fetched_at": "2026-03-04T15:26:37.401942"
+    },
+    {
+        "source": "The New England Journal of Medicine (NEJM)",
+        "title": "遗传性耳聋的DB-OTO基因疗法",
+        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2400521?af=R&rss=currentIssue",
+        "summary": "针对遗传性耳聋采用DB-OTO腺相关病毒载体进行基因转导以恢复听力的临床前与早期临床验证数据。",
+        "published": "2025-10-12T02:18:00Z",
+        "fetched_at": "2026-03-04T15:26:37.402057"
+    },
+    {
+        "source": "The New England Journal of Medicine (NEJM)",
+        "title": "慢性淋巴细胞白血病固定疗程与持续治疗对比",
+        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2515458?af=R&rss=currentIssue",
+        "summary": "临床试验评估CLL患者在固定疗程干预与持续性药物靶向抑制条件下的生存率差异及耐药机制。",
+        "published": "2025-12-06T01:30:00Z",
+        "fetched_at": "2026-03-04T15:26:37.402093"
+    },
+    {
+        "source": "The New England Journal of Medicine (NEJM)",
+        "title": "AAV9基因疗法治疗II型GM1神经节苷脂沉积症: 1-2期试验",
+        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2510935?af=R&rss=currentIssue",
+        "summary": "以AAV9为载体的基因疗法在II型GM1神经节苷脂沉积症患者中进行了1-2期临床测试，分析其药代动力学及初步机制影响。",
+        "published": "2026-02-06T05:00:00Z",
+        "fetched_at": "2026-03-04T15:26:37.402122"
     },
     {
         "source": "The Lancet",
-        "title": "GLP-1受体激动剂与下一代肠促胰岛素药物的心血管和肾脏代谢收益",
-        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)02105-1/fulltext?rss=yes",
-        "summary": "GLP-1受体激动剂除降低血糖和体重外，临床数据证明其降低了心肌梗死、卒中等不良心血管事件风险，并减缓肾小球滤过率下降。",
-        "published": "2026-01-14T23:30:01Z",
-        "fetched_at": "2026-02-28T15:03:11.490244"
+        "title": "抗多巴胺能药物治疗急性精神分裂症的疗效与耐受性对比",
+        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)02365-7/fulltext?rss=yes",
+        "summary": "网络荟萃分析显示不同抗精神病药物在疗效和受体阻断不良事件间存在临床相关差异，部分多巴胺激动剂具备更好的耐受性架构。",
+        "published": "2026-02-28",
+        "fetched_at": "2026-03-04T15:26:37.650280"
     },
     {
-        "source": "The BMJ (Recent)",
-        "title": "Orforglipron在2型糖尿病控制中优于口服索马鲁肽",
-        "link": "http://www.bmj.com/content/392/bmj.s399.short?rss=1",
-        "summary": "3期随机对照试验(1698人)显示新型GLP-1受体激动剂Orforglipron (不受饮食限制) 在血糖控制与体重减轻指标上优于口服索马鲁肽。",
-        "published": "2026-02-27T00:32:09-08:00",
-        "fetched_at": "2026-02-28T15:03:11.795323"
+        "source": "IEEE Spectrum",
+        "title": "基于近场射频反射的连续血压监测架构",
+        "link": "https://spectrum.ieee.org/blood-pressure-monitor-smartwatch",
+        "summary": "得克萨斯大学奥斯汀分校开发了一种利用腕部反射的2.4GHz近场射频信号监测血压的系统。系统功耗3.4毫瓦，消除了光学容积脉搏波的肤色误差，后续将集成至智能手表形态。",
+        "published": "Tue, 24 Feb 2026 15:00:03 +0000",
+        "fetched_at": "2026-03-04T15:26:29.219216"
     },
     {
-        "source": "The BMJ (Recent)",
-        "title": "Bictegravir与Lenacapavir复合制剂简化HIV用药",
-        "link": "http://www.bmj.com/content/392/bmj.s389.short?rss=1",
-        "summary": "一项含557名受试者的3期临床试验表明，Bictegravir和Lenacapavir合剂作为每日单片方案，可替代目前耐药株引发的每日多达11片的复杂抗逆转录病毒治疗架构。",
-        "published": "2026-02-26T04:56:49-08:00",
-        "fetched_at": "2026-02-28T15:03:11.795330"
+        "source": "IEEE Spectrum",
+        "title": "Takum数字格式：针对科学计算的底层表示法",
+        "link": "https://spectrum.ieee.org/number-formats-ai-scientific-computing",
+        "summary": "针对AI领域设计的低比特数格式不适用于高动态范围科学计算。基于Posit改进的Takum格式通过重新分配位级密度，为计算物理与流体动力学等场景提供了具备更宽动态范围的数字格式架构。",
+        "published": "Mon, 23 Feb 2026 13:00:03 +0000",
+        "fetched_at": "2026-03-04T15:26:29.219225"
     }
 ]
