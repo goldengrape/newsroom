@@ -147,6 +147,15 @@ class TestFilterNewsWorkflow(unittest.TestCase):
                         }
                     ]
                 },
+                {
+                    "selected": [
+                        {
+                            "id": "2",
+                            "title": "最终中文标题",
+                            "summary": "最终中文摘要",
+                        }
+                    ]
+                },
             ]
         )
 
@@ -160,7 +169,8 @@ class TestFilterNewsWorkflow(unittest.TestCase):
 
         self.assertEqual(len(selected), 1)
         self.assertEqual(selected[0]["link"], "https://example.com/b")
-        self.assertEqual(selected[0]["summary"], "Final B summary")
+        self.assertEqual(selected[0]["title"], "最终中文标题")
+        self.assertEqual(selected[0]["summary"], "最终中文摘要")
         self.assertEqual(selected[0]["judgement_reason"], "final priority")
         self.assertIn("estimated_total_cost_usd", judge.latest_run_stats)
 
@@ -179,6 +189,15 @@ class TestFilterNewsWorkflow(unittest.TestCase):
             responses=[
                 {"selected": [{"id": "1", "score": 83}]},
                 {"selected": []},
+                {
+                    "selected": [
+                        {
+                            "id": "1",
+                            "title": "文章A",
+                            "summary": "摘要A",
+                        }
+                    ]
+                },
             ]
         )
 
@@ -191,7 +210,8 @@ class TestFilterNewsWorkflow(unittest.TestCase):
         )
 
         self.assertEqual(len(selected), 1)
-        self.assertEqual(selected[0]["title"], "Article A")
+        self.assertEqual(selected[0]["title"], "文章A")
+        self.assertEqual(selected[0]["summary"], "摘要A")
         self.assertEqual(selected[0]["score"], 83)
 
     def test_main_prefers_environment_value_and_saves_output_and_stats(self):

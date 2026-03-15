@@ -26,6 +26,7 @@ DEFAULT_MAX_RETRIES = 4
 DEFAULT_STATS_OUTPUT = "docs/data/news_stats.json"
 TITLE_SCREEN_MAX_TOKENS = 1024
 RANKING_MAX_TOKENS = 2048
+TRANSLATION_MAX_TOKENS = 3072
 
 MODEL_PRICING_USD_PER_MILLION = {
     "gemini-flash-lite-latest": {
@@ -81,6 +82,27 @@ RANKING_SCHEMA = {
                     "summary": {"type": "string"},
                 },
                 "required": ["id", "rank", "score", "reason", "summary"],
+                "additionalProperties": False,
+            },
+        }
+    },
+    "required": ["selected"],
+    "additionalProperties": False,
+}
+
+TRANSLATION_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "selected": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {"type": "string"},
+                    "title": {"type": "string"},
+                    "summary": {"type": "string"},
+                },
+                "required": ["id", "title", "summary"],
                 "additionalProperties": False,
             },
         }
@@ -282,6 +304,34 @@ Candidate news:
 """.strip()
 
 
+def build_translation_prompt(items: list[dict[str, Any]]) -> str:
+    return f"""
+Translate the following selected news items into concise, natural Chinese for publishing.
+
+Return JSON with this structure:
+{{
+  "selected": [
+    {{
+      "id": "1",
+      "title": "中文标题",
+      "summary": "中文摘要"
+    }}
+  ]
+}}
+
+Rules:
+1. Translate both the title and the summary into Chinese.
+2. Preserve technical meaning and do not invent new facts.
+3. Keep titles compact and readable.
+4. Keep summaries concise, clear, and publication-ready.
+5. If an original summary is too long or noisy, compress it into a short Chinese summary grounded in the original text.
+6. Return one translated item for each input item.
+
+Selected news:
+{json.dumps(items, ensure_ascii=False, indent=2)}
+""".strip()
+
+
 class GeminiNewsFilter:
     def __init__(
         self,
@@ -452,6 +502,54 @@ class GeminiNewsFilter:
         )
         return results, [metrics]
 
+    def _translate_final_items(
+        self,
+        final_items: list[dict[str, Any]],
+    ) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+        translation_input = [
+            {
+                "id": item["id"],
+                "title": truncate_text(item.get("title", ""), 240),
+                "summary": truncate_text(strip_html(item.get("summary", "")), 500),
+            }
+            for item in final_items
+        ]
+        payload, metrics = self._request_json(
+            build_translation_prompt(translation_input),
+            phase="translation",
+            batch_label="1/1",
+            max_tokens_override=TRANSLATION_MAX_TOKENS,
+            response_schema=TRANSLATION_SCHEMA,
+        )
+        translated = payload.get("selected", []) if isinstance(payload, dict) else []
+        metrics["items_in_batch"] = len(final_items)
+        metrics["kept_in_batch"] = len(translated)
+        print(
+            f"[translation] items={len(final_items)} translated={len(translated)} "
+            f"input={metrics['prompt_tokens_actual'] if metrics['prompt_tokens_actual'] is not None else 'n/a'} "
+            f"output={metrics['completion_tokens_actual'] if metrics['completion_tokens_actual'] is not None else 'n/a'} "
+            f"elapsed={metrics['elapsed_seconds']:.2f}s "
+            f"cost~=USD{metrics['total_cost_usd']:.6f}"
+            if metrics["total_cost_usd"] is not None
+            else f"[translation] items={len(final_items)} translated={len(translated)} "
+            f"input={metrics['prompt_tokens_actual'] if metrics['prompt_tokens_actual'] is not None else 'n/a'} "
+            f"output={metrics['completion_tokens_actual'] if metrics['completion_tokens_actual'] is not None else 'n/a'} "
+            f"elapsed={metrics['elapsed_seconds']:.2f}s"
+        )
+        translated_by_id = {
+            str(item.get("id", "")): item
+            for item in translated
+            if isinstance(item, dict) and item.get("id")
+        }
+        merged_items = []
+        for item in final_items:
+            translated_item = translated_by_id.get(item["id"], {})
+            merged = dict(item)
+            merged["title"] = translated_item.get("title") or item["title"]
+            merged["summary"] = translated_item.get("summary") or item["summary"]
+            merged_items.append(merged)
+        return merged_items, metrics
+
     def judge(
         self,
         news_items: list[dict[str, Any]],
@@ -557,6 +655,8 @@ class GeminiNewsFilter:
 
         ranked = self._merge_ranked_candidates(ranked_pool, selected, max_items)
         final_items = ranked if ranked else ranked_pool[:max_items]
+        translated_final_items, translation_metrics = self._translate_final_items(final_items)
+        request_stats.append(translation_metrics)
         self.latest_run_stats = self._build_run_stats(
             total_items=len(prepared_items),
             batch_size=batch_size,
@@ -566,7 +666,7 @@ class GeminiNewsFilter:
             duration_seconds=time.perf_counter() - run_started_at,
         )
         self._print_run_summary()
-        return final_items
+        return translated_final_items
 
     def _build_run_stats(
         self,
