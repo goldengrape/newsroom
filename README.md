@@ -69,6 +69,69 @@ program_docs/        Internal engineering documentation
 - `.github/workflows/deploy-pages.yml`
   Deploys `docs/` to GitHub Pages on push to `main`.
 
+## How an AI Agent Can Help a User
+
+An AI agent that can operate a browser or repository tooling can be useful at three stages: setup, deployment, and filter iteration.
+
+### 1. Repository Setup
+
+Recommended agent workflow:
+
+1. Fork the repository into the user's GitHub account, or clone it locally if the user prefers a local-only workflow.
+2. Clone the fork:
+   ```bash
+   git clone <your-fork-url>
+   cd newsroom
+   uv sync --dev
+   ```
+3. Help the user create `.env` with `GEMINI_API_KEY`.
+4. Run:
+   ```bash
+   uv run newsroom-gemini-smoke
+   uv run pytest
+   ```
+
+### 2. GitHub Configuration
+
+If the agent can click through GitHub settings pages, it should help the user:
+
+1. Push the repository to `main`.
+2. Open repository settings and verify that `main` is the default branch.
+3. Add the repository secret `GEMINI_API_KEY` under `Settings -> Secrets and variables -> Actions`.
+4. Enable GitHub Pages with `GitHub Actions` as the source if GitHub asks for a Pages source.
+5. Confirm that:
+   - `.github/workflows/daily-news.yml` is enabled
+   - `.github/workflows/deploy-pages.yml` is enabled
+
+### 3. Designing a Personal Filter
+
+A practical agent-assisted approach is:
+
+1. Start with the default `data/FILTER_PROFILE.md`.
+2. Let the daily pipeline run for a while, even if the initial filter is imperfect.
+3. If the filter feels too broad, the agent can help the user sample a random subset of output items and ask for quick `like` / `dislike` feedback.
+4. The user records feedback in the static site with the built-in buttons.
+5. Once enough examples accumulate, export the feedback JSON and place it under `data/feedback/`.
+6. Run:
+   ```bash
+   uv run newsroom-learn-filter --feedback data/feedback/feedback-YYYY-MM-DD.json
+   ```
+7. Review the generated `data/FILTER_PROFILE.updated.md` before promoting it to production.
+
+### 4. Suggested Feedback Loop
+
+This project works well with a lightweight weekly loop:
+
+1. Read the briefing during the week.
+2. Mark items with `like` or `dislike`.
+3. Export feedback JSON once per week.
+4. Ask the agent to summarize what the feedback is saying:
+   - what slipped through but should have been blocked
+   - what was genuinely useful and should be protected
+5. Run the learning script and review the proposed profile changes.
+
+This avoids premature backend complexity while still producing a measurable, reviewable evolution path for the filter.
+
 ## Engineering Docs
 
 - [program_docs/project_structure.md](/Users/golde/code/newsroom/program_docs/project_structure.md)
