@@ -139,3 +139,4 @@ This avoids premature backend complexity while still producing a measurable, rev
 - [program_docs/tdd_strategy.md](/Users/golde/code/newsroom/program_docs/tdd_strategy.md)
 - [program_docs/algorithm_notes.md](/Users/golde/code/newsroom/program_docs/algorithm_notes.md)
 - [program_docs/ROADMAP.md](/Users/golde/code/newsroom/program_docs/ROADMAP.md)
+- [program_docs/agent_playbook.md](/Users/golde/code/newsroom/program_docs/agent_playbook.md)
