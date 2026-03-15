@@ -1,20 +1,18 @@
 import argparse
 import os
 
+from newsroom.filtering import DEFAULT_REQUEST_TIMEOUT, align_google_genai_env, load_dotenv
+
 try:
     from google import genai
     from google.genai import types
-except ImportError:  # pragma: no cover - handled in main for local smoke runs.
+except ImportError:  # pragma: no cover - handled in main for manual smoke runs.
     genai = None
     types = None
 
-from filter_news import DEFAULT_REQUEST_TIMEOUT, align_google_genai_env, load_dotenv
-
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(
-        description="Smoke test the Gemini API key and model."
-    )
+    parser = argparse.ArgumentParser(description="Smoke test the Gemini API key and model.")
     parser.add_argument(
         "--model",
         default="gemini-flash-lite-latest",
@@ -50,10 +48,10 @@ def main() -> None:
         )
     if genai is None or types is None:
         raise RuntimeError(
-            "The 'google-genai' package is not installed. Run 'pip install -r requirements.txt' first."
+            "The 'google-genai' package is not installed. Run 'uv sync --dev' first."
         )
-    align_google_genai_env(api_key=api_key, api_key_env=args.api_key_env)
 
+    align_google_genai_env(api_key=api_key, api_key_env=args.api_key_env)
     client = genai.Client(api_key=api_key)
     response = client.models.generate_content(
         model=args.model,

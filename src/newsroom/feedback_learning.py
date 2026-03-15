@@ -6,13 +6,14 @@ import time
 from pathlib import Path
 from typing import Any
 
-from filter_news import (
+from newsroom.filtering import (
     DEFAULT_MODEL,
     DEFAULT_REQUEST_TIMEOUT,
     DEFAULT_MAX_RETRIES,
     align_google_genai_env,
     load_dotenv,
 )
+from newsroom.paths import DATA_DIR
 
 try:
     from google import genai
@@ -22,8 +23,8 @@ except ImportError:  # pragma: no cover - handled at runtime.
     genai_types = None
 
 
-DEFAULT_OUTPUT = "FILTER_PROFILE.updated.md"
-DEFAULT_REPORT_OUTPUT = "FILTER_PROFILE.learning_report.md"
+DEFAULT_OUTPUT = str(DATA_DIR / "FILTER_PROFILE.updated.md")
+DEFAULT_REPORT_OUTPUT = str(DATA_DIR / "FILTER_PROFILE.learning_report.md")
 
 MODEL_PRICING_USD_PER_MILLION = {
     "gemini-flash-lite-latest": {
@@ -227,7 +228,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--profile",
-        default="FILTER_PROFILE.md",
+        default=str(DATA_DIR / "FILTER_PROFILE.md"),
         help="Path to the current filter profile markdown file.",
     )
     parser.add_argument(

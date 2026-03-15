@@ -8,6 +8,8 @@ from math import ceil
 from pathlib import Path
 from typing import Any, Iterable
 
+from newsroom.paths import DATA_DIR, DOCS_DATA_DIR, PROJECT_ROOT
+
 try:
     from google import genai
     from google.genai import types as genai_types
@@ -23,7 +25,7 @@ DEFAULT_RANKING_POOL_SIZE = 50
 DEFAULT_MAX_TOKENS = 4096
 DEFAULT_REQUEST_TIMEOUT = 120
 DEFAULT_MAX_RETRIES = 4
-DEFAULT_STATS_OUTPUT = "docs/data/news_stats.json"
+DEFAULT_STATS_OUTPUT = str(DOCS_DATA_DIR / "news_stats.json")
 TITLE_SCREEN_MAX_TOKENS = 1024
 RANKING_MAX_TOKENS = 2048
 TRANSLATION_MAX_TOKENS = 3072
@@ -195,7 +197,7 @@ def load_json_file(path: Path) -> list[dict[str, Any]]:
     return payload
 
 
-def load_dotenv(path: Path = Path(".env")) -> None:
+def load_dotenv(path: Path = PROJECT_ROOT / ".env") -> None:
     if not path.exists():
         return
 
@@ -759,15 +761,19 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Use Gemini Flash Lite to filter RSS news with the text filter profile."
     )
-    parser.add_argument("--input", default="raw_news.json", help="Input JSON file path.")
+    parser.add_argument(
+        "--input",
+        default=str(DATA_DIR / "raw_news.json"),
+        help="Input JSON file path.",
+    )
     parser.add_argument(
         "--output",
-        default="docs/data/news.json",
+        default=str(DOCS_DATA_DIR / "news.json"),
         help="Output JSON file path for the static site.",
     )
     parser.add_argument(
         "--filter-profile",
-        default="FILTER_PROFILE.md",
+        default=str(DATA_DIR / "FILTER_PROFILE.md"),
         help="Path to the plain text filter profile.",
     )
     parser.add_argument("--model", default=DEFAULT_MODEL, help="Gemini model name.")

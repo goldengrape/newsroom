@@ -26,6 +26,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+
       - name: Check Pacific Time window
         id: pacific_time
         shell: bash
@@ -46,19 +49,19 @@ jobs:
 
       - name: Install dependencies
         if: steps.pacific_time.outputs.should_run == 'true'
-        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+        run: uv sync --dev
 
-      - name: Run unit tests
+      - name: Run test suite
         if: steps.pacific_time.outputs.should_run == 'true'
-        run: python -m unittest
+        run: uv run pytest
 
       - name: Fetch latest RSS news
         if: steps.pacific_time.outputs.should_run == 'true'
-        run: python fetch_rss.py
+        run: uv run newsroom-fetch
 
       - name: Filter news with Gemini Flash Lite
         if: steps.pacific_time.outputs.should_run == 'true'
-        run: python filter_news.py --input raw_news.json --output docs/data/news.json --batch-size 50 --request-timeout 120 --max-retries 4 --stats-output docs/data/news_stats.json
+        run: uv run newsroom-filter --input data/raw_news.json --filter-profile data/FILTER_PROFILE.md --output docs/data/news.json --batch-size 50 --request-timeout 120 --max-retries 4 --stats-output docs/data/news_stats.json
 
       - name: Commit generated news data
         if: steps.pacific_time.outputs.should_run == 'true'
