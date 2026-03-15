@@ -1,202 +1,277 @@
 [
-    {
-        "source": "Wired",
-        "title": "红光疗法设备促进生发临床试验",
-        "link": "https://www.wired.com/story/best-red-light-therapy-for-hair-growth/",
-        "summary": "16周的红光疗法设备使用显示出明显的毛发再生效果。",
-        "published": "Fri, 27 Feb 2026 10:30:00 +0000",
-        "fetched_at": "2026-02-28T15:03:05.874336"
-    },
-    {
-        "source": "IEEE Spectrum",
-        "title": "Carenector推出基于算法的康复分诊系统",
-        "link": "https://spectrum.ieee.org/carenector-health-care-startup",
-        "summary": "Carenector构建了基于公开医保数据和人工智能算法的电子分诊系统，将患者自动匹配至特定专科。系统通过API集成医疗记录与位置数据，替代了低效的人工转诊操作。",
-        "published": "Thu, 26 Feb 2026 19:00:03 +0000",
-        "fetched_at": "2026-02-28T15:03:08.252305"
-    },
-    {
-        "source": "IEEE Spectrum",
-        "title": "基于近场射频反射的连续血压监测架构",
-        "link": "https://spectrum.ieee.org/blood-pressure-monitor-smartwatch",
-        "summary": "得克萨斯大学奥斯汀分校研发利用腕部反射的2.4GHz近场射频信号监测血压。通过分析收缩期与舒张期间信号相位偏移得出数据，系统功耗3.4毫瓦，消除了光学容积脉搏波的肤色误差。",
-        "published": "Tue, 24 Feb 2026 15:00:03 +0000",
-        "fetched_at": "2026-02-28T15:03:08.252381"
-    },
-    {
-        "source": "Nature News",
-        "title": "干细胞疗法增加老年虚弱患者耐力",
-        "link": "https://www.nature.com/articles/d41586-026-00672-z",
-        "summary": "一项研究表明单剂量干细胞给药后，老年虚弱症患者的耐力指标出现提升。",
-        "published": "2026-02-26",
-        "fetched_at": "2026-02-28T15:03:08.690172"
-    },
-    {
-        "source": "Nature News",
-        "title": "胎儿脊柱裂的胎内干细胞治疗临床试验",
-        "link": "https://www.nature.com/articles/d41586-026-00602-z",
-        "summary": "6名孕妇参与早期试验，使用来源于胎盘的干细胞修复胎儿脊髓，初步证实安全性。",
-        "published": "2026-02-26",
-        "fetched_at": "2026-02-28T15:03:08.690204"
-    },
-    {
-        "source": "Nature News",
-        "title": "基于器官微囊过滤的胰腺靶向脂质纳米颗粒",
-        "link": "https://www.nature.com/articles/s41586-026-10158-7",
-        "summary": "阐明胰腺靶向机制，开发出可向胰腺精准递送核酸药物的脂质纳米颗粒，为胰腺疾病治疗提供载药架构。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690292"
-    },
-    {
-        "source": "Nature News",
-        "title": "噬菌体裂解蛋白抑制MurJ翻转酶机制",
-        "link": "https://www.nature.com/articles/s41586-026-10163-w",
-        "summary": "三种不同噬菌体编码的单基因裂解蛋白通过共同机制抑制核心脂质II翻转酶MurJ，为抗菌药物研发提供新靶点。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690321"
-    },
-    {
-        "source": "Nature News",
-        "title": "OR7A10 GPCR增强针对实体瘤的CAR-NK细胞疗法",
-        "link": "https://www.nature.com/articles/s41586-026-10149-8",
-        "summary": "在嵌合抗原受体构型中直接驱动基因过表达的增强子机制被证实可以提升CAR-NK细胞对抗实体瘤的疗效。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690328"
-    },
-    {
-        "source": "Nature News",
-        "title": "干细胞作为虚弱症的潜在治疗手段",
-        "link": "https://www.nature.com/articles/d41586-026-00584-y",
-        "summary": "影响25%的50岁以上人群的虚弱症在单剂量干细胞治疗后耐力增加。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690473"
-    },
-    {
-        "source": "Nature News",
-        "title": "帕金森病影响躯体-认知动作网络",
-        "link": "https://www.nature.com/articles/d41586-026-00573-1",
-        "summary": "帕金森病高精度神经成像揭示躯体-认知动作网络的异常高连接性。药理及脑刺激干预可使该神经网络连接参数正常化。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690531"
-    },
-    {
-        "source": "Nature News",
-        "title": "污水处理设施的温室气体排放模型偏差",
-        "link": "https://www.nature.com/articles/d41586-026-00514-y",
-        "summary": "数据表明污水处理罐及相关基础设施的实际温室气体排放量高于现行报告参数。",
-        "published": "2026-02-24",
-        "fetched_at": "2026-02-28T15:03:08.690654"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "Tecovirimat 治疗猴痘的临床研究",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2506495?af=R&rss=currentIssue",
-        "summary": "关于特考韦瑞治疗猴痘有效性与安全性的最新临床数据报告。",
-        "published": "2026-02-25T10:00:03Z",
-        "fetched_at": "2026-02-28T15:03:11.266441"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "养老院居民降压治疗强度的调整研究",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMc2518217?af=R&rss=currentIssue",
-        "summary": "针对养老院居民减少抗高血压治疗的临床评估与机制影响。",
-        "published": "2026-02-25T10:00:03Z",
-        "fetched_at": "2026-02-28T15:03:11.266497"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "长效HIV疗法从有效性验证到应用可及性",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2518334?af=R&rss=currentIssue",
-        "summary": "长效HIV药物的系统性部署问题及临床转化分析。",
-        "published": "2026-02-18T10:02:14Z",
-        "fetched_at": "2026-02-28T15:03:11.266533"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "HER2阳性早期乳腺癌的个体化治疗",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2600247?af=R&rss=currentIssue",
-        "summary": "探讨针对HER2阳性早期乳腺癌治疗路径和靶点干预的优化策略。",
-        "published": "2026-02-25T10:00:03Z",
-        "fetched_at": "2026-02-28T15:03:11.266540"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "遗传性耳聋的DB-OTO基因疗法",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2400521?af=R&rss=currentIssue",
-        "summary": "针对遗传性耳聋采用DB-OTO基因疗法恢复听力的临床前与早期临床结果。",
-        "published": "2025-10-12T02:18:00Z",
-        "fetched_at": "2026-02-28T15:03:11.266605"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "慢性淋巴细胞白血病固定疗程与持续治疗对比",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2515458?af=R&rss=currentIssue",
-        "summary": "评估CLL患者在固定疗程干预与持续性药物抑制下的生存率与复发指标。",
-        "published": "2025-12-06T01:30:00Z",
-        "fetched_at": "2026-02-28T15:03:11.266634"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "AAV9基因疗法治疗II型GM1神经节苷脂沉积症: 1-2期试验",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2510935?af=R&rss=currentIssue",
-        "summary": "以AAV9为载体的基因转导在II型GM1神经节苷脂沉积症1-2期临床中的药代动力学及安全性数据。",
-        "published": "2026-02-06T05:00:00Z",
-        "fetched_at": "2026-02-28T15:03:11.266661"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "Enfortumab Vedotin联合Pembrolizumab的围手术期治疗",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2515777?af=R&rss=currentIssue",
-        "summary": "ADC药物联合PD-1抑制剂在围手术期应用的协同机制及临床结局分析。",
-        "published": "2026-02-18T10:00:00Z",
-        "fetched_at": "2026-02-28T15:03:11.266690"
-    },
-    {
-        "source": "The Lancet",
-        "title": "精神分裂症抗多巴胺药物进展",
-        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00038-3/fulltext?rss=yes",
-        "summary": "抗精神病药物的药理学回顾，分析多巴胺受体拮抗剂在疗效和耐受性层面的限制，并总结了最新随机对照试验数据。",
-        "published": "2026-02-28",
-        "fetched_at": "2026-02-28T15:03:11.490032"
-    },
-    {
-        "source": "The Lancet",
-        "title": "BI 764198试验数据修正",
-        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00378-8/fulltext?rss=yes",
-        "summary": "TRPC6抑制剂用于治疗局灶节段性肾小球硬化的2期随机试验剂量参数修正记录。",
-        "published": "2026-02-28",
-        "fetched_at": "2026-02-28T15:03:11.490208"
-    },
-    {
-        "source": "The Lancet",
-        "title": "子宫内脊柱裂细胞修复的1期单臂试验 (CuRe Trial)",
-        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)02466-3/fulltext?rss=yes",
-        "summary": "同种异体活干细胞治疗的安全验证。由于未产生细胞相关不良效应，该项目进入35例非交叉注册的1/2a期临床。",
-        "published": "2026-02-28",
-        "fetched_at": "2026-02-28T15:03:11.490230"
-    },
-    {
-        "source": "The Lancet",
-        "title": "GLP-1受体激动剂与下一代肠促胰岛素药物的心血管和肾脏代谢收益",
-        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)02105-1/fulltext?rss=yes",
-        "summary": "GLP-1受体激动剂除降低血糖和体重外，临床数据证明其降低了心肌梗死、卒中等不良心血管事件风险，并减缓肾小球滤过率下降。",
-        "published": "2026-01-14T23:30:01Z",
-        "fetched_at": "2026-02-28T15:03:11.490244"
-    },
-    {
-        "source": "The BMJ (Recent)",
-        "title": "Orforglipron在2型糖尿病控制中优于口服索马鲁肽",
-        "link": "http://www.bmj.com/content/392/bmj.s399.short?rss=1",
-        "summary": "3期随机对照试验(1698人)显示新型GLP-1受体激动剂Orforglipron (不受饮食限制) 在血糖控制与体重减轻指标上优于口服索马鲁肽。",
-        "published": "2026-02-27T00:32:09-08:00",
-        "fetched_at": "2026-02-28T15:03:11.795323"
-    },
-    {
-        "source": "The BMJ (Recent)",
-        "title": "Bictegravir与Lenacapavir复合制剂简化HIV用药",
-        "link": "http://www.bmj.com/content/392/bmj.s389.short?rss=1",
-        "summary": "一项含557名受试者的3期临床试验表明，Bictegravir和Lenacapavir合剂作为每日单片方案，可替代目前耐药株引发的每日多达11片的复杂抗逆转录病毒治疗架构。",
-        "published": "2026-02-26T04:56:49-08:00",
-        "fetched_at": "2026-02-28T15:03:11.795330"
-    }
+  {
+    "id": "180",
+    "source": "VentureBeat",
+    "title": "Nvidia's new open weights Nemotron 3 super combines three different architectures to beat gpt-oss and Qwen in throughput",
+    "link": "https://venturebeat.com/technology/nvidias-new-open-weights-nemotron-3-super-combines-three-different",
+    "summary": "Multi-agent systems, designed to handle long-horizon tasks like software engineering or cybersecurity triaging, can generate up to 15 times the token volume of standard chats — threatening their cost-effectiveness in handling enterprise tasks. But today, Nvidia sought to help solve this problem with the release of Nemotron 3 Super , a 120-billion-parameter hybrid model, with weights posted on Hugging Face . By merging disparate architectural philosophies—state-space models, transformers, and a novel \"Latent\" mixture-of-experts design—Nvidia is attempting to provide the specialized depth required for agentic workflows without the bloat typical of dense reasoning models, and all available for commercial usage under mostly open weights. Triple hybrid architecture At the core of Nemotron 3 Super is a sophisticated architectural triad that balances memory efficiency with precision reasoning.…",
+    "published": "Wed, 11 Mar 2026 23:42:00 GMT",
+    "fetched_at": "2026-03-13T23:04:52.619521",
+    "score": 90,
+    "judgement_reason": ""
+  },
+  {
+    "id": "179",
+    "source": "VentureBeat",
+    "title": "The team behind continuous batching says your idle GPUs should be running inference, not sitting dark",
+    "link": "https://venturebeat.com/infrastructure/the-team-behind-continuous-batching-says-your-idle-gpus-should-be-running",
+    "summary": "Every GPU cluster has dead time. Training jobs finish, workloads shift and hardware sits dark while power and cooling costs keep running. For neocloud operators, those empty cycles are lost margin. The obvious workaround is spot GPU markets — renting spare capacity to whoever needs it. But spot instances mean the cloud vendor is still the one doing the renting, and engineers buying that capacity are still paying for raw compute with no inference stack attached. FriendliAI's answer is different: run inference directly on the unused hardware, optimize for token throughput, and split the revenue with the operator. FriendliAI was founded by Byung-Gon Chun, the researcher whose paper on continuous batching became foundational to vLLM, the open source inference engine used across most production deployments today. Chun spent over a decade as a professor at Seoul National University studying e…",
+    "published": "Thu, 12 Mar 2026 13:00:00 GMT",
+    "fetched_at": "2026-03-13T23:04:52.619521",
+    "score": 85,
+    "judgement_reason": ""
+  },
+  {
+    "id": "92",
+    "source": "Ars Technica",
+    "title": "Magnetars drag spacetime to power superluminous supernovae",
+    "link": "https://arstechnica.com/science/2026/03/magnetars-drag-spacetime-to-power-superluminous-supernovae/",
+    "summary": "Frame-dragging may explain an odd pattern seen in the brightest supernovae.",
+    "published": "Fri, 13 Mar 2026 15:59:40 +0000",
+    "fetched_at": "2026-03-13T23:04:50.811424",
+    "score": 85,
+    "judgement_reason": ""
+  },
+  {
+    "id": "186",
+    "source": "ScienceAlert",
+    "title": "Autism's Link to Parkinson's Risk May Finally Be Explained",
+    "link": "https://www.sciencealert.com/autisms-link-to-parkinsons-risk-may-finally-be-explained",
+    "summary": "Decades of early warning.",
+    "published": "Fri, 13 Mar 2026 14:00:40 +0000",
+    "fetched_at": "2026-03-13T23:04:53.408705",
+    "score": 85,
+    "judgement_reason": ""
+  },
+  {
+    "id": "195",
+    "source": "MIT Tech Review",
+    "title": "Future AI chips could be built on glass",
+    "link": "https://www.technologyreview.com/2026/03/13/1134230/future-ai-chips-could-be-built-on-glass/",
+    "summary": "Human-made glass is thousands of years old. But it’s now poised to find its way into the AI chips used in the world’s newest and largest data centers. This year, a South Korean company called Absolics is planning to start commercial production of special glass panels designed to make next-generation computing hardware more powerful and…",
+    "published": "Fri, 13 Mar 2026 09:00:00 +0000",
+    "fetched_at": "2026-03-13T23:04:53.814972",
+    "score": 85,
+    "judgement_reason": ""
+  },
+  {
+    "id": "468",
+    "source": "The New England Journal of Medicine (NEJM)",
+    "title": "Gene Therapy to Treat Profound Hearing Loss",
+    "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2514326?af=R&rss=currentIssue",
+    "summary": "New England Journal of Medicine, Volume 394, Issue 11, Page 1126-1130, March 12/19, 2026.",
+    "published": "2026-03-11T09:00:02Z",
+    "fetched_at": "2026-03-13T23:04:59.728565",
+    "score": 85,
+    "judgement_reason": ""
+  },
+  {
+    "id": "251",
+    "source": "Nature News",
+    "title": "The dynamic basis of G-protein recognition and activation by a GPCR",
+    "link": "https://www.nature.com/articles/s41586-026-10228-w",
+    "summary": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10228-w Conventional and time-resolved cryo-electron microscopy reveal how NTSR1 dynamically engages and releases different G proteins, capturing over 20 intermediates and uncovering key mechanistic steps in GDP- and GTP-driven activation, subtype selectivity and distinct dissociation pathways.",
+    "published": "2026-03-11",
+    "fetched_at": "2026-03-13T23:04:55.520698",
+    "score": 85,
+    "judgement_reason": ""
+  },
+  {
+    "id": "256",
+    "source": "Nature News",
+    "title": "Multimodal electron microscopy of halide perovskite interfacial dynamics",
+    "link": "https://www.nature.com/articles/s41586-026-10238-8",
+    "summary": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10238-8 A multimodal in situ electron microscopy approach enables direct visualization of structural and chemical evolution in a working halide perovskite light-emitting diode with nanometre precision.",
+    "published": "2026-03-11",
+    "fetched_at": "2026-03-13T23:04:55.520698",
+    "score": 85,
+    "judgement_reason": ""
+  },
+  {
+    "id": "259",
+    "source": "Nature News",
+    "title": "Snapshots of the dynamic basis of NTSR1 G protein subtype promiscuity",
+    "link": "https://www.nature.com/articles/s41586-026-10120-7",
+    "summary": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10120-7 Time-resolved cryo-electron microscopy during activation of Gαi1βγ and Gα11βγ heterotrimers bound to NTSR1 enables isolation of multiple transient complexes along the activation pathway and reveals structural motifs that stabilize these intermediates.",
+    "published": "2026-03-11",
+    "fetched_at": "2026-03-13T23:04:55.520698",
+    "score": 85,
+    "judgement_reason": ""
+  },
+  {
+    "id": "264",
+    "source": "Nature News",
+    "title": "Nanophotonic waveguide chip-to-world beam scanning",
+    "link": "https://www.nature.com/articles/s41586-025-10038-6",
+    "summary": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-025-10038-6 A monolithically integrated photonic ski-jump enables scalable, diffraction-limited 2D beam scanning from photonic chips, achieving ultrahigh spot rates, compact footprints and applications spanning displays, sensing and quantum photonics.",
+    "published": "2026-03-11",
+    "fetched_at": "2026-03-13T23:04:55.520698",
+    "score": 85,
+    "judgement_reason": ""
+  },
+  {
+    "id": "282",
+    "source": "Nature News",
+    "title": "Photonic ‘ski jump’ steers light beam from silicon chip",
+    "link": "https://www.nature.com/articles/d41586-026-00489-w",
+    "summary": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00489-w Chip-based beam scanners use tiny electrically controlled cantilevers instead of moving mirrors to control the direction of light projected into free space.",
+    "published": "2026-03-11",
+    "fetched_at": "2026-03-13T23:04:55.520698",
+    "score": 85,
+    "judgement_reason": ""
+  },
+  {
+    "id": "283",
+    "source": "Nature News",
+    "title": "A silicon chip that enables the creation of 4D cameras",
+    "link": "https://www.nature.com/articles/d41586-026-00727-1",
+    "summary": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00727-1 The development of an affordable, low-power and scalable sensor to map the position and velocity of 3D objects in a dynamically evolving scene has so far proved difficult. An imaging system formed using integrated silicon photonic circuits has now been developed as an equivalent to a camera, but for 4D imaging.",
+    "published": "2026-03-11",
+    "fetched_at": "2026-03-13T23:04:55.520698",
+    "score": 85,
+    "judgement_reason": ""
+  },
+  {
+    "id": "488",
+    "source": "The New England Journal of Medicine (NEJM)",
+    "title": "AAV9 Gene Therapy in Type II GM1 Gangliosidosis — A Phase 1–2 Trial",
+    "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2510935?af=R&rss=currentIssue",
+    "summary": "New England Journal of Medicine, Ahead of Print.",
+    "published": "2026-02-06T05:00:00Z",
+    "fetched_at": "2026-03-13T23:04:59.728565",
+    "score": 85,
+    "judgement_reason": ""
+  },
+  {
+    "id": "460",
+    "source": "The New England Journal of Medicine (NEJM)",
+    "title": "DB-OTO Gene Therapy for Inherited Deafness",
+    "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2400521?af=R&rss=currentIssue",
+    "summary": "New England Journal of Medicine, Volume 394, Issue 11, Page 1074-1083, March 12/19, 2026.",
+    "published": "2025-10-12T02:18:05Z",
+    "fetched_at": "2026-03-13T23:04:59.728565",
+    "score": 85,
+    "judgement_reason": ""
+  },
+  {
+    "id": "182",
+    "source": "VentureBeat",
+    "title": "Google's Gemini Embedding 2 arrives with native multimodal support to cut costs and speed up your enterprise data stack",
+    "link": "https://venturebeat.com/data/googles-gemini-embedding-2-arrives-with-native-multimodal-support-to-cut",
+    "summary": "Yesterday amid a flurry of enterprise AI product updates, Google announced arguably its most significant one for enterprise customers: the public preview availability of Gemini Embedding 2, its new embeddings model — a significant evolution in how machines represent and retrieve information across different media types. While previous embedding models were largely restricted to text, this new model natively integrates text, images, video, audio, and documents into a single numerical space — reducing latency by as much as 70% for some customers and reducing total cost for enterprises who use AI models powered by their own data to complete business tasks. VentureBeat collaborator Sam Witteveen, co-founder of AI and ML training company Red Dragon AI, received early access to Gemini Embedding 2 and published a video of his impressions on YouTube . Watch it below: Who needs and uses an embed…",
+    "published": "Wed, 11 Mar 2026 16:16:00 GMT",
+    "fetched_at": "2026-03-13T23:04:52.619521",
+    "score": 80,
+    "judgement_reason": ""
+  },
+  {
+    "id": "178",
+    "source": "VentureBeat",
+    "title": "Agents need vector search more than RAG ever did",
+    "link": "https://venturebeat.com/data/agents-dont-replace-vector-search-they-make-it-harder-to-get-right",
+    "summary": "What's the role of vector databases in the agentic AI world? That's a question that organizations have been coming to terms with in recent months. The narrative had real momentum. As large language models scaled to million-token context windows, a credible argument circulated among enterprise architects: purpose-built vector search was a stopgap, not infrastructure. Agentic memory would absorb the retrieval problem. Vector databases were a RAG-era artifact. The production evidence is running the other way. Qdrant , the Berlin-based open source vector search company, announced a $50 million Series B on Thursday, two years after a $28 million Series A. The timing is not incidental. The company is also shipping version 1.17 of its platform. Together, they reflect a specific argument: The retrieval problem did not shrink when agents arrived. It scaled up and got harder. \"Humans make a few q…",
+    "published": "Thu, 12 Mar 2026 21:30:00 GMT",
+    "fetched_at": "2026-03-13T23:04:52.619521",
+    "score": 80,
+    "judgement_reason": ""
+  },
+  {
+    "id": "88",
+    "source": "Ars Technica",
+    "title": "Doubling the voltage: What 800 V architecture really changes in EVs",
+    "link": "https://arstechnica.com/cars/2026/03/doubling-the-voltage-what-800-v-architecture-really-changes-in-evs/",
+    "summary": "Confused about electric vehicle voltages? You won't be after reading this.",
+    "published": "Fri, 13 Mar 2026 18:30:17 +0000",
+    "fetched_at": "2026-03-13T23:04:50.811424",
+    "score": 80,
+    "judgement_reason": ""
+  },
+  {
+    "id": "189",
+    "source": "ScienceAlert",
+    "title": "'Major Discovery': After Years of Research, Scientists Found a New Chemical Reaction",
+    "link": "https://www.sciencealert.com/major-discovery-after-years-of-research-scientists-found-a-new-chemical-reaction",
+    "summary": "\"Useful in so many fields and applications.\"",
+    "published": "Fri, 13 Mar 2026 10:00:51 +0000",
+    "fetched_at": "2026-03-13T23:04:53.408705",
+    "score": 80,
+    "judgement_reason": ""
+  },
+  {
+    "id": "252",
+    "source": "Nature News",
+    "title": "A large-scale coherent 4D imaging sensor",
+    "link": "https://www.nature.com/articles/s41586-026-10183-6",
+    "summary": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10183-6 A 4D imaging architecture using a large-scale, coherent LiDAR focal plane array comprising more than 0.6 million photonic components and associated electronics integrated on-chip can obtain coherent images at high frame rates over useful distances.",
+    "published": "2026-03-11",
+    "fetched_at": "2026-03-13T23:04:55.520698",
+    "score": 80,
+    "judgement_reason": ""
+  },
+  {
+    "id": "255",
+    "source": "Nature News",
+    "title": "Structures of Marburgvirus glycoprotein and its complex with NPC1 receptor",
+    "link": "https://www.nature.com/articles/s41586-026-10240-0",
+    "summary": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10240-0 Marburgvirus glycoprotein binds to the endosomal receptor NPC1 in a distinct orientation with higher affinity compared with Ebola virus glycoprotein, accompanied by fusion-relevant rearrangements, enabling more efficient viral entry.",
+    "published": "2026-03-11",
+    "fetched_at": "2026-03-13T23:04:55.520698",
+    "score": 80,
+    "judgement_reason": ""
+  },
+  {
+    "id": "266",
+    "source": "Nature News",
+    "title": "Immune evasive DNA donors and recombinases license kilobase-scale writing",
+    "link": "https://www.nature.com/articles/s41586-026-10241-z",
+    "summary": "Nature, Published online: 11 March 2026; doi:10.1038/s41586-026-10241-z INSTALL overcomes fundamental challenges for DNA delivery and integration methods by synergizing immune-stealth nucleic acids with recombinases to enable kilobase-scale integration strategies without viral vectors.",
+    "published": "2026-03-11",
+    "fetched_at": "2026-03-13T23:04:55.520698",
+    "score": 80,
+    "judgement_reason": ""
+  },
+  {
+    "id": "279",
+    "source": "Nature News",
+    "title": "Quantum entanglement as a tool to image distant astronomical objects",
+    "link": "https://www.nature.com/articles/d41586-026-00724-4",
+    "summary": "Nature, Published online: 11 March 2026; doi:10.1038/d41586-026-00724-4 Particles entangled over long distances can, in theory, improve the sensitivity of long-baseline interferometers that are observing weak thermal light sources. A proof-of-concept experiment now demonstrates entanglement-assisted interferometry, paving the way for entanglement-enhanced non‑local sensing techniques.",
+    "published": "2026-03-11",
+    "fetched_at": "2026-03-13T23:04:55.520698",
+    "score": 80,
+    "judgement_reason": ""
+  },
+  {
+    "id": "294",
+    "source": "Nature News",
+    "title": "Maximizing carrier extraction in hybrid back-contact silicon solar cells",
+    "link": "https://www.nature.com/articles/s41586-026-10351-8",
+    "summary": "Nature, Published online: 10 March 2026; doi:10.1038/s41586-026-10351-8 Maximizing carrier extraction in hybrid back-contact silicon solar cells",
+    "published": "2026-03-10",
+    "fetched_at": "2026-03-13T23:04:55.520698",
+    "score": 80,
+    "judgement_reason": ""
+  },
+  {
+    "id": "485",
+    "source": "The New England Journal of Medicine (NEJM)",
+    "title": "Prime Editing for p47phox-Deficient Chronic Granulomatous Disease",
+    "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2509807?af=R&rss=currentIssue",
+    "summary": "New England Journal of Medicine, Ahead of Print.",
+    "published": "2025-12-07T01:00:00Z",
+    "fetched_at": "2026-03-13T23:04:59.728565",
+    "score": 80,
+    "judgement_reason": ""
+  },
+  {
+    "id": "211",
+    "source": "IEEE Spectrum",
+    "title": "Intel Demos Chip to Compute With Encrypted Data",
+    "link": "https://spectrum.ieee.org/fhe-intel",
+    "summary": "Summary Fully homomorphic encryption (FHE) allows computing on encrypted data without decryption, but it’s currently slow on standard CPUs and GPUs. Intel’s Heracles chip accelerates FHE tasks up to 5,000 times faster than top Intel server CPUs. Heracles uses a 3-nanometer FinFET technology and high-bandwidth memory , enabling efficient encrypted computing at scale. Startups and Intel are racing to commercialize FHE accelerators , with potential applications in AI and secure data processing. Worried that your latest ask to a cloud-based AI reveals a bit too much about you? Want to know your genetic risk of disease without revealing it to the services that compute the answer? There is a way to do computing on encrypted data without ever having it decrypted. It’s called fully homomorphic encryption, or FHE. But there’s a rather large catch. It can take thousands—even tens of thousands—of…",
+    "published": "Tue, 10 Mar 2026 13:00:04 +0000",
+    "fetched_at": "2026-03-13T23:04:54.745868",
+    "score": 75,
+    "judgement_reason": ""
+  }
 ]

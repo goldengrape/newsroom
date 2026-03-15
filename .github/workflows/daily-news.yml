@@ -1,0 +1,74 @@
+name: Daily News Pipeline
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 14 * * *"
+    - cron: "0 15 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-news-pipeline
+  cancel-in-progress: false
+
+jobs:
+  build-news:
+    runs-on: ubuntu-latest
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      PYTHONUNBUFFERED: "1"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check Pacific Time window
+        id: pacific_time
+        shell: bash
+        run: |
+          local_hour="$(TZ=America/Los_Angeles date +%H)"
+          echo "Pacific hour: ${local_hour}"
+          if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ] || [ "${local_hour}" = "07" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Python
+        if: steps.pacific_time.outputs.should_run == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        if: steps.pacific_time.outputs.should_run == 'true'
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+
+      - name: Run unit tests
+        if: steps.pacific_time.outputs.should_run == 'true'
+        run: python -m unittest
+
+      - name: Fetch latest RSS news
+        if: steps.pacific_time.outputs.should_run == 'true'
+        run: python fetch_rss.py
+
+      - name: Filter news with Gemini Flash Lite
+        if: steps.pacific_time.outputs.should_run == 'true'
+        run: python filter_news.py --input raw_news.json --output docs/data/news.json --batch-size 50 --request-timeout 120 --max-retries 4 --stats-output docs/data/news_stats.json
+
+      - name: Commit generated news data
+        if: steps.pacific_time.outputs.should_run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- docs/data/news.json docs/data/news_stats.json; then
+            echo "No news data changes to commit."
+            exit 0
+          fi
+          git add docs/data/news.json docs/data/news_stats.json
+          git commit -m "chore: refresh daily news"
+          git push origin main
