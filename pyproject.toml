@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling>=1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "newsroom"
+version = "0.1.0"
+description = "Gemini-powered daily tech intelligence pipeline and filter-learning toolkit."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "feedparser>=6.0.12",
+  "google-genai>=1.67.0",
+]
+
+[project.scripts]
+newsroom-fetch = "newsroom.rss:main"
+newsroom-filter = "newsroom.filtering:main"
+newsroom-learn-filter = "newsroom.feedback_learning:main"
+newsroom-gemini-smoke = "newsroom.gemini_smoke:main"
+
+[dependency-groups]
+dev = [
+  "pytest>=8.3.5",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/newsroom"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

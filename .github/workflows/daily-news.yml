@@ -1,0 +1,85 @@
+name: Daily News Pipeline
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 14 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-news-pipeline
+  cancel-in-progress: false
+
+jobs:
+  build-news:
+    runs-on: ubuntu-latest
+    env:
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      PYTHONUNBUFFERED: "1"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: uv sync --dev
+
+      - name: Run test suite
+        run: uv run pytest
+
+      - name: Fetch latest RSS news
+        run: uv run newsroom-fetch
+
+      - name: Filter news with Gemini Flash Lite
+        run: uv run newsroom-filter --input data/raw_news.json --filter-profile data/FILTER_PROFILE.md --output docs/data/news.json --batch-size 50 --request-timeout 120 --max-retries 4 --stats-output docs/data/news_stats.json
+
+      - name: Commit generated news data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- docs/data/news.json docs/data/news_stats.json; then
+            echo "No news data changes to commit."
+            exit 0
+          fi
+          git add docs/data/news.json docs/data/news_stats.json
+          git commit -m "chore: refresh daily news"
+          git push origin main
+
+  deploy:
+    needs: build-news
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

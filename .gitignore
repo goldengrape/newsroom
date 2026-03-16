@@ -6,8 +6,17 @@ __pycache__/
 # Data
 raw_news.json
 test_output.json
+data/raw_news.json
+data/feedback/*.json
+data/FILTER_PROFILE.updated.md
+data/FILTER_PROFILE.learning_report.md
 
 # Environment
 .env
 venv/
 env/
+.venv/
+
+# Tooling
+.pytest_cache/
+*.egg-info/

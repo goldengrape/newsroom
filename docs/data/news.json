@@ -1,202 +1,277 @@
 [
-    {
-        "source": "Wired",
-        "title": "红光疗法设备促进生发临床试验",
-        "link": "https://www.wired.com/story/best-red-light-therapy-for-hair-growth/",
-        "summary": "16周的红光疗法设备使用显示出明显的毛发再生效果。",
-        "published": "Fri, 27 Feb 2026 10:30:00 +0000",
-        "fetched_at": "2026-02-28T15:03:05.874336"
-    },
-    {
-        "source": "IEEE Spectrum",
-        "title": "Carenector推出基于算法的康复分诊系统",
-        "link": "https://spectrum.ieee.org/carenector-health-care-startup",
-        "summary": "Carenector构建了基于公开医保数据和人工智能算法的电子分诊系统，将患者自动匹配至特定专科。系统通过API集成医疗记录与位置数据，替代了低效的人工转诊操作。",
-        "published": "Thu, 26 Feb 2026 19:00:03 +0000",
-        "fetched_at": "2026-02-28T15:03:08.252305"
-    },
-    {
-        "source": "IEEE Spectrum",
-        "title": "基于近场射频反射的连续血压监测架构",
-        "link": "https://spectrum.ieee.org/blood-pressure-monitor-smartwatch",
-        "summary": "得克萨斯大学奥斯汀分校研发利用腕部反射的2.4GHz近场射频信号监测血压。通过分析收缩期与舒张期间信号相位偏移得出数据，系统功耗3.4毫瓦，消除了光学容积脉搏波的肤色误差。",
-        "published": "Tue, 24 Feb 2026 15:00:03 +0000",
-        "fetched_at": "2026-02-28T15:03:08.252381"
-    },
-    {
-        "source": "Nature News",
-        "title": "干细胞疗法增加老年虚弱患者耐力",
-        "link": "https://www.nature.com/articles/d41586-026-00672-z",
-        "summary": "一项研究表明单剂量干细胞给药后，老年虚弱症患者的耐力指标出现提升。",
-        "published": "2026-02-26",
-        "fetched_at": "2026-02-28T15:03:08.690172"
-    },
-    {
-        "source": "Nature News",
-        "title": "胎儿脊柱裂的胎内干细胞治疗临床试验",
-        "link": "https://www.nature.com/articles/d41586-026-00602-z",
-        "summary": "6名孕妇参与早期试验，使用来源于胎盘的干细胞修复胎儿脊髓，初步证实安全性。",
-        "published": "2026-02-26",
-        "fetched_at": "2026-02-28T15:03:08.690204"
-    },
-    {
-        "source": "Nature News",
-        "title": "基于器官微囊过滤的胰腺靶向脂质纳米颗粒",
-        "link": "https://www.nature.com/articles/s41586-026-10158-7",
-        "summary": "阐明胰腺靶向机制，开发出可向胰腺精准递送核酸药物的脂质纳米颗粒，为胰腺疾病治疗提供载药架构。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690292"
-    },
-    {
-        "source": "Nature News",
-        "title": "噬菌体裂解蛋白抑制MurJ翻转酶机制",
-        "link": "https://www.nature.com/articles/s41586-026-10163-w",
-        "summary": "三种不同噬菌体编码的单基因裂解蛋白通过共同机制抑制核心脂质II翻转酶MurJ，为抗菌药物研发提供新靶点。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690321"
-    },
-    {
-        "source": "Nature News",
-        "title": "OR7A10 GPCR增强针对实体瘤的CAR-NK细胞疗法",
-        "link": "https://www.nature.com/articles/s41586-026-10149-8",
-        "summary": "在嵌合抗原受体构型中直接驱动基因过表达的增强子机制被证实可以提升CAR-NK细胞对抗实体瘤的疗效。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690328"
-    },
-    {
-        "source": "Nature News",
-        "title": "干细胞作为虚弱症的潜在治疗手段",
-        "link": "https://www.nature.com/articles/d41586-026-00584-y",
-        "summary": "影响25%的50岁以上人群的虚弱症在单剂量干细胞治疗后耐力增加。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690473"
-    },
-    {
-        "source": "Nature News",
-        "title": "帕金森病影响躯体-认知动作网络",
-        "link": "https://www.nature.com/articles/d41586-026-00573-1",
-        "summary": "帕金森病高精度神经成像揭示躯体-认知动作网络的异常高连接性。药理及脑刺激干预可使该神经网络连接参数正常化。",
-        "published": "2026-02-25",
-        "fetched_at": "2026-02-28T15:03:08.690531"
-    },
-    {
-        "source": "Nature News",
-        "title": "污水处理设施的温室气体排放模型偏差",
-        "link": "https://www.nature.com/articles/d41586-026-00514-y",
-        "summary": "数据表明污水处理罐及相关基础设施的实际温室气体排放量高于现行报告参数。",
-        "published": "2026-02-24",
-        "fetched_at": "2026-02-28T15:03:08.690654"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "Tecovirimat 治疗猴痘的临床研究",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2506495?af=R&rss=currentIssue",
-        "summary": "关于特考韦瑞治疗猴痘有效性与安全性的最新临床数据报告。",
-        "published": "2026-02-25T10:00:03Z",
-        "fetched_at": "2026-02-28T15:03:11.266441"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "养老院居民降压治疗强度的调整研究",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMc2518217?af=R&rss=currentIssue",
-        "summary": "针对养老院居民减少抗高血压治疗的临床评估与机制影响。",
-        "published": "2026-02-25T10:00:03Z",
-        "fetched_at": "2026-02-28T15:03:11.266497"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "长效HIV疗法从有效性验证到应用可及性",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2518334?af=R&rss=currentIssue",
-        "summary": "长效HIV药物的系统性部署问题及临床转化分析。",
-        "published": "2026-02-18T10:02:14Z",
-        "fetched_at": "2026-02-28T15:03:11.266533"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "HER2阳性早期乳腺癌的个体化治疗",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2600247?af=R&rss=currentIssue",
-        "summary": "探讨针对HER2阳性早期乳腺癌治疗路径和靶点干预的优化策略。",
-        "published": "2026-02-25T10:00:03Z",
-        "fetched_at": "2026-02-28T15:03:11.266540"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "遗传性耳聋的DB-OTO基因疗法",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2400521?af=R&rss=currentIssue",
-        "summary": "针对遗传性耳聋采用DB-OTO基因疗法恢复听力的临床前与早期临床结果。",
-        "published": "2025-10-12T02:18:00Z",
-        "fetched_at": "2026-02-28T15:03:11.266605"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "慢性淋巴细胞白血病固定疗程与持续治疗对比",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2515458?af=R&rss=currentIssue",
-        "summary": "评估CLL患者在固定疗程干预与持续性药物抑制下的生存率与复发指标。",
-        "published": "2025-12-06T01:30:00Z",
-        "fetched_at": "2026-02-28T15:03:11.266634"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "AAV9基因疗法治疗II型GM1神经节苷脂沉积症: 1-2期试验",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2510935?af=R&rss=currentIssue",
-        "summary": "以AAV9为载体的基因转导在II型GM1神经节苷脂沉积症1-2期临床中的药代动力学及安全性数据。",
-        "published": "2026-02-06T05:00:00Z",
-        "fetched_at": "2026-02-28T15:03:11.266661"
-    },
-    {
-        "source": "The New England Journal of Medicine (NEJM)",
-        "title": "Enfortumab Vedotin联合Pembrolizumab的围手术期治疗",
-        "link": "https://www.nejm.org/doi/full/10.1056/NEJMe2515777?af=R&rss=currentIssue",
-        "summary": "ADC药物联合PD-1抑制剂在围手术期应用的协同机制及临床结局分析。",
-        "published": "2026-02-18T10:00:00Z",
-        "fetched_at": "2026-02-28T15:03:11.266690"
-    },
-    {
-        "source": "The Lancet",
-        "title": "精神分裂症抗多巴胺药物进展",
-        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00038-3/fulltext?rss=yes",
-        "summary": "抗精神病药物的药理学回顾，分析多巴胺受体拮抗剂在疗效和耐受性层面的限制，并总结了最新随机对照试验数据。",
-        "published": "2026-02-28",
-        "fetched_at": "2026-02-28T15:03:11.490032"
-    },
-    {
-        "source": "The Lancet",
-        "title": "BI 764198试验数据修正",
-        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00378-8/fulltext?rss=yes",
-        "summary": "TRPC6抑制剂用于治疗局灶节段性肾小球硬化的2期随机试验剂量参数修正记录。",
-        "published": "2026-02-28",
-        "fetched_at": "2026-02-28T15:03:11.490208"
-    },
-    {
-        "source": "The Lancet",
-        "title": "子宫内脊柱裂细胞修复的1期单臂试验 (CuRe Trial)",
-        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)02466-3/fulltext?rss=yes",
-        "summary": "同种异体活干细胞治疗的安全验证。由于未产生细胞相关不良效应，该项目进入35例非交叉注册的1/2a期临床。",
-        "published": "2026-02-28",
-        "fetched_at": "2026-02-28T15:03:11.490230"
-    },
-    {
-        "source": "The Lancet",
-        "title": "GLP-1受体激动剂与下一代肠促胰岛素药物的心血管和肾脏代谢收益",
-        "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(25)02105-1/fulltext?rss=yes",
-        "summary": "GLP-1受体激动剂除降低血糖和体重外，临床数据证明其降低了心肌梗死、卒中等不良心血管事件风险，并减缓肾小球滤过率下降。",
-        "published": "2026-01-14T23:30:01Z",
-        "fetched_at": "2026-02-28T15:03:11.490244"
-    },
-    {
-        "source": "The BMJ (Recent)",
-        "title": "Orforglipron在2型糖尿病控制中优于口服索马鲁肽",
-        "link": "http://www.bmj.com/content/392/bmj.s399.short?rss=1",
-        "summary": "3期随机对照试验(1698人)显示新型GLP-1受体激动剂Orforglipron (不受饮食限制) 在血糖控制与体重减轻指标上优于口服索马鲁肽。",
-        "published": "2026-02-27T00:32:09-08:00",
-        "fetched_at": "2026-02-28T15:03:11.795323"
-    },
-    {
-        "source": "The BMJ (Recent)",
-        "title": "Bictegravir与Lenacapavir复合制剂简化HIV用药",
-        "link": "http://www.bmj.com/content/392/bmj.s389.short?rss=1",
-        "summary": "一项含557名受试者的3期临床试验表明，Bictegravir和Lenacapavir合剂作为每日单片方案，可替代目前耐药株引发的每日多达11片的复杂抗逆转录病毒治疗架构。",
-        "published": "2026-02-26T04:56:49-08:00",
-        "fetched_at": "2026-02-28T15:03:11.795330"
-    }
+  {
+    "id": "212",
+    "source": "IEEE Spectrum",
+    "title": "英特尔演示可对加密数据进行计算的芯片",
+    "link": "https://spectrum.ieee.org/fhe-intel",
+    "summary": "英特尔Heracles芯片采用3纳米FinFET技术和高带宽内存，将全同态加密（FHE）任务加速提升至顶级服务器CPU的5000倍，以实现大规模加密计算。",
+    "published": "Tue, 10 Mar 2026 13:00:04 +0000",
+    "fetched_at": "2026-03-16T14:29:10.428531",
+    "score": 95,
+    "judgement_reason": ""
+  },
+  {
+    "id": "391",
+    "source": "Mashable",
+    "title": "Sora视频生成器将集成至ChatGPT",
+    "link": "https://mashable.com/article/openai-chat-gpt-sora-video-generation",
+    "summary": "据内部人士透露，OpenAI将把Sora 2模型集成到ChatGPT中，以增强其功能。",
+    "published": "Sat, 14 Mar 2026 14:37:58 +0000",
+    "fetched_at": "2026-03-16T14:29:11.917756",
+    "score": 95,
+    "judgement_reason": ""
+  },
+  {
+    "id": "232",
+    "source": "IEEE Spectrum",
+    "title": "原子级薄材料显著缩小量子比特",
+    "link": "https://spectrum.ieee.org/2d-hbn-qubit",
+    "summary": "量子计算面临小型化和量子比特质量的挑战。尽管IBM计划实现1121量子比特处理器，但现有技术路线需要非常大的芯片尺寸。",
+    "published": "Mon, 07 Feb 2022 16:12:05 +0000",
+    "fetched_at": "2026-03-16T14:29:10.428709",
+    "score": 95,
+    "judgement_reason": ""
+  },
+  {
+    "id": "93",
+    "source": "Ars Technica",
+    "title": "电压翻倍：800V架构对电动汽车的实际改变",
+    "link": "https://arstechnica.com/cars/2026/03/doubling-the-voltage-what-800-v-architecture-really-changes-in-evs/",
+    "summary": "本文解释了电动汽车中800V架构带来的技术变化。",
+    "published": "Fri, 13 Mar 2026 18:30:17 +0000",
+    "fetched_at": "2026-03-16T14:29:07.953544",
+    "score": 95,
+    "judgement_reason": ""
+  },
+  {
+    "id": "440",
+    "source": "Business Insider",
+    "title": "前Salesforce AI CEO称AI对工人的隐藏风险是降薪而非失业",
+    "link": "https://www.businessinsider.com/ai-could-lower-wages-not-just-eliminate-jobs-3-2026",
+    "summary": "Clara Shih认为，AI通过降低技能门槛和使失业工人涌入剩余岗位，可能导致工资下降。",
+    "published": "2026-03-16T13:05:59Z",
+    "fetched_at": "2026-03-16T14:29:12.378626",
+    "score": 95,
+    "judgement_reason": ""
+  },
+  {
+    "id": "573",
+    "source": "BMJ Open Ophthalmology",
+    "title": "欧洲专家组对儿童近视证据差距和未满足需求的共识",
+    "link": "http://bmjophth.bmj.com/cgi/content/short/11/1/e002569?rss=1",
+    "summary": "一项针对欧洲眼科专业人员和支付方的德尔菲研究，旨在确定儿童近视管理中的证据差距和未满足需求。",
+    "published": "2026-03-03T04:41:09-08:00",
+    "fetched_at": "2026-03-16T14:29:14.501339",
+    "score": 95,
+    "judgement_reason": ""
+  },
+  {
+    "id": "576",
+    "source": "BMJ Open Ophthalmology",
+    "title": "评估眼科问答中类人思维推理大语言模型",
+    "link": "http://bmjophth.bmj.com/cgi/content/short/11/1/e002615?rss=1",
+    "summary": "研究评估了DeepSeek-R1、QwQ-32B等推理LLM和LLaMA-3.3-70B-Instruct在眼科问答中的准确性和推理过程质量。",
+    "published": "2026-01-27T03:19:06-08:00",
+    "fetched_at": "2026-03-16T14:29:14.501362",
+    "score": 95,
+    "judgement_reason": ""
+  },
+  {
+    "id": "560",
+    "source": "BMJ Open Ophthalmology",
+    "title": "视网膜生物标志物用于阿尔茨海默病早期检测：光学相干断层扫描研究综述",
+    "link": "http://bmjophth.bmj.com/cgi/content/short/11/1/e002328?rss=1",
+    "summary": "该系统综述评估了频域OCT（SD-OCT）和OCT血管造影（OCT-A）在识别与阿尔茨海默病（AD）相关的视网膜变化方面的证据，以期实现早期无创检测。",
+    "published": "2026-01-21T05:38:45-08:00",
+    "fetched_at": "2026-03-16T14:29:14.501277",
+    "score": 95,
+    "judgement_reason": ""
+  },
+  {
+    "id": "181",
+    "source": "VentureBeat",
+    "title": "智能体比RAG更需要向量搜索",
+    "link": "https://venturebeat.com/data/agents-dont-replace-vector-search-they-make-it-harder-to-get-right",
+    "summary": "随着模型上下文窗口的扩大，关于向量数据库在智能体AI时代作用的讨论出现，生产证据表明向量搜索在智能体记忆吸收检索问题方面仍是关键。",
+    "published": "Thu, 12 Mar 2026 21:30:00 GMT",
+    "fetched_at": "2026-03-16T14:29:09.492908",
+    "score": 92,
+    "judgement_reason": ""
+  },
+  {
+    "id": "438",
+    "source": "Business Insider",
+    "title": "硅谷切断俄罗斯全球互联网的竞赛内幕",
+    "link": "https://www.businessinsider.com/russia-global-internet-shutdown-vpn-durov-telegram-2026-3",
+    "summary": "报道了硅谷科技公司和克里姆林宫在将俄罗斯与全球互联网隔离方面的行动。",
+    "published": "2026-03-16T14:06:29Z",
+    "fetched_at": "2026-03-16T14:29:12.378610",
+    "score": 92,
+    "judgement_reason": ""
+  },
+  {
+    "id": "213",
+    "source": "IEEE Spectrum",
+    "title": "有限元方法在变压器谐波和瞬态分析中的应用",
+    "link": "https://content.knowledgehub.wiley.com/solving-harmonic-and-transient-challenges-in-transformers-using-integrateds-faraday/",
+    "summary": "探讨了用于分析变压器在谐波和瞬态条件下的行为的结构化有限元方法，包括建模、求解器配置和结果验证技术，以评估磁场分布和饱和度。",
+    "published": "Tue, 10 Mar 2026 10:00:03 +0000",
+    "fetched_at": "2026-03-16T14:29:10.428541",
+    "score": 90,
+    "judgement_reason": ""
+  },
+  {
+    "id": "231",
+    "source": "IEEE Spectrum",
+    "title": "AI将如何改变芯片设计",
+    "link": "https://spectrum.ieee.org/ai-chip-design-matlab",
+    "summary": "为应对摩尔定律的限制，工程师正将AI技术融入芯片设计，例如三星在内存芯片中集成AI以实现内存中处理，以及Google TPU V4处理能力翻倍。",
+    "published": "Tue, 08 Feb 2022 14:00:01 +0000",
+    "fetched_at": "2026-03-16T14:29:10.428700",
+    "score": 90,
+    "judgement_reason": ""
+  },
+  {
+    "id": "226",
+    "source": "IEEE Spectrum",
+    "title": "优化电池电动汽车热管理系统",
+    "link": "https://content.knowledgehub.wiley.com/optimizing-a-battery-electric-vehicle-thermal-management-system/",
+    "summary": "该网络研讨会将使用Simulink和Simscape对中型BEV的虚拟模型进行设计探索、组件优化和系统级优化，测试其在不同工况下的动力总成、制冷和客舱子系统性能。",
+    "published": "Tue, 03 Mar 2026 11:00:02 +0000",
+    "fetched_at": "2026-03-16T14:29:10.428654",
+    "score": 90,
+    "judgement_reason": ""
+  },
+  {
+    "id": "375",
+    "source": "Mashable",
+    "title": "《ARC Raiders》选择用专业配音演员取代AI生成对话",
+    "link": "https://mashable.com/article/arc-raiders-studio-replaces-ai-dialogue-with-voice-actors",
+    "summary": "游戏《ARC Raiders》决定使用专业配音演员替换AI生成的对话内容。",
+    "published": "Sun, 15 Mar 2026 19:47:51 +0000",
+    "fetched_at": "2026-03-16T14:29:11.917676",
+    "score": 90,
+    "judgement_reason": ""
+  },
+  {
+    "id": "315",
+    "source": "The Next Web (TNW)",
+    "title": "智能体时代模型上下文协议的兴起",
+    "link": "https://thenextweb.com/news/rise-of-model-context-protocol-in-the-agentic-era",
+    "summary": "探讨了模型上下文协议（MCP）的定义及其重要性，尤其是在API已存在的情况下，MCP为何日益关键。",
+    "published": "Sat, 14 Mar 2026 10:25:28 +0000",
+    "fetched_at": "2026-03-16T14:29:11.168726",
+    "score": 90,
+    "judgement_reason": ""
+  },
+  {
+    "id": "203",
+    "source": "IEEE Spectrum",
+    "title": "探索光与生命：用于分子测序和单细胞表型的纳米光子学与AI",
+    "link": "https://events.bizzabo.com/823847",
+    "summary": "Dionne教授将介绍VINPix：一种结合声学生物打印和AI的硅光子谐振器，旨在以极高密度实现单芯片上的多组学特征检测。",
+    "published": "Mon, 16 Mar 2026 10:00:04 +0000",
+    "fetched_at": "2026-03-16T14:29:10.428461",
+    "score": 90,
+    "judgement_reason": ""
+  },
+  {
+    "id": "229",
+    "source": "IEEE Spectrum",
+    "title": "量子数据如何教会AI进行更优的化学计算",
+    "link": "https://spectrum.ieee.org/quantum-chemistry",
+    "summary": "文章通过“雅各布的天梯”比喻，阐述了在材料电子行为中计算复杂性的层级结构，暗示量子数据在化学计算中的潜力。",
+    "published": "Mon, 02 Mar 2026 13:00:02 +0000",
+    "fetched_at": "2026-03-16T14:29:10.428682",
+    "score": 90,
+    "judgement_reason": ""
+  },
+  {
+    "id": "91",
+    "source": "Ars Technica",
+    "title": "利用不可见代码的供应链攻击影响GitHub等仓库",
+    "link": "https://arstechnica.com/security/2026/03/supply-chain-attack-using-invisible-code-hits-github-and-other-repositories/",
+    "summary": "攻击者利用人眼不可见的Unicode字符对GitHub等代码仓库发动了供应链攻击。",
+    "published": "Fri, 13 Mar 2026 20:18:08 +0000",
+    "fetched_at": "2026-03-16T14:29:07.953526",
+    "score": 90,
+    "judgement_reason": ""
+  },
+  {
+    "id": "97",
+    "source": "Ars Technica",
+    "title": "磁星拖拽时空以驱动超光度超新星",
+    "link": "https://arstechnica.com/science/2026/03/magnetars-drag-spacetime-to-power-superluminous-supernovae/",
+    "summary": "引力场拖拽效应可能解释了观测到的最亮超新星的一种异常模式。",
+    "published": "Fri, 13 Mar 2026 15:59:40 +0000",
+    "fetched_at": "2026-03-16T14:29:07.953580",
+    "score": 90,
+    "judgement_reason": ""
+  },
+  {
+    "id": "70",
+    "source": "Wired",
+    "title": "6G即将到来：下一代蜂窝技术展望",
+    "link": "https://www.wired.com/story/6g-is-coming/",
+    "summary": "预计2030年接替5G的6G网络将专注于提升上传速度、集成AI以及实现类似雷达的设备和人员感知功能。",
+    "published": "Fri, 13 Mar 2026 10:30:00 +0000",
+    "fetched_at": "2026-03-16T14:29:07.833136",
+    "score": 90,
+    "judgement_reason": ""
+  },
+  {
+    "id": "180",
+    "source": "VentureBeat",
+    "title": "Y Combinator支持的Random Labs推出Slate V1，声称是首个“群体原生”编码代理",
+    "link": "https://venturebeat.com/orchestration/y-combinator-backed-random-labs-launches-slate-v1-claiming-the-first-swarm",
+    "summary": "Random Labs推出的Slate V1旨在解决AI时代中，模型能力增强后，管理长周期或深层上下文任务的“系统问题”瓶颈。",
+    "published": "Fri, 13 Mar 2026 00:00:00 GMT",
+    "fetched_at": "2026-03-16T14:29:09.492903",
+    "score": 90,
+    "judgement_reason": ""
+  },
+  {
+    "id": "423",
+    "source": "Fast Company",
+    "title": "Expedia CEO Ariane Gorin论如何将AI转化为竞争优势",
+    "link": "https://www.fastcompany.com/91507595/expedia-ceo-ariane-gorin-on-turning-ai-into-a-competitive-advantage",
+    "summary": "Gorin阐述了Expedia从改进旅游产品到赋予员工“超能力”的三部分AI战略。",
+    "published": "2026-03-16T12:00:00",
+    "fetched_at": "2026-03-16T14:29:12.110682",
+    "score": 90,
+    "judgement_reason": ""
+  },
+  {
+    "id": "449",
+    "source": "Business Insider",
+    "title": "“AI大脑过载”研究的BCG顾问对人类短期内克服该问题表示悲观",
+    "link": "https://www.businessinsider.com/ai-brain-fry-bcg-consulting-exhaustion-agents-work-2026-3",
+    "summary": "研究人员认为，AI工具虽然提高了生产力，但也可能导致过度使用AI的员工出现“大脑过载”的心理疲劳。",
+    "published": "2026-03-16T09:15:01Z",
+    "fetched_at": "2026-03-16T14:29:12.378660",
+    "score": 90,
+    "judgement_reason": ""
+  },
+  {
+    "id": "528",
+    "source": "The BMJ (Recent)",
+    "title": "Pyrotinib或安慰剂联合曲妥珠单抗和多西他赛治疗HER2阳性转移性乳腺癌：PHILA III期随机试验的长期生存结果",
+    "link": "http://www.bmj.com/content/392/bmj-2025-087259.short?rss=1",
+    "summary": "PHILA III期试验的更新结果显示了Pyrotinib或安慰剂联合标准疗法在未接受治疗的HER2阳性转移性乳腺癌患者中的疗效和安全性数据。",
+    "published": "2026-03-16T03:21:04-07:00",
+    "fetched_at": "2026-03-16T14:29:13.864954",
+    "score": 90,
+    "judgement_reason": ""
+  },
+  {
+    "id": "238",
+    "source": "Nature News",
+    "title": "作者更正：SLAMF6作为T细胞抗癌免疫的可靶向抑制剂",
+    "link": "https://www.nature.com/articles/s41586-026-10376-z",
+    "summary": "Nature上关于SLAMF6作为可靶向抑制剂的癌症免疫研究的作者更正声明。",
+    "published": "2026-03-13",
+    "fetched_at": "2026-03-16T14:29:10.744508",
+    "score": 90,
+    "judgement_reason": ""
+  }
 ]
