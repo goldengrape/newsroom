@@ -54,11 +54,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet -- docs/data/news.json docs/data/news_stats.json; then
+          if git diff --quiet -- docs/data/news.json docs/data/news_stats.json data/seen_links.json; then
             echo "No news data changes to commit."
             exit 0
           fi
-          git add docs/data/news.json docs/data/news_stats.json
+          git add docs/data/news.json docs/data/news_stats.json data/seen_links.json
           git commit -m "chore: refresh daily news"
           git push origin main
 
