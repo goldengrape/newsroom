@@ -10,7 +10,9 @@ class StubGeminiNewsFilter(filtering.GeminiNewsFilter):
         self.latest_run_stats = {}
         self.model = filtering.DEFAULT_MODEL
 
-    def _request_json(self, prompt, phase, batch_label, max_tokens_override, response_schema):
+    def _request_json(
+        self, prompt, phase, batch_label, max_tokens_override, response_schema
+    ):
         if not self.responses:
             raise AssertionError("No stubbed response left for prompt.")
         payload = self.responses.pop(0)
@@ -148,7 +150,9 @@ def test_main_prefers_environment_value_and_saves_output_and_stats(monkeypatch):
     monkeypatch.setenv("GEMINI_API_KEY", "from_env")
     monkeypatch.setattr(filtering, "parse_args", lambda: fake_args)
     monkeypatch.setattr(filtering, "load_dotenv", lambda *args, **kwargs: None)
-    monkeypatch.setattr(filtering, "load_json_file", lambda *_args, **_kwargs: [{"title": "Input"}])
+    monkeypatch.setattr(
+        filtering, "load_json_file", lambda *_args, **_kwargs: [{"title": "Input"}]
+    )
     with patch.object(Path, "read_text", return_value="filter profile"):
         with patch.object(filtering, "save_json_file") as mock_save:
             with patch.object(filtering, "save_json_object") as mock_save_stats:

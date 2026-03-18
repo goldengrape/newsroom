@@ -1,7 +1,11 @@
 import argparse
 import os
 
-from newsroom.filtering import DEFAULT_REQUEST_TIMEOUT, align_google_genai_env, load_dotenv
+from newsroom.filtering import (
+    DEFAULT_REQUEST_TIMEOUT,
+    align_google_genai_env,
+    load_dotenv,
+)
 
 try:
     from google import genai
@@ -12,7 +16,9 @@ except ImportError:  # pragma: no cover - handled in main for manual smoke runs.
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Smoke test the Gemini API key and model.")
+    parser = argparse.ArgumentParser(
+        description="Smoke test the Gemini API key and model."
+    )
     parser.add_argument(
         "--model",
         default="gemini-flash-lite-latest",
