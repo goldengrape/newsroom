@@ -854,10 +854,16 @@ def parse_args() -> argparse.Namespace:
 
 def parse_date(date_str: str) -> datetime.datetime:
     try:
-        return email.utils.parsedate_to_datetime(date_str)
+        dt = email.utils.parsedate_to_datetime(date_str)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=datetime.timezone.utc)
+        return dt
     except (ValueError, TypeError):
         try:
-            return datetime.datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+            dt = datetime.datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=datetime.timezone.utc)
+            return dt
         except (ValueError, TypeError):
             # Fallback to current time if unparseable
             return datetime.datetime.now(datetime.timezone.utc)
