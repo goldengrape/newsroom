@@ -55,7 +55,9 @@ def load_feedback_file(path: Path) -> list[dict[str, Any]]:
     return payload
 
 
-def validate_feedback_items(feedback_items: list[dict[str, Any]]) -> list[dict[str, str]]:
+def validate_feedback_items(
+    feedback_items: list[dict[str, Any]],
+) -> list[dict[str, str]]:
     normalized = []
     for index, item in enumerate(feedback_items, start=1):
         if not isinstance(item, dict):
@@ -84,7 +86,9 @@ def validate_feedback_items(feedback_items: list[dict[str, Any]]) -> list[dict[s
     return normalized
 
 
-def build_learning_prompt(current_profile: str, feedback_items: list[dict[str, str]]) -> str:
+def build_learning_prompt(
+    current_profile: str, feedback_items: list[dict[str, str]]
+) -> str:
     return f"""
 # Role: Advanced algorithm tuning expert and intelligence architect
 
@@ -147,7 +151,9 @@ def extract_profile_markdown(response_text: str) -> tuple[str, str]:
     return diagnosis, markdown
 
 
-def estimate_cost_usd(model: str, input_tokens: int | None, output_tokens: int | None) -> float | None:
+def estimate_cost_usd(
+    model: str, input_tokens: int | None, output_tokens: int | None
+) -> float | None:
     pricing = MODEL_PRICING_USD_PER_MILLION.get(model)
     if pricing is None:
         return None
@@ -211,7 +217,9 @@ class LearnFilterEngine:
                         completion_tokens,
                     ),
                 }
-            except Exception as error:  # pragma: no cover - runtime network/API behavior.
+            except (
+                Exception
+            ) as error:  # pragma: no cover - runtime network/API behavior.
                 last_error = error
                 if attempt == self.max_retries:
                     break

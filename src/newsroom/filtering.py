@@ -4,6 +4,8 @@ import json
 import os
 import re
 import time
+import datetime
+import email.utils
 from math import ceil
 from pathlib import Path
 from typing import Any, Iterable
@@ -144,11 +146,15 @@ def prepare_news_items(news_items: list[dict[str, Any]]) -> list[dict[str, Any]]
     return prepared
 
 
-def prepare_title_screening_items(news_items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def prepare_title_screening_items(
+    news_items: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
     return [{"id": item["id"], "title": item["title"]} for item in news_items]
 
 
-def prepare_ranking_candidates(candidates: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def prepare_ranking_candidates(
+    candidates: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
     prepared = []
     for item in candidates:
         prepared.append(
@@ -232,7 +238,9 @@ def save_json_object(path: Path, payload: dict[str, Any]) -> None:
         json.dump(payload, file, indent=2, ensure_ascii=False)
 
 
-def build_title_screening_prompt(filter_profile: str, batch: list[dict[str, Any]]) -> str:
+def build_title_screening_prompt(
+    filter_profile: str, batch: list[dict[str, Any]]
+) -> str:
     return f"""
 Apply this plain-text filter profile exactly as written:
 
@@ -463,7 +471,9 @@ class GeminiNewsFilter:
                     **usage_metrics,
                     **cost_metrics,
                 }
-            except Exception as error:  # pragma: no cover - retries cover runtime API failures.
+            except (
+                Exception
+            ) as error:  # pragma: no cover - retries cover runtime API failures.
                 last_error = error
                 if attempt == self.max_retries:
                     break
@@ -573,7 +583,9 @@ class GeminiNewsFilter:
         )
         original_items_by_id = {item["id"]: item for item in prepared_items}
 
-        for batch_index, batch in enumerate(chunked(screening_items, batch_size), start=1):
+        for batch_index, batch in enumerate(
+            chunked(screening_items, batch_size), start=1
+        ):
             batch_label = f"{batch_index}/{total_batches}"
             results, batch_stats = self._screen_title_batch(
                 filter_profile=filter_profile,
@@ -657,7 +669,9 @@ class GeminiNewsFilter:
 
         ranked = self._merge_ranked_candidates(ranked_pool, selected, max_items)
         final_items = ranked if ranked else ranked_pool[:max_items]
-        translated_final_items, translation_metrics = self._translate_final_items(final_items)
+        translated_final_items, translation_metrics = self._translate_final_items(
+            final_items
+        )
         request_stats.append(translation_metrics)
         self.latest_run_stats = self._build_run_stats(
             total_items=len(prepared_items),
@@ -679,12 +693,24 @@ class GeminiNewsFilter:
         request_stats: list[dict[str, Any]],
         duration_seconds: float,
     ) -> dict[str, Any]:
-        total_input_tokens = sum(metric["prompt_tokens_actual"] or 0 for metric in request_stats)
-        total_output_tokens = sum(metric["completion_tokens_actual"] or 0 for metric in request_stats)
-        total_tokens = sum(metric["total_tokens_actual"] or 0 for metric in request_stats)
-        total_cost_usd = sum(metric["total_cost_usd"] or 0.0 for metric in request_stats)
-        total_input_cost_usd = sum(metric["input_cost_usd"] or 0.0 for metric in request_stats)
-        total_output_cost_usd = sum(metric["output_cost_usd"] or 0.0 for metric in request_stats)
+        total_input_tokens = sum(
+            metric["prompt_tokens_actual"] or 0 for metric in request_stats
+        )
+        total_output_tokens = sum(
+            metric["completion_tokens_actual"] or 0 for metric in request_stats
+        )
+        total_tokens = sum(
+            metric["total_tokens_actual"] or 0 for metric in request_stats
+        )
+        total_cost_usd = sum(
+            metric["total_cost_usd"] or 0.0 for metric in request_stats
+        )
+        total_input_cost_usd = sum(
+            metric["input_cost_usd"] or 0.0 for metric in request_stats
+        )
+        total_output_cost_usd = sum(
+            metric["output_cost_usd"] or 0.0 for metric in request_stats
+        )
         return {
             "model": self.model,
             "total_items": total_items,
@@ -723,7 +749,7 @@ class GeminiNewsFilter:
         deduped: dict[str, dict[str, Any]] = {}
         for candidate in candidates:
             dedupe_key = candidate.get("link") or (
-                f'{candidate.get("source", "")}::{candidate.get("title", "")}'.lower()
+                f"{candidate.get('source', '')}::{candidate.get('title', '')}".lower()
             )
             existing = deduped.get(dedupe_key)
             if existing is None or candidate.get("score", 0) > existing.get("score", 0):
@@ -826,6 +852,53 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def parse_date(date_str: str) -> datetime.datetime:
+    try:
+        return email.utils.parsedate_to_datetime(date_str)
+    except (ValueError, TypeError):
+        try:
+            return datetime.datetime.fromisoformat(date_str.replace("Z", "+00:00"))
+        except (ValueError, TypeError):
+            # Fallback to current time if unparseable
+            return datetime.datetime.now(datetime.timezone.utc)
+
+
+def is_within_days(date_str: str, days: int = 7) -> bool:
+    if not date_str:
+        return False
+    dt = parse_date(date_str)
+    now = datetime.datetime.now(datetime.timezone.utc)
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=datetime.timezone.utc)
+    return (now - dt).days <= days
+
+
+def merge_and_truncate_news(
+    existing_items: list[dict], new_items: list[dict], max_items: int
+) -> list[dict]:
+    # Filter out items older than 7 days from the existing ones
+    valid_existing = [
+        item for item in existing_items if is_within_days(item.get("published", ""), 7)
+    ]
+
+    # We want to dedup and merge them. The new items take precedence if there's a duplicate link.
+    seen_links = set(item.get("link") for item in new_items if item.get("link"))
+    for item in valid_existing:
+        link = item.get("link")
+        if link and link not in seen_links:
+            new_items.append(item)
+            seen_links.add(link)
+        elif not link:
+            # If no link, we just append it
+            new_items.append(item)
+
+    # Sort by published date descending
+    new_items.sort(key=lambda x: parse_date(x.get("published", "")), reverse=True)
+
+    # Truncate to max_items
+    return new_items[:max_items]
+
+
 def main() -> None:
     args = parse_args()
     load_dotenv()
@@ -841,7 +914,16 @@ def main() -> None:
     output_path = Path(args.output)
     filter_profile_path = Path(args.filter_profile)
 
-    news_items = load_json_file(input_path)
+    try:
+        news_items = load_json_file(input_path)
+    except Exception:
+        news_items = []
+
+    try:
+        existing_news_items = load_json_file(output_path)
+    except Exception:
+        existing_news_items = []
+
     filter_profile = filter_profile_path.read_text(encoding="utf-8")
 
     judge = GeminiNewsFilter(
@@ -851,17 +933,26 @@ def main() -> None:
         request_timeout=args.request_timeout,
         max_retries=args.max_retries,
     )
-    selected_items = judge.judge(
-        news_items=news_items,
-        filter_profile=filter_profile,
-        max_items=args.max_items,
-        batch_size=args.batch_size,
-        ranking_pool_size=args.ranking_pool_size,
+
+    selected_items = []
+    if news_items:
+        selected_items = judge.judge(
+            news_items=news_items,
+            filter_profile=filter_profile,
+            max_items=args.max_items,
+            batch_size=args.batch_size,
+            ranking_pool_size=args.ranking_pool_size,
+        )
+        save_json_object(Path(args.stats_output), judge.latest_run_stats)
+
+    final_items = merge_and_truncate_news(
+        existing_news_items, selected_items, args.max_items
     )
-    save_json_file(output_path, selected_items)
-    save_json_object(Path(args.stats_output), judge.latest_run_stats)
-    print(f"Saved {len(selected_items)} AI-filtered news items to {output_path}")
-    print(f"Saved run statistics to {args.stats_output}")
+
+    save_json_file(output_path, final_items)
+    print(f"Saved {len(final_items)} AI-filtered news items to {output_path}")
+    if news_items:
+        print(f"Saved run statistics to {args.stats_output}")
 
 
 if __name__ == "__main__":
