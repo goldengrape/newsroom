@@ -1,4 +1,5 @@
 import datetime
+import email.utils
 from newsroom.filtering import merge_and_truncate_news
 
 
@@ -33,14 +34,19 @@ def test_merge_and_truncate_news():
 
 def test_merge_and_truncate_news_with_mixed_date_formats():
 
+    now = datetime.datetime.now(datetime.timezone.utc)
+
     # offset-aware via email utils format
-    old_date = "Mon, 16 Mar 2026 20:30:00 GMT"
+    old_date_dt = now - datetime.timedelta(days=6)
+    old_date = email.utils.format_datetime(old_date_dt)
 
     # offset-aware via isoformat
-    recent_date = "2026-03-20T20:30:00Z"
+    recent_date_dt = now - datetime.timedelta(days=2)
+    recent_date = recent_date_dt.isoformat().replace("+00:00", "Z")
 
     # offset-naive via isoformat (should be handled properly now)
-    new_date = "2026-03-24T20:30:00"
+    new_date_dt = now - datetime.timedelta(days=1)
+    new_date = new_date_dt.replace(tzinfo=None).isoformat()
 
     existing = [
         {"title": "Old", "published": old_date, "link": "http://old"},
