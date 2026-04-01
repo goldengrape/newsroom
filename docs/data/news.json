@@ -1,5 +1,115 @@
 [
   {
+    "id": "141",
+    "source": "The Next Web (TNW)",
+    "title": "晶圆代工厂Nexchip赴港上市，拟融资支持50亿美元晶圆厂建设",
+    "link": "https://thenextweb.com/news/nexchip-hong-kong-listing-chip-foundry-expansion",
+    "summary": "中国晶圆代工厂Nexchip在香港上市，旨在通过资本市场融资支持其50亿美元晶圆厂建设，以强化在美方出口管制下的本土半导体供应链韧性。",
+    "published": "Wed, 01 Apr 2026 13:26:37 +0000",
+    "fetched_at": "2026-04-01T14:33:20.792686",
+    "score": 85,
+    "judgement_reason": "半导体供应链的结构性扩张与地缘技术布局。"
+  },
+  {
+    "id": "142",
+    "source": "The Next Web (TNW)",
+    "title": "Corti推出Symphony AI，医疗编码性能超越通用大模型",
+    "link": "https://thenextweb.com/news/corti-symphony-medical-coding-ai",
+    "summary": "Corti推出的Symphony AI模型将医疗编码视为推理任务而非简单的标签分类，在临床笔记处理效率上超越了现有通用大模型。",
+    "published": "Wed, 01 Apr 2026 10:00:25 +0000",
+    "fetched_at": "2026-04-01T14:33:20.792697",
+    "score": 75,
+    "judgement_reason": "医疗编码领域的推理模型突破。"
+  },
+  {
+    "id": "217",
+    "source": "Fast Company",
+    "title": "AI驱动回声定位技术，助力小型无人机实现夜视导航",
+    "link": "https://www.fastcompany.com/91518552/how-ai-powered-echolocation-is-giving-small-drones-night-vision",
+    "summary": "研究人员开发出一种基于超声波的回声定位感知系统，模拟蝙蝠导航机制，为小型无人机在无光或低能见度环境下提供替代激光雷达与摄像头的导航方案。",
+    "published": "2026-04-01T10:00:00",
+    "fetched_at": "2026-04-01T14:33:22.163652",
+    "score": 80,
+    "judgement_reason": "新型感知机制，解决无人机在低能见度环境下的导航难题。"
+  },
+  {
+    "id": "114",
+    "source": "VentureBeat",
+    "title": "HTTP客户端库axios遭恶意代码植入，开源供应链安全受威胁",
+    "link": "https://venturebeat.com/security/axios-npm-supply-chain-attack-rat-maintainer-token-2026",
+    "summary": "HTTP客户端库axios的维护者访问令牌被窃，导致恶意代码被植入该库，影响macOS、Windows及Linux平台，凸显了开源软件供应链的脆弱性。",
+    "published": "Wed, 01 Apr 2026 02:30:00 GMT",
+    "fetched_at": "2026-04-01T14:33:19.178476",
+    "score": 85,
+    "judgement_reason": "开源供应链安全漏洞，影响广泛的底层依赖。"
+  },
+  {
+    "id": "115",
+    "source": "VentureBeat",
+    "title": "Meta推出结构化提示技术，代码审查准确率提升至93%",
+    "link": "https://venturebeat.com/orchestration/metas-new-structured-prompting-technique-makes-llms-significantly-better-at",
+    "summary": "Meta开发出一种结构化提示技术，通过优化AI代理在代码审查、漏洞检测及补丁验证中的执行逻辑，将准确率提升至93%，并降低了对动态执行沙箱的依赖。",
+    "published": "Wed, 01 Apr 2026 02:13:00 GMT",
+    "fetched_at": "2026-04-01T14:33:19.178487",
+    "score": 95,
+    "judgement_reason": "涉及LLM代码审查的结构化提示工程，直接提升工程效率。"
+  },
+  {
+    "id": "40",
+    "source": "Wired",
+    "title": "百度Apollo Go在武汉发生系统性故障，导致车辆高速滞留",
+    "link": "https://www.wired.com/story/robotaxi-outage-in-china-leaves-passengers-stuck-in-cars-on-highways/",
+    "summary": "百度Apollo Go在武汉发生大规模系统性冻结，导致车辆在高速公路停滞，暴露了自动驾驶车队在复杂城市环境下的远程调度与容错机制缺陷。",
+    "published": "Wed, 01 Apr 2026 01:24:55 +0000",
+    "fetched_at": "2026-04-01T14:33:17.896151",
+    "score": 65,
+    "judgement_reason": "自动驾驶系统性故障分析。"
+  },
+  {
+    "id": "130",
+    "source": "Nature News",
+    "title": "科研新突破：利用废旧弹药铅材料制造钙钛矿太阳能电池",
+    "link": "https://www.nature.com/articles/d41586-026-01001-0",
+    "summary": "研究发现可从废旧弹药中回收铅，并将其转化为钙钛矿太阳能电池的原材料，实现了军事废弃物向光伏能源材料的转化。",
+    "published": "2026-04-01",
+    "fetched_at": "2026-04-01T14:33:20.440928",
+    "score": 70,
+    "judgement_reason": "材料科学的循环利用机制。"
+  },
+  {
+    "id": "52",
+    "source": "Ars Technica",
+    "title": "Ollama集成MLX框架，显著提升Mac本地模型推理性能",
+    "link": "https://arstechnica.com/apple/2026/03/running-local-models-on-macs-gets-faster-with-ollamas-mlx-support/",
+    "summary": "Ollama通过集成MLX框架，优化了Apple Silicon芯片的统一内存调用，显著提升了本地大模型的推理性能。",
+    "published": "Tue, 31 Mar 2026 23:00:23 +0000",
+    "fetched_at": "2026-04-01T14:33:18.097860",
+    "score": 70,
+    "judgement_reason": "本地模型推理的硬件优化。"
+  },
+  {
+    "id": "59",
+    "source": "Ars Technica",
+    "title": "研究：破解关键加密算法所需的量子资源远低于预期",
+    "link": "https://arstechnica.com/security/2026/03/new-quantum-computing-advances-heighten-threat-to-elliptic-curve-cryptosystems/",
+    "summary": "最新研究表明，破解关键加密算法所需的量子计算资源远低于此前预期，这意味着量子威胁（Q Day）的工程实现门槛正在降低。",
+    "published": "Tue, 31 Mar 2026 18:25:33 +0000",
+    "fetched_at": "2026-04-01T14:33:18.097941",
+    "score": 90,
+    "judgement_reason": "量子计算对加密体系影响的机制性评估。"
+  },
+  {
+    "id": "119",
+    "source": "VentureBeat",
+    "title": "Anthropic因源映射文件配置失误，导致Claude Code源代码泄露",
+    "link": "https://venturebeat.com/technology/claude-codes-source-code-appears-to-have-leaked-heres-what-we-know",
+    "summary": "Anthropic因在发布版本中误包含JavaScript源映射文件（.map），导致其Claude Code代理工具的完整源代码泄露，暴露了其内部调试与代理执行逻辑。",
+    "published": "Tue, 31 Mar 2026 15:00:00 GMT",
+    "fetched_at": "2026-04-01T14:33:19.178534",
+    "score": 80,
+    "judgement_reason": "AI代理架构的意外泄露，具有极高的技术参考价值。"
+  },
+  {
     "id": "92",
     "source": "VentureBeat",
     "title": "PromptQL实现Teams或Slack消息自动转化为AI智能体的安全上下文",
@@ -162,116 +272,6 @@
     "published": "Mon, 30 Mar 2026 23:11:00 GMT",
     "fetched_at": "2026-03-31T14:31:48.770082",
     "score": 85,
-    "judgement_reason": ""
-  },
-  {
-    "id": "192",
-    "source": "Mashable",
-    "title": "关于窃取Mac用户数据的恶意软件Infiniti Stealer的一切",
-    "link": "https://mashable.com/article/infiniti-stealer-malware-targets-mac-user-data",
-    "summary": "Infiniti Stealer是一种针对Mac用户的新型恶意软件攻击。",
-    "published": "Mon, 30 Mar 2026 22:27:41 +0000",
-    "fetched_at": "2026-03-31T14:31:51.860145",
-    "score": 85,
-    "judgement_reason": ""
-  },
-  {
-    "id": "96",
-    "source": "VentureBeat",
-    "title": "RSAC 2026发布了五种智能体身份框架，但遗留了三个关键空白",
-    "link": "https://venturebeat.com/security/rsac-2026-agent-identity-frameworks-three-gaps",
-    "summary": "鉴于语言固有的欺骗性，CrowdStrike CTO认为仅通过分析意图来保护AI智能体是不可靠的。该公司转而关注上下文，通过Falcon传感器追踪端点进程树来监控智能体行为。",
-    "published": "Mon, 30 Mar 2026 19:30:00 GMT",
-    "fetched_at": "2026-03-31T14:31:48.770092",
-    "score": 90,
-    "judgement_reason": ""
-  },
-  {
-    "id": "97",
-    "source": "VentureBeat",
-    "title": "Cohere发布开源ASR模型，词错率达5.4%，可用于生产环境",
-    "link": "https://venturebeat.com/orchestration/coheres-open-weight-asr-model-hits-5-4-word-error-rate-low-enough-to-replace",
-    "summary": "Cohere发布了开源权重自动语音识别（ASR）模型Transcribe，其在上下文准确性、延迟、控制和成本四个关键指标上与现有领导者竞争，错误率低至5.4%，支持在企业自有基础设施上部署，以规避闭源API的数据驻留风险。",
-    "published": "Mon, 30 Mar 2026 18:00:00 GMT",
-    "fetched_at": "2026-03-31T14:31:48.770102",
-    "score": 95,
-    "judgement_reason": ""
-  },
-  {
-    "id": "85",
-    "source": "Mashable",
-    "title": "欧盟委员会今年第二次遭到黑客攻击",
-    "link": "https://mashable.com/article/european-commission-hacked-data-stolen",
-    "summary": "欧盟委员会遭到黑客攻击，攻击者窃取了350GB数据。",
-    "published": "Mon, 30 Mar 2026 13:30:33 +0000",
-    "fetched_at": "2026-03-30T14:33:21.710738",
-    "score": 80,
-    "judgement_reason": ""
-  },
-  {
-    "id": "139",
-    "source": "Fast Company",
-    "title": "Adobe Illustrator获得了插画工具的圣杯",
-    "link": "https://www.fastcompany.com/91518262/adobe-illustrator-turnable-launching",
-    "summary": "Turntable工具现已在最新版Illustrator中可用，它使用生成式AI将任何2D矢量插图转换为可绕垂直轴旋转的3D对象。",
-    "published": "2026-03-30T13:17:36",
-    "fetched_at": "2026-03-30T14:33:21.962266",
-    "score": 85,
-    "judgement_reason": ""
-  },
-  {
-    "id": "3",
-    "source": "TechCrunch",
-    "title": "Mistral AI筹集8.3亿美元债务，计划在巴黎附近建立数据中心",
-    "link": "https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/",
-    "summary": "Mistral的目标是2026年第二季度开始运营该数据中心。",
-    "published": "Mon, 30 Mar 2026 12:49:51 +0000",
-    "fetched_at": "2026-03-30T14:33:17.091879",
-    "score": 85,
-    "judgement_reason": ""
-  },
-  {
-    "id": "4",
-    "source": "TechCrunch",
-    "title": "随着AI编码的扩展，Qodo为代码验证筹集7000万美元",
-    "link": "https://techcrunch.com/2026/03/30/qodo-bets-on-code-verification-as-ai-coding-scales-raises-70m/",
-    "summary": "随着AI向软件开发中注入代码，Qodo认为真正的挑战在于确保代码的有效性。",
-    "published": "Mon, 30 Mar 2026 12:30:00 +0000",
-    "fetched_at": "2026-03-30T14:33:17.091889",
-    "score": 80,
-    "judgement_reason": ""
-  },
-  {
-    "id": "72",
-    "source": "The Next Web (TNW)",
-    "title": "Starcloud以11亿美元估值筹集1.7亿美元，用于在轨道上建立数据中心",
-    "link": "https://thenextweb.com/news/starcloud-170m-series",
-    "summary": "该公司已在轨道上运行H100 GPU并训练了首个太空AI模型，现正建造星舰级航天器，目标是实现与地面设施成本竞争的轨道数据中心。",
-    "published": "Mon, 30 Mar 2026 12:28:35 +0000",
-    "fetched_at": "2026-03-30T14:33:20.227085",
-    "score": 85,
-    "judgement_reason": ""
-  },
-  {
-    "id": "24",
-    "source": "Wired",
-    "title": "认识这位用脑植入物创作音乐的人",
-    "link": "https://www.wired.com/story/meet-the-man-making-music-with-his-brain-implant/",
-    "summary": "Galen Buckwalter认为，脑机接口若想成功，必须具备使用乐趣。",
-    "published": "Mon, 30 Mar 2026 10:30:00 +0000",
-    "fetched_at": "2026-03-30T14:33:17.387233",
-    "score": 85,
-    "judgement_reason": ""
-  },
-  {
-    "id": "64",
-    "source": "IEEE Spectrum",
-    "title": "5G非地面网络如何实现普遍的全球连接",
-    "link": "https://content.knowledgehub.wiley.com/5g-ntn-takes-flight-technical-overview-of-5g-non-terrestrial-networks/",
-    "summary": "3GPP Release 17将卫星连接纳入5G系统，以解决延迟、多普勒、路径损耗、极化、频谱和架构等六大挑战，目标是覆盖海事、偏远和极地地区。",
-    "published": "Mon, 30 Mar 2026 10:00:03 +0000",
-    "fetched_at": "2026-03-30T14:33:19.466123",
-    "score": 88,
     "judgement_reason": ""
   }
 ]
