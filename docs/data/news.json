@@ -1,5 +1,16 @@
 [
   {
+    "id": "175",
+    "source": "The Next Web (TNW)",
+    "title": "Quanscient与Haiqu在IBM Heron R3上完成复杂量子流体模拟",
+    "link": "https://thenextweb.com/news/quanscient-haiqu-quantum-cfd-simulation",
+    "summary": "利用IBM Heron R3量子硬件运行非线性流体模拟，通过算法优化降低了量子比特需求与电路深度，提升了工业计算可行性。",
+    "published": "Thu, 02 Apr 2026 13:28:20 +0000",
+    "fetched_at": "2026-04-02T14:28:55.610928",
+    "score": 88,
+    "judgement_reason": "量子计算在工业流体动力学模拟中的算法突破。"
+  },
+  {
     "id": "141",
     "source": "The Next Web (TNW)",
     "title": "晶圆代工厂Nexchip赴港上市，拟融资支持50亿美元晶圆厂建设",
@@ -33,6 +44,17 @@
     "judgement_reason": "新型感知机制，解决无人机在低能见度环境下的导航难题。"
   },
   {
+    "id": "267",
+    "source": "The New England Journal of Medicine (NEJM)",
+    "title": "CRISPR-Cas12a编辑HBG1/HBG2启动子治疗镰状细胞病",
+    "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2415550?af=R&rss=currentIssue",
+    "summary": "通过CRISPR-Cas12a编辑HBG1和HBG2启动子诱导胎儿血红蛋白表达，为镰状细胞病提供了新型基因治疗方案。",
+    "published": "2026-04-01T09:00:03Z",
+    "fetched_at": "2026-04-02T14:28:57.473883",
+    "score": 75,
+    "judgement_reason": "CRISPR-Cas12a在镰状细胞病基因治疗中的临床应用。"
+  },
+  {
     "id": "114",
     "source": "VentureBeat",
     "title": "HTTP客户端库axios遭恶意代码植入，开源供应链安全受威胁",
@@ -64,6 +86,94 @@
     "fetched_at": "2026-04-01T14:33:17.896151",
     "score": 65,
     "judgement_reason": "自动驾驶系统性故障分析。"
+  },
+  {
+    "id": "140",
+    "source": "Nature News",
+    "title": "库珀对密度调制态的莫尔工程",
+    "link": "https://www.nature.com/articles/s41586-026-10325-w",
+    "summary": "研究人员在Sb2Te3/FeTe双层结构中构建莫尔超晶格，利用约瑟夫森扫描隧道显微镜实现了对超导能隙的空间调制与电子态调控。",
+    "published": "2026-04-01",
+    "fetched_at": "2026-04-02T14:28:55.257560",
+    "score": 95,
+    "judgement_reason": "涉及莫尔超晶格与超导态调控的底层物理机制突破。"
+  },
+  {
+    "id": "150",
+    "source": "Nature News",
+    "title": "扭转双层WSe2超导相图的角演化",
+    "link": "https://www.nature.com/articles/s41586-026-10357-2",
+    "summary": "扭转双层WSe2的超导性随扭转角平滑演化，并在费米面重构附近涌现，证实了其关联电子起源。",
+    "published": "2026-04-01",
+    "fetched_at": "2026-04-02T14:28:55.257636",
+    "score": 92,
+    "judgement_reason": "揭示了扭转双层WSe2中超导相图的演化机制。"
+  },
+  {
+    "id": "147",
+    "source": "Nature News",
+    "title": "化学计量比FeTe的超导性证实",
+    "link": "https://www.nature.com/articles/s41586-026-10321-0",
+    "summary": "通过分子束外延生长及碲通量退火，证实化学计量比FeTe本质上为超导体，修正了其作为反铁磁金属的传统认知。",
+    "published": "2026-04-01",
+    "fetched_at": "2026-04-02T14:28:55.257614",
+    "score": 90,
+    "judgement_reason": "对FeTe超导本质的机制性修正。"
+  },
+  {
+    "id": "136",
+    "source": "Nature News",
+    "title": "单细胞四组学测序解析基因调控图谱",
+    "link": "https://www.nature.com/articles/s41586-026-10322-z",
+    "summary": "通过整合基因组构象、组蛋白修饰、染色质可及性与基因表达的并行分析，揭示了表观遗传谱的空间聚类与调控动态。",
+    "published": "2026-04-01",
+    "fetched_at": "2026-04-02T14:28:55.257528",
+    "score": 85,
+    "judgement_reason": "单细胞多组学技术在基因调控机制解析中的应用。"
+  },
+  {
+    "id": "135",
+    "source": "Nature News",
+    "title": "千人泛基因组助力医学与群体遗传学研究",
+    "link": "https://www.nature.com/articles/s41586-026-10315-y",
+    "summary": "基于泛基因组信息基因组组装（PIGA）工作流，生成了1,116个二倍体基因组组装，提供了大规模医学相关基因变异资源。",
+    "published": "2026-04-01",
+    "fetched_at": "2026-04-02T14:28:55.257520",
+    "score": 82,
+    "judgement_reason": "泛基因组学在医学遗传学中的资源构建。"
+  },
+  {
+    "id": "159",
+    "source": "Nature News",
+    "title": "羟基诱导氧化钴催化合成气制轻质烯烃",
+    "link": "https://www.nature.com/articles/s41586-026-10204-4",
+    "summary": "通过引入羟基促进剂与氧化钴混合，在费托合成中实现了从合成气到轻质烯烃的高效转化，提升了催化性能。",
+    "published": "2026-04-01",
+    "fetched_at": "2026-04-02T14:28:55.257680",
+    "score": 80,
+    "judgement_reason": "费托合成催化剂性能的机制性提升。"
+  },
+  {
+    "id": "134",
+    "source": "Nature News",
+    "title": "阿秒分子光电离中的纠缠与电子相干性",
+    "link": "https://www.nature.com/articles/s41586-026-10230-2",
+    "summary": "通过相位锁定阿秒激光对与近红外激光，揭示了离子-光电子纠缠对H2+分子电子相干性的影响，实现了对解离电离过程的控制。",
+    "published": "2026-04-01",
+    "fetched_at": "2026-04-02T14:28:55.257511",
+    "score": 78,
+    "judgement_reason": "阿秒物理中分子光电离的相干性控制。"
+  },
+  {
+    "id": "149",
+    "source": "Nature News",
+    "title": "纳米转移印刷全彩超高分辨率量子点LED",
+    "link": "https://www.nature.com/articles/s41586-026-10333-w",
+    "summary": "采用硬硅模板纳米压印与倒置转移印刷结合的双重力学策略，实现了全彩超高分辨率量子点LED的制造。",
+    "published": "2026-04-01",
+    "fetched_at": "2026-04-02T14:28:55.257631",
+    "score": 72,
+    "judgement_reason": "量子点LED制造工艺的结构性改进。"
   },
   {
     "id": "130",
@@ -162,116 +272,6 @@
     "published": "2026-03-31T13:00:01Z",
     "fetched_at": "2026-03-31T14:31:52.339816",
     "score": 88,
-    "judgement_reason": ""
-  },
-  {
-    "id": "26",
-    "source": "The Verge",
-    "title": "Nvidia推出DLSS 4.5更新，包含新的帧生成功能",
-    "link": "https://www.theverge.com/tech/903934/nvidia-dlss-4-5-multi-frame-generation-app-beta-launch",
-    "summary": "Nvidia发布了DLSS（深度学习超级采样）的最新主要更新，引入了AI驱动的帧生成模式，支持兼容的GeForce RTX显卡，旨在提高超过20款游戏的性能和图像质量。",
-    "published": "2026-03-31T09:00:00-04:00",
-    "fetched_at": "2026-03-31T14:31:47.479554",
-    "score": 85,
-    "judgement_reason": ""
-  },
-  {
-    "id": "107",
-    "source": "MIT Tech Review",
-    "title": "AI基准测试存在缺陷，我们需要新的评估标准",
-    "link": "https://www.technologyreview.com/2026/03/31/1134833/ai-benchmarks-are-broken-heres-what-we-need-instead/",
-    "summary": "长期以来，人工智能评估框架侧重于机器是否超越个体人类的表现（如棋类、编码）。这种孤立问题的“AI vs. 人类”对比框架存在局限性，需要新的评估方法。",
-    "published": "Tue, 31 Mar 2026 12:01:08 +0000",
-    "fetched_at": "2026-03-31T14:31:49.261746",
-    "score": 90,
-    "judgement_reason": ""
-  },
-  {
-    "id": "94",
-    "source": "VentureBeat",
-    "title": "英伟达支持的ThinkLabs AI融资2800万美元，以应对日益严峻的电网压力",
-    "link": "https://venturebeat.com/infrastructure/nvidia-backed-thinklabs-ai-raises-usd28-million-to-tackle-a-growing-power",
-    "summary": "ThinkLabs AI（构建模拟电网行为的AI模型）完成2800万美元A轮融资，由能源转型投资公司EIP领投，英伟达风投部门NVentures和爱迪生国际参与。",
-    "published": "Tue, 31 Mar 2026 10:00:00 GMT",
-    "fetched_at": "2026-03-31T14:31:48.770070",
-    "score": 85,
-    "judgement_reason": ""
-  },
-  {
-    "id": "170",
-    "source": "Mashable",
-    "title": "支付43美元即可获得Visual Studio 2026，跳过常规标价",
-    "link": "https://mashable.com/article/march-31-microsoft-visual-studio-professional-2026",
-    "summary": "Microsoft Visual Studio Professional 2026专业版提供AI辅助编码、调试工具和跨平台支持，现价42.97美元（原价499.99美元）。",
-    "published": "Tue, 31 Mar 2026 09:00:00 +0000",
-    "fetched_at": "2026-03-31T14:31:51.860020",
-    "score": 85,
-    "judgement_reason": ""
-  },
-  {
-    "id": "226",
-    "source": "Fast Company",
-    "title": "AI行业热衷于Token通胀，但您的公司不应如此",
-    "link": "https://www.fastcompany.com/91517855/ai-industry-loves-token-inflation-your-company-shouldnt",
-    "summary": "AI行业过度依赖Token消耗来应对复杂性，即增加上下文、延长历史记录和增加模型调用。随着Agent系统的兴起，这种Token消耗的倾向更加明显，但企业应避免这种趋势。",
-    "published": "2026-03-31T08:30:00",
-    "fetched_at": "2026-03-31T14:31:52.119892",
-    "score": 85,
-    "judgement_reason": ""
-  },
-  {
-    "id": "83",
-    "source": "CNET",
-    "title": "纽森签署行政命令，要求AI公司提供安全和隐私护栏",
-    "link": "https://www.cnet.com/tech/newsom-signs-executive-order-requiring-ai-companies-to-provide-safety-privacy-guardrails/",
-    "summary": "加州州长签署行政命令，旨在防止AI技术的滥用，要求AI公司提供安全和隐私保障措施。",
-    "published": "Tue, 31 Mar 2026 02:22:00 +0000",
-    "fetched_at": "2026-03-31T14:31:48.473692",
-    "score": 85,
-    "judgement_reason": ""
-  },
-  {
-    "id": "102",
-    "source": "ScienceAlert",
-    "title": "新的阿尔茨海默病治疗策略在小鼠模型中逆转认知衰退",
-    "link": "https://www.sciencealert.com/new-alzheimers-treatment-strategy-reverses-cognitive-decline-in-mice",
-    "summary": "该治疗策略采用了与现有方法根本不同的方式来应对阿尔茨海默病，并在小鼠实验中显示出认知衰退逆转的效果。",
-    "published": "Tue, 31 Mar 2026 01:28:27 +0000",
-    "fetched_at": "2026-03-31T14:31:49.158196",
-    "score": 85,
-    "judgement_reason": ""
-  },
-  {
-    "id": "112",
-    "source": "Nature News",
-    "title": "作者勘误：薄膜La 3 Ni 2 O 7中环境压力下超导的特征",
-    "link": "https://www.nature.com/articles/s41586-026-10335-8",
-    "summary": "《自然》杂志发表的作者勘误，涉及环境压力下超导特征的研究。",
-    "published": "2026-03-31",
-    "fetched_at": "2026-03-31T14:31:50.063755",
-    "score": 92,
-    "judgement_reason": ""
-  },
-  {
-    "id": "113",
-    "source": "Nature News",
-    "title": "作者勘误：对470,727个英国生物样本库基因组拷贝数变异的表型组分析",
-    "link": "https://www.nature.com/articles/s41586-026-10389-8",
-    "summary": "《自然》杂志发表的作者勘误，涉及对470,727个UK Biobank基因组拷贝数变异的表型组分析研究。",
-    "published": "2026-03-31",
-    "fetched_at": "2026-03-31T14:31:50.063773",
-    "score": 88,
-    "judgement_reason": ""
-  },
-  {
-    "id": "95",
-    "source": "VentureBeat",
-    "title": "Midjourney工程师推出新的基于Vibe编码的开源标准Pretext，以革新网页设计",
-    "link": "https://venturebeat.com/technology/midjourney-engineer-debuts-new-vibe-coded-open-source-standard-pretext-to",
-    "summary": "Pretext是一个开源标准，旨在解决Web平台在渲染复杂、交互式和生成式界面时，因“布局重排”（layout reflow）操作带来的架构性张力和高昂成本问题。",
-    "published": "Mon, 30 Mar 2026 23:11:00 GMT",
-    "fetched_at": "2026-03-31T14:31:48.770082",
-    "score": 85,
     "judgement_reason": ""
   }
 ]
