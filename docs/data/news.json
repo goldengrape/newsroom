@@ -1,5 +1,60 @@
 [
   {
+    "id": "213",
+    "source": "The Lancet",
+    "title": "NOBLE试验10年随访结果：左主干冠状动脉疾病PCI与CABG疗效对比",
+    "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00205-9/fulltext?rss=yes",
+    "summary": "NOBLE试验10年随访数据显示，对于无复杂病变的左主干冠状动脉疾病，经皮冠状动脉介入治疗（PCI）与冠状动脉旁路移植术（CABG）在全因死亡率方面无显著差异。",
+    "published": "2026-04-04",
+    "fetched_at": "2026-04-03T14:17:43.037117",
+    "score": 88,
+    "judgement_reason": "NOBLE临床试验的10年长期随访数据，为冠状动脉左主干病变的治疗策略提供了确定的临床机制参考。"
+  },
+  {
+    "id": "154",
+    "source": "Fast Company",
+    "title": "美国海军重启退役激光武器以应对无人机威胁",
+    "link": "https://www.fastcompany.com/91520550/the-navy-brought-a-retired-laser-weapon-back-for-a-new-drone-fight",
+    "summary": "美国海军通过定向能系统集成实验室（DESIL）重启并测试高能激光武器系统，旨在提升对无人机目标的防御能力。",
+    "published": "2026-04-03T12:00:00",
+    "fetched_at": "2026-04-03T14:17:42.191669",
+    "score": 75,
+    "judgement_reason": "定向能武器系统的工程化复用与评估，涉及军事硬件供应链与技术验证机制。"
+  },
+  {
+    "id": "160",
+    "source": "Fast Company",
+    "title": "加州电池储能系统达到关键转折点",
+    "link": "https://www.fastcompany.com/91519839/california-just-hit-an-inflection-point-for-batteries",
+    "summary": "加州电网电池储能峰值功率达12.3GW，满足了约43%的电网需求，标志着大规模储能已成为电力基础设施的核心组成部分。",
+    "published": "2026-04-03T10:00:00",
+    "fetched_at": "2026-04-03T14:17:42.191716",
+    "score": 80,
+    "judgement_reason": "加州电网电池储能占比的结构性变化，反映了能源基础设施在应对高波动性需求时的技术演进。"
+  },
+  {
+    "id": "116",
+    "source": "The Next Web (TNW)",
+    "title": "Google发布Gemma 4系列模型，覆盖从手机到工作站的四种参数规模",
+    "link": "https://thenextweb.com/news/google-gemma-4-open-models-apache-2-launch",
+    "summary": "Google推出基于Gemini 3架构的Gemma 4系列模型，参数规模涵盖2B至31B，并采用Apache 2.0开源协议，以增强企业部署的灵活性与合规性。",
+    "published": "Thu, 02 Apr 2026 18:16:22 +0000",
+    "fetched_at": "2026-04-03T14:17:41.316556",
+    "score": 95,
+    "judgement_reason": "Google发布Gemma 4系列模型，采用Apache 2.0开源协议，涵盖从边缘设备到工作站的多种参数规模，具备显著的开源生态影响力。"
+  },
+  {
+    "id": "55",
+    "source": "Ars Technica",
+    "title": "新型Rowhammer攻击可完全控制运行Nvidia GPU的设备",
+    "link": "https://arstechnica.com/security/2026/04/new-rowhammer-attacks-give-complete-control-of-machines-running-nvidia-gpus/",
+    "summary": "GDDRHammer与GeForge攻击利用Rowhammer机制干扰Nvidia GPU内存，进而实现对CPU的完全控制，揭示了硬件架构的安全漏洞。",
+    "published": "Thu, 02 Apr 2026 17:00:11 +0000",
+    "fetched_at": "2026-04-03T14:17:38.617578",
+    "score": 82,
+    "judgement_reason": "针对Nvidia GPU内存的Rowhammer攻击机制，揭示了硬件层面的安全漏洞，具有极高的工程安全研究价值。"
+  },
+  {
     "id": "175",
     "source": "The Next Web (TNW)",
     "title": "Quanscient与Haiqu在IBM Heron R3上完成复杂量子流体模拟",
@@ -9,6 +64,28 @@
     "fetched_at": "2026-04-02T14:28:55.610928",
     "score": 88,
     "judgement_reason": "量子计算在工业流体动力学模拟中的算法突破。"
+  },
+  {
+    "id": "110",
+    "source": "Nature News",
+    "title": "新型芯片制造技术突破，助力应对AI算力需求激增",
+    "link": "https://www.nature.com/articles/d41586-026-01050-5",
+    "summary": "该技术通过高精度反射镜系统优化晶体管与电路微缩工艺，旨在解决AI算力增长带来的硬件制造瓶颈。",
+    "published": "2026-04-02",
+    "fetched_at": "2026-04-03T14:17:40.701108",
+    "score": 90,
+    "judgement_reason": "半导体制造工艺的底层技术突破，通过高精度反射镜技术提升晶体管微缩极限，直接响应AI算力需求。"
+  },
+  {
+    "id": "109",
+    "source": "Nature News",
+    "title": "抗病毒蛋白数据库构建，为分子工具开发提供新基础",
+    "link": "https://www.nature.com/articles/d41586-026-01011-y",
+    "summary": "研究人员通过挖掘细菌基因组构建了包含数千种抗病毒防御蛋白的数据库，为新型生物技术工具的研发提供了底层分子支持。",
+    "published": "2026-04-02",
+    "fetched_at": "2026-04-03T14:17:40.701100",
+    "score": 85,
+    "judgement_reason": "通过挖掘细菌基因组数据发现新型抗病毒防御蛋白，为生物技术领域提供了潜在的分子工具库。"
   },
   {
     "id": "141",
@@ -196,82 +273,5 @@
     "fetched_at": "2026-04-01T14:33:18.097860",
     "score": 70,
     "judgement_reason": "本地模型推理的硬件优化。"
-  },
-  {
-    "id": "59",
-    "source": "Ars Technica",
-    "title": "研究：破解关键加密算法所需的量子资源远低于预期",
-    "link": "https://arstechnica.com/security/2026/03/new-quantum-computing-advances-heighten-threat-to-elliptic-curve-cryptosystems/",
-    "summary": "最新研究表明，破解关键加密算法所需的量子计算资源远低于此前预期，这意味着量子威胁（Q Day）的工程实现门槛正在降低。",
-    "published": "Tue, 31 Mar 2026 18:25:33 +0000",
-    "fetched_at": "2026-04-01T14:33:18.097941",
-    "score": 90,
-    "judgement_reason": "量子计算对加密体系影响的机制性评估。"
-  },
-  {
-    "id": "119",
-    "source": "VentureBeat",
-    "title": "Anthropic因源映射文件配置失误，导致Claude Code源代码泄露",
-    "link": "https://venturebeat.com/technology/claude-codes-source-code-appears-to-have-leaked-heres-what-we-know",
-    "summary": "Anthropic因在发布版本中误包含JavaScript源映射文件（.map），导致其Claude Code代理工具的完整源代码泄露，暴露了其内部调试与代理执行逻辑。",
-    "published": "Tue, 31 Mar 2026 15:00:00 GMT",
-    "fetched_at": "2026-04-01T14:33:19.178534",
-    "score": 80,
-    "judgement_reason": "AI代理架构的意外泄露，具有极高的技术参考价值。"
-  },
-  {
-    "id": "92",
-    "source": "VentureBeat",
-    "title": "PromptQL实现Teams或Slack消息自动转化为AI智能体的安全上下文",
-    "link": "https://venturebeat.com/data/imagine-if-your-teams-or-slack-messages-automatically-turned-into-secure",
-    "summary": "传统协作工具（如Slack/Teams）在作为AI智能体可靠基础方面存在结构性缺陷。PromptQL旨在解决此问题，将工作消息转化为可供AI智能体安全使用的上下文。",
-    "published": "Tue, 31 Mar 2026 14:28:00 GMT",
-    "fetched_at": "2026-03-31T14:31:48.770045",
-    "score": 90,
-    "judgement_reason": ""
-  },
-  {
-    "id": "105",
-    "source": "MIT Tech Review",
-    "title": "转向AI模型定制是架构上的必然要求",
-    "link": "https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/",
-    "summary": "大型语言模型（LLM）的迭代带来的通用推理和编码能力提升已趋于平缓，但领域专业化智能仍存在显著的阶梯式改进。当模型与组织数据融合时，这种定制化改进尤为突出。",
-    "published": "Tue, 31 Mar 2026 14:12:50 +0000",
-    "fetched_at": "2026-03-31T14:31:49.261716",
-    "score": 95,
-    "judgement_reason": ""
-  },
-  {
-    "id": "136",
-    "source": "Mashable",
-    "title": "谷歌研究人员为比特币的加密技术设定了新的失效日期",
-    "link": "https://mashable.com/article/google-research-bitcoin-cryptography-broken",
-    "summary": "谷歌研究团队发现利用量子计算机破解比特币所用常见加密技术的新方法。",
-    "published": "Tue, 31 Mar 2026 13:23:01 +0000",
-    "fetched_at": "2026-03-31T14:31:51.859728",
-    "score": 85,
-    "judgement_reason": ""
-  },
-  {
-    "id": "50",
-    "source": "Engadget",
-    "title": "NVIDIA DLSS 4.5多帧生成技术现已可用，可提升帧率",
-    "link": "https://www.engadget.com/gaming/pc/nvidias-dlss-45-multi-frame-generation-tech-is-now-available-to-boost-your-hz-130035249.html?src=rss",
-    "summary": "NVIDIA发布了DLSS 4.5更新，包含动态多帧生成和6X多帧生成技术，旨在为RTX 50系列卡提供更流畅的光线追踪游戏体验，支持4K 240Hz或1080p/1440p下更高刷新率。",
-    "published": "Tue, 31 Mar 2026 13:00:35 +0000",
-    "fetched_at": "2026-03-31T14:31:48.364675",
-    "score": 85,
-    "judgement_reason": ""
-  },
-  {
-    "id": "232",
-    "source": "Business Insider",
-    "title": "Linx获得Wiz早期投资方领投的5000万美元，以解决AI时代的身份安全问题",
-    "link": "https://www.businessinsider.com/linx-lands-50-million-from-wizs-earliest-investors-2026-3",
-    "summary": "Linx Security完成了5000万美元的B轮融资，投资方包括Wiz的早期投资者，旨在解决AI时代下的身份安全挑战。",
-    "published": "2026-03-31T13:00:01Z",
-    "fetched_at": "2026-03-31T14:31:52.339816",
-    "score": 88,
-    "judgement_reason": ""
   }
 ]
