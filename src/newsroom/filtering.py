@@ -115,11 +115,14 @@ TRANSLATION_SCHEMA = {
     "additionalProperties": False,
 }
 
+RE_HTML_TAG = re.compile(r"<[^>]+>")
+RE_WHITESPACE = re.compile(r"\s+")
+
 
 def strip_html(text: str) -> str:
-    cleaned = re.sub(r"<[^>]+>", " ", text or "")
+    cleaned = RE_HTML_TAG.sub(" ", text or "")
     cleaned = html.unescape(cleaned)
-    return re.sub(r"\s+", " ", cleaned).strip()
+    return RE_WHITESPACE.sub(" ", cleaned).strip()
 
 
 def truncate_text(text: str, limit: int) -> str:
