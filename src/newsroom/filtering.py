@@ -126,6 +126,8 @@ def truncate_text(text: str, limit: int) -> str:
     text = (text or "").strip()
     if len(text) <= limit:
         return text
+    if limit <= 3:
+        return "." * limit
     return text[: limit - 3].rstrip() + "..."
 
 
