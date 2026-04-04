@@ -1,5 +1,27 @@
 [
   {
+    "id": "91",
+    "source": "The Next Web (TNW)",
+    "title": "英伟达对Marvell的20亿美元布局：构建硬件垄断壁垒",
+    "link": "https://thenextweb.com/news/nvidia-marvell-nvlink-fusion-ecosystem-lock-in",
+    "summary": "英伟达通过向Marvell注资并将其整合进NVLink Fusion生态，深度掌控定制AI加速器、硅光子及6G基础设施，确立了对超大规模数据中心硬件供应的垄断优势。",
+    "published": "Sat, 04 Apr 2026 13:14:58 +0000",
+    "fetched_at": "2026-04-04T14:11:54.647643",
+    "score": 95,
+    "judgement_reason": "涉及AI基础设施供应链的结构性整合与技术垄断机制。"
+  },
+  {
+    "id": "135",
+    "source": "Fast Company",
+    "title": "针刺测试：比亚迪电池安全标准引发西方车企焦虑",
+    "link": "https://www.fastcompany.com/91519302/byd-nail-test-why-this-54-billion-innovation-is-terrifying-western-auto-executives",
+    "summary": "比亚迪的针刺测试通过物理穿刺验证电池热失控抑制能力，已成为全球汽车制造商评估供应链安全的关键技术指标。",
+    "published": "2026-04-04T08:00:00",
+    "fetched_at": "2026-04-04T14:11:55.811402",
+    "score": 90,
+    "judgement_reason": "电池安全测试机制的行业标准演进与竞争格局。"
+  },
+  {
     "id": "213",
     "source": "The Lancet",
     "title": "NOBLE试验10年随访结果：左主干冠状动脉疾病PCI与CABG疗效对比",
@@ -9,6 +31,72 @@
     "fetched_at": "2026-04-03T14:17:43.037117",
     "score": 88,
     "judgement_reason": "NOBLE临床试验的10年长期随访数据，为冠状动脉左主干病变的治疗策略提供了确定的临床机制参考。"
+  },
+  {
+    "id": "79",
+    "source": "VentureBeat",
+    "title": "Karpathy提出演进式Markdown知识库架构，旨在替代RAG",
+    "link": "https://venturebeat.com/data/karpathy-shares-llm-knowledge-base-architecture-that-bypasses-rag-with-an",
+    "summary": "Andrej Karpathy提出一种由AI维护的动态Markdown库架构，旨在取代传统RAG模式，实现知识库的高效管理与实时更新。",
+    "published": "Fri, 03 Apr 2026 23:30:50 GMT",
+    "fetched_at": "2026-04-04T14:11:52.215630",
+    "score": 85,
+    "judgement_reason": "AI知识库架构的演进，绕过RAG的工程实践。"
+  },
+  {
+    "id": "80",
+    "source": "VentureBeat",
+    "title": "英伟达发布企业级AI代理平台，获Adobe等17家巨头采用",
+    "link": "https://venturebeat.com/technology/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among",
+    "summary": "英伟达推出Agent Toolkit开源平台，通过标准化接口推动自主AI代理在企业端的部署，进一步强化其在AI软件栈的控制力。",
+    "published": "Fri, 03 Apr 2026 23:25:01 GMT",
+    "fetched_at": "2026-04-04T14:11:52.215639",
+    "score": 70,
+    "judgement_reason": "AI代理平台化与生态构建的战略变迁。"
+  },
+  {
+    "id": "85",
+    "source": "ScienceAlert",
+    "title": "新型传感器技术：通过呼气检测肺炎",
+    "link": "https://www.sciencealert.com/this-new-sensor-could-sniff-out-pneumonia-on-a-persons-breath",
+    "summary": "新型传感器通过分析人体呼出气体中的生物标志物，实现对肺炎的非侵入式快速检测，具备临床诊断的突破性潜力。",
+    "published": "Fri, 03 Apr 2026 21:00:44 +0000",
+    "fetched_at": "2026-04-04T14:11:52.660624",
+    "score": 75,
+    "judgement_reason": "临床诊断机制的创新，利用呼气传感器进行病原体检测。"
+  },
+  {
+    "id": "92",
+    "source": "The Next Web (TNW)",
+    "title": "太空数据中心：SpaceX与蓝色起源探索算力能源新路径",
+    "link": "https://thenextweb.com/news/musk-wants-a-million-data-centre-satellites-bezos-wants-51600-scientists-want-to-know-why",
+    "summary": "为应对地面电网供电瓶颈，SpaceX与蓝色起源探索将数据中心部署至近地轨道，利用空间能源解决AI算力扩张的电力需求。",
+    "published": "Fri, 03 Apr 2026 19:30:59 +0000",
+    "fetched_at": "2026-04-04T14:11:54.647648",
+    "score": 65,
+    "judgement_reason": "数据中心能源供应的宏观架构调整。"
+  },
+  {
+    "id": "144",
+    "source": "Fast Company",
+    "title": "最新研究：微塑料健康风险或被高估",
+    "link": "https://www.fastcompany.com/91521370/microplastics-health-risks-may-be-overestimated-new-research-from-university-of-michigan-plastics",
+    "summary": "密歇根大学研究指出，既往微塑料健康风险研究存在实验器材污染偏差，提示需重新评估微塑料的实际生物毒性。",
+    "published": "2026-04-03T18:00:00",
+    "fetched_at": "2026-04-04T14:11:55.811447",
+    "score": 60,
+    "judgement_reason": "科学研究方法论的修正，涉及微塑料健康风险评估。"
+  },
+  {
+    "id": "97",
+    "source": "The Next Web (TNW)",
+    "title": "腾讯基于开源框架OpenClaw构建企业级AI代理平台",
+    "link": "https://thenextweb.com/news/tencent-clawpro-openclaw-enterprise-ai-agents",
+    "summary": "腾讯推出基于开源框架OpenClaw的ClawPro平台，标志着该开源技术已成功从社区原型转化为工业级AI代理部署的核心组件。",
+    "published": "Fri, 03 Apr 2026 14:25:13 +0000",
+    "fetched_at": "2026-04-04T14:11:54.647675",
+    "score": 80,
+    "judgement_reason": "开源框架在企业级AI代理管理中的应用与扩散。"
   },
   {
     "id": "154",
@@ -185,93 +273,5 @@
     "fetched_at": "2026-04-02T14:28:55.257636",
     "score": 92,
     "judgement_reason": "揭示了扭转双层WSe2中超导相图的演化机制。"
-  },
-  {
-    "id": "147",
-    "source": "Nature News",
-    "title": "化学计量比FeTe的超导性证实",
-    "link": "https://www.nature.com/articles/s41586-026-10321-0",
-    "summary": "通过分子束外延生长及碲通量退火，证实化学计量比FeTe本质上为超导体，修正了其作为反铁磁金属的传统认知。",
-    "published": "2026-04-01",
-    "fetched_at": "2026-04-02T14:28:55.257614",
-    "score": 90,
-    "judgement_reason": "对FeTe超导本质的机制性修正。"
-  },
-  {
-    "id": "136",
-    "source": "Nature News",
-    "title": "单细胞四组学测序解析基因调控图谱",
-    "link": "https://www.nature.com/articles/s41586-026-10322-z",
-    "summary": "通过整合基因组构象、组蛋白修饰、染色质可及性与基因表达的并行分析，揭示了表观遗传谱的空间聚类与调控动态。",
-    "published": "2026-04-01",
-    "fetched_at": "2026-04-02T14:28:55.257528",
-    "score": 85,
-    "judgement_reason": "单细胞多组学技术在基因调控机制解析中的应用。"
-  },
-  {
-    "id": "135",
-    "source": "Nature News",
-    "title": "千人泛基因组助力医学与群体遗传学研究",
-    "link": "https://www.nature.com/articles/s41586-026-10315-y",
-    "summary": "基于泛基因组信息基因组组装（PIGA）工作流，生成了1,116个二倍体基因组组装，提供了大规模医学相关基因变异资源。",
-    "published": "2026-04-01",
-    "fetched_at": "2026-04-02T14:28:55.257520",
-    "score": 82,
-    "judgement_reason": "泛基因组学在医学遗传学中的资源构建。"
-  },
-  {
-    "id": "159",
-    "source": "Nature News",
-    "title": "羟基诱导氧化钴催化合成气制轻质烯烃",
-    "link": "https://www.nature.com/articles/s41586-026-10204-4",
-    "summary": "通过引入羟基促进剂与氧化钴混合，在费托合成中实现了从合成气到轻质烯烃的高效转化，提升了催化性能。",
-    "published": "2026-04-01",
-    "fetched_at": "2026-04-02T14:28:55.257680",
-    "score": 80,
-    "judgement_reason": "费托合成催化剂性能的机制性提升。"
-  },
-  {
-    "id": "134",
-    "source": "Nature News",
-    "title": "阿秒分子光电离中的纠缠与电子相干性",
-    "link": "https://www.nature.com/articles/s41586-026-10230-2",
-    "summary": "通过相位锁定阿秒激光对与近红外激光，揭示了离子-光电子纠缠对H2+分子电子相干性的影响，实现了对解离电离过程的控制。",
-    "published": "2026-04-01",
-    "fetched_at": "2026-04-02T14:28:55.257511",
-    "score": 78,
-    "judgement_reason": "阿秒物理中分子光电离的相干性控制。"
-  },
-  {
-    "id": "149",
-    "source": "Nature News",
-    "title": "纳米转移印刷全彩超高分辨率量子点LED",
-    "link": "https://www.nature.com/articles/s41586-026-10333-w",
-    "summary": "采用硬硅模板纳米压印与倒置转移印刷结合的双重力学策略，实现了全彩超高分辨率量子点LED的制造。",
-    "published": "2026-04-01",
-    "fetched_at": "2026-04-02T14:28:55.257631",
-    "score": 72,
-    "judgement_reason": "量子点LED制造工艺的结构性改进。"
-  },
-  {
-    "id": "130",
-    "source": "Nature News",
-    "title": "科研新突破：利用废旧弹药铅材料制造钙钛矿太阳能电池",
-    "link": "https://www.nature.com/articles/d41586-026-01001-0",
-    "summary": "研究发现可从废旧弹药中回收铅，并将其转化为钙钛矿太阳能电池的原材料，实现了军事废弃物向光伏能源材料的转化。",
-    "published": "2026-04-01",
-    "fetched_at": "2026-04-01T14:33:20.440928",
-    "score": 70,
-    "judgement_reason": "材料科学的循环利用机制。"
-  },
-  {
-    "id": "52",
-    "source": "Ars Technica",
-    "title": "Ollama集成MLX框架，显著提升Mac本地模型推理性能",
-    "link": "https://arstechnica.com/apple/2026/03/running-local-models-on-macs-gets-faster-with-ollamas-mlx-support/",
-    "summary": "Ollama通过集成MLX框架，优化了Apple Silicon芯片的统一内存调用，显著提升了本地大模型的推理性能。",
-    "published": "Tue, 31 Mar 2026 23:00:23 +0000",
-    "fetched_at": "2026-04-01T14:33:18.097860",
-    "score": 70,
-    "judgement_reason": "本地模型推理的硬件优化。"
   }
 ]
