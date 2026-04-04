@@ -1,3 +1,4 @@
+import json
 from unittest.mock import patch
 
 from newsroom import feedback_learning
@@ -27,6 +28,27 @@ def test_extract_profile_markdown_splits_diagnosis_and_markdown():
     )
     assert "tightened" in diagnosis
     assert markdown == "# Updated Profile"
+
+
+def test_build_learning_prompt_contains_data():
+    current_profile = "# Current Profile"
+    feedback_items = [{"date": "2026-03-14", "title": "Test Title", "result": "like"}]
+    prompt = feedback_learning.build_learning_prompt(current_profile, feedback_items)
+
+    assert current_profile in prompt
+    assert json.dumps(feedback_items, ensure_ascii=False, indent=2) in prompt
+    assert "# Role: Advanced algorithm tuning expert" in prompt
+
+
+def test_build_learning_prompt_handles_special_characters():
+    current_profile = "# 🚀 Profile with emoji"
+    feedback_items = [
+        {"date": "2026-03-14", "title": "标题 containing ⚡", "result": "dislike"}
+    ]
+    prompt = feedback_learning.build_learning_prompt(current_profile, feedback_items)
+
+    assert current_profile in prompt
+    assert "标题 containing ⚡" in prompt
 
 
 def test_main_writes_updated_profile_and_report(tmp_path, monkeypatch):
