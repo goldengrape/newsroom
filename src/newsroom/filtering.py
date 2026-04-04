@@ -852,7 +852,9 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def parse_date(date_str: str) -> datetime.datetime:
+def parse_date(
+    date_str: str, now: datetime.datetime | None = None
+) -> datetime.datetime:
     try:
         dt = email.utils.parsedate_to_datetime(date_str)
         if dt.tzinfo is None:
@@ -866,14 +868,19 @@ def parse_date(date_str: str) -> datetime.datetime:
             return dt
         except (ValueError, TypeError):
             # Fallback to current time if unparseable
+            if now is not None:
+                return now
             return datetime.datetime.now(datetime.timezone.utc)
 
 
-def is_within_days(date_str: str, days: int = 7) -> bool:
+def is_within_days(
+    date_str: str, days: int = 7, now: datetime.datetime | None = None
+) -> bool:
     if not date_str:
         return False
-    dt = parse_date(date_str)
-    now = datetime.datetime.now(datetime.timezone.utc)
+    dt = parse_date(date_str, now=now)
+    if now is None:
+        now = datetime.datetime.now(datetime.timezone.utc)
     if dt.tzinfo is None:
         dt = dt.replace(tzinfo=datetime.timezone.utc)
     return (now - dt).days <= days
@@ -882,9 +889,13 @@ def is_within_days(date_str: str, days: int = 7) -> bool:
 def merge_and_truncate_news(
     existing_items: list[dict], new_items: list[dict], max_items: int
 ) -> list[dict]:
+    now = datetime.datetime.now(datetime.timezone.utc)
+
     # Filter out items older than 7 days from the existing ones
     valid_existing = [
-        item for item in existing_items if is_within_days(item.get("published", ""), 7)
+        item
+        for item in existing_items
+        if is_within_days(item.get("published", ""), 7, now=now)
     ]
 
     # We want to dedup and merge them. The new items take precedence if there's a duplicate link.
@@ -899,7 +910,9 @@ def merge_and_truncate_news(
             new_items.append(item)
 
     # Sort by published date descending
-    new_items.sort(key=lambda x: parse_date(x.get("published", "")), reverse=True)
+    new_items.sort(
+        key=lambda x: parse_date(x.get("published", ""), now=now), reverse=True
+    )
 
     # Truncate to max_items
     return new_items[:max_items]
