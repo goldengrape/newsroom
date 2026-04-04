@@ -421,6 +421,32 @@ class GeminiNewsFilter:
             "total_cost_usd": input_cost + output_cost,
         }
 
+    @staticmethod
+    def _print_metrics(
+        label: str,
+        items_in: int,
+        items_out: int,
+        metrics: dict[str, Any],
+        in_label: str = "items",
+        out_label: str = "kept",
+    ) -> None:
+        prompt_tokens = metrics.get("prompt_tokens_actual")
+        completion_tokens = metrics.get("completion_tokens_actual")
+        elapsed = metrics.get("elapsed_seconds", 0.0)
+        total_cost = metrics.get("total_cost_usd")
+
+        base_msg = (
+            f"[{label}] {in_label}={items_in} {out_label}={items_out} "
+            f"input={prompt_tokens if prompt_tokens is not None else 'n/a'} "
+            f"output={completion_tokens if completion_tokens is not None else 'n/a'} "
+            f"elapsed={elapsed:.2f}s"
+        )
+
+        if total_cost is not None:
+            print(f"{base_msg} cost~=USD{total_cost:.6f}")
+        else:
+            print(base_msg)
+
     def _request_json(
         self,
         prompt: str,
@@ -500,18 +526,7 @@ class GeminiNewsFilter:
         keep_count = len(results)
         metrics["items_in_batch"] = len(batch)
         metrics["kept_in_batch"] = keep_count
-        print(
-            f"[title {batch_label}] items={len(batch)} kept={keep_count} "
-            f"input={metrics['prompt_tokens_actual'] if metrics['prompt_tokens_actual'] is not None else 'n/a'} "
-            f"output={metrics['completion_tokens_actual'] if metrics['completion_tokens_actual'] is not None else 'n/a'} "
-            f"elapsed={metrics['elapsed_seconds']:.2f}s "
-            f"cost~=USD{metrics['total_cost_usd']:.6f}"
-            if metrics["total_cost_usd"] is not None
-            else f"[title {batch_label}] items={len(batch)} kept={keep_count} "
-            f"input={metrics['prompt_tokens_actual'] if metrics['prompt_tokens_actual'] is not None else 'n/a'} "
-            f"output={metrics['completion_tokens_actual'] if metrics['completion_tokens_actual'] is not None else 'n/a'} "
-            f"elapsed={metrics['elapsed_seconds']:.2f}s"
-        )
+        self._print_metrics(f"title {batch_label}", len(batch), keep_count, metrics)
         return results, [metrics]
 
     def _translate_final_items(
@@ -536,17 +551,12 @@ class GeminiNewsFilter:
         translated = payload.get("selected", []) if isinstance(payload, dict) else []
         metrics["items_in_batch"] = len(final_items)
         metrics["kept_in_batch"] = len(translated)
-        print(
-            f"[translation] items={len(final_items)} translated={len(translated)} "
-            f"input={metrics['prompt_tokens_actual'] if metrics['prompt_tokens_actual'] is not None else 'n/a'} "
-            f"output={metrics['completion_tokens_actual'] if metrics['completion_tokens_actual'] is not None else 'n/a'} "
-            f"elapsed={metrics['elapsed_seconds']:.2f}s "
-            f"cost~=USD{metrics['total_cost_usd']:.6f}"
-            if metrics["total_cost_usd"] is not None
-            else f"[translation] items={len(final_items)} translated={len(translated)} "
-            f"input={metrics['prompt_tokens_actual'] if metrics['prompt_tokens_actual'] is not None else 'n/a'} "
-            f"output={metrics['completion_tokens_actual'] if metrics['completion_tokens_actual'] is not None else 'n/a'} "
-            f"elapsed={metrics['elapsed_seconds']:.2f}s"
+        self._print_metrics(
+            "translation",
+            len(final_items),
+            len(translated),
+            metrics,
+            out_label="translated",
         )
         translated_by_id = {
             str(item.get("id", "")): item
@@ -654,17 +664,13 @@ class GeminiNewsFilter:
         ranking_metrics["items_in_batch"] = len(ranked_pool)
         ranking_metrics["kept_in_batch"] = len(selected)
         request_stats.append(ranking_metrics)
-        print(
-            f"[ranking] candidates={len(ranked_pool)} selected={len(selected)} "
-            f"input={ranking_metrics['prompt_tokens_actual'] if ranking_metrics['prompt_tokens_actual'] is not None else 'n/a'} "
-            f"output={ranking_metrics['completion_tokens_actual'] if ranking_metrics['completion_tokens_actual'] is not None else 'n/a'} "
-            f"elapsed={ranking_metrics['elapsed_seconds']:.2f}s "
-            f"cost~=USD{ranking_metrics['total_cost_usd']:.6f}"
-            if ranking_metrics["total_cost_usd"] is not None
-            else f"[ranking] candidates={len(ranked_pool)} selected={len(selected)} "
-            f"input={ranking_metrics['prompt_tokens_actual'] if ranking_metrics['prompt_tokens_actual'] is not None else 'n/a'} "
-            f"output={ranking_metrics['completion_tokens_actual'] if ranking_metrics['completion_tokens_actual'] is not None else 'n/a'} "
-            f"elapsed={ranking_metrics['elapsed_seconds']:.2f}s"
+        self._print_metrics(
+            "ranking",
+            len(ranked_pool),
+            len(selected),
+            ranking_metrics,
+            in_label="candidates",
+            out_label="selected",
         )
 
         ranked = self._merge_ranked_candidates(ranked_pool, selected, max_items)
