@@ -1,5 +1,60 @@
 [
   {
+    "id": "1",
+    "source": "TechCrunch",
+    "title": "日本加速部署物理AI机器人以缓解劳动力短缺",
+    "link": "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/",
+    "summary": "日本正将物理AI机器人从试点转向工业化部署，旨在填补劳动力市场缺口。",
+    "published": "Sun, 05 Apr 2026 14:00:00 +0000",
+    "fetched_at": "2026-04-05T14:12:32.309141",
+    "score": 70,
+    "judgement_reason": "物理AI在劳动力短缺背景下的工业部署，属于宏观供应结构的演进。"
+  },
+  {
+    "id": "47",
+    "source": "The Next Web (TNW)",
+    "title": "LinkedIn被曝秘密扫描用户浏览器扩展及设备指纹",
+    "link": "https://thenextweb.com/news/linkedin-browsergate-extension-scanning-privacy-fingerprint",
+    "summary": "LinkedIn通过隐藏脚本扫描用户浏览器扩展并采集软硬件特征，用于设备指纹识别及追踪。",
+    "published": "Sun, 05 Apr 2026 11:35:47 +0000",
+    "fetched_at": "2026-04-05T14:12:36.086598",
+    "score": 75,
+    "judgement_reason": "涉及浏览器指纹采集与API请求注入的底层隐私机制分析。"
+  },
+  {
+    "id": "51",
+    "source": "The Next Web (TNW)",
+    "title": "Meta因供应链安全漏洞暂停AI数据合作",
+    "link": "https://thenextweb.com/news/meta-mercor-breach-ai-training-secrets-risk",
+    "summary": "Meta因供应链攻击导致核心训练方法论泄露，暂停与Mercor合作，凸显AI供应链安全风险。",
+    "published": "Sat, 04 Apr 2026 18:31:09 +0000",
+    "fetched_at": "2026-04-05T14:12:36.086667",
+    "score": 85,
+    "judgement_reason": "涉及AI训练方法论的供应链安全泄露，属于核心技术资产保护的结构性风险。"
+  },
+  {
+    "id": "40",
+    "source": "VentureBeat",
+    "title": "OCSF：安全行业统一数据语言标准",
+    "link": "https://venturebeat.com/security/ocsf-explained-the-shared-data-language-security-teams-have-been-missing",
+    "summary": "OCSF（开放网络安全模式框架）作为统一数据描述标准，旨在解决异构安全工具间的数据互操作性难题。",
+    "published": "Sat, 04 Apr 2026 18:06:19 GMT",
+    "fetched_at": "2026-04-05T14:12:33.436356",
+    "score": 90,
+    "judgement_reason": "OCSF作为安全数据标准化协议，属于底层架构演进，对提升跨平台安全数据互操作性具有结构性意义。"
+  },
+  {
+    "id": "53",
+    "source": "The Next Web (TNW)",
+    "title": "Keeper Security发布KeeperDB，强化数据库零信任访问",
+    "link": "https://thenextweb.com/news/keeperdb-zero-trust-database-access",
+    "summary": "Keeper Security推出KeeperDB，通过零信任架构管理数据库凭证，消除硬编码连接字符串及凭证共享风险。",
+    "published": "Sat, 04 Apr 2026 14:15:31 +0000",
+    "fetched_at": "2026-04-05T14:12:36.086685",
+    "score": 80,
+    "judgement_reason": "KeeperDB引入零信任数据库访问机制，属于企业级安全架构的底层优化。"
+  },
+  {
     "id": "91",
     "source": "The Next Web (TNW)",
     "title": "英伟达对Marvell的20亿美元布局：构建硬件垄断壁垒",
@@ -218,60 +273,5 @@
     "fetched_at": "2026-04-02T14:28:57.473883",
     "score": 75,
     "judgement_reason": "CRISPR-Cas12a在镰状细胞病基因治疗中的临床应用。"
-  },
-  {
-    "id": "114",
-    "source": "VentureBeat",
-    "title": "HTTP客户端库axios遭恶意代码植入，开源供应链安全受威胁",
-    "link": "https://venturebeat.com/security/axios-npm-supply-chain-attack-rat-maintainer-token-2026",
-    "summary": "HTTP客户端库axios的维护者访问令牌被窃，导致恶意代码被植入该库，影响macOS、Windows及Linux平台，凸显了开源软件供应链的脆弱性。",
-    "published": "Wed, 01 Apr 2026 02:30:00 GMT",
-    "fetched_at": "2026-04-01T14:33:19.178476",
-    "score": 85,
-    "judgement_reason": "开源供应链安全漏洞，影响广泛的底层依赖。"
-  },
-  {
-    "id": "115",
-    "source": "VentureBeat",
-    "title": "Meta推出结构化提示技术，代码审查准确率提升至93%",
-    "link": "https://venturebeat.com/orchestration/metas-new-structured-prompting-technique-makes-llms-significantly-better-at",
-    "summary": "Meta开发出一种结构化提示技术，通过优化AI代理在代码审查、漏洞检测及补丁验证中的执行逻辑，将准确率提升至93%，并降低了对动态执行沙箱的依赖。",
-    "published": "Wed, 01 Apr 2026 02:13:00 GMT",
-    "fetched_at": "2026-04-01T14:33:19.178487",
-    "score": 95,
-    "judgement_reason": "涉及LLM代码审查的结构化提示工程，直接提升工程效率。"
-  },
-  {
-    "id": "40",
-    "source": "Wired",
-    "title": "百度Apollo Go在武汉发生系统性故障，导致车辆高速滞留",
-    "link": "https://www.wired.com/story/robotaxi-outage-in-china-leaves-passengers-stuck-in-cars-on-highways/",
-    "summary": "百度Apollo Go在武汉发生大规模系统性冻结，导致车辆在高速公路停滞，暴露了自动驾驶车队在复杂城市环境下的远程调度与容错机制缺陷。",
-    "published": "Wed, 01 Apr 2026 01:24:55 +0000",
-    "fetched_at": "2026-04-01T14:33:17.896151",
-    "score": 65,
-    "judgement_reason": "自动驾驶系统性故障分析。"
-  },
-  {
-    "id": "140",
-    "source": "Nature News",
-    "title": "库珀对密度调制态的莫尔工程",
-    "link": "https://www.nature.com/articles/s41586-026-10325-w",
-    "summary": "研究人员在Sb2Te3/FeTe双层结构中构建莫尔超晶格，利用约瑟夫森扫描隧道显微镜实现了对超导能隙的空间调制与电子态调控。",
-    "published": "2026-04-01",
-    "fetched_at": "2026-04-02T14:28:55.257560",
-    "score": 95,
-    "judgement_reason": "涉及莫尔超晶格与超导态调控的底层物理机制突破。"
-  },
-  {
-    "id": "150",
-    "source": "Nature News",
-    "title": "扭转双层WSe2超导相图的角演化",
-    "link": "https://www.nature.com/articles/s41586-026-10357-2",
-    "summary": "扭转双层WSe2的超导性随扭转角平滑演化，并在费米面重构附近涌现，证实了其关联电子起源。",
-    "published": "2026-04-01",
-    "fetched_at": "2026-04-02T14:28:55.257636",
-    "score": 92,
-    "judgement_reason": "揭示了扭转双层WSe2中超导相图的演化机制。"
   }
 ]
