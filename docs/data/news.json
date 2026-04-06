@@ -1,5 +1,82 @@
 [
   {
+    "id": "54",
+    "source": "The Next Web (TNW)",
+    "title": "IBM与Arm合作推动大型机架构兼容性",
+    "link": "https://thenextweb.com/news/ibm-arm-mainframe-ai-software",
+    "summary": "IBM与Arm达成合作，通过虚拟化技术使Arm架构软件能在IBM Z及LinuxONE大型机上运行，解决企业级核心平台的兼容性问题。",
+    "published": "Mon, 06 Apr 2026 12:57:14 +0000",
+    "fetched_at": "2026-04-06T14:21:33.986581",
+    "score": 90,
+    "judgement_reason": "IBM与Arm的合作实现了大型机架构与Arm生态的底层兼容，具有显著的计算架构整合意义。"
+  },
+  {
+    "id": "79",
+    "source": "Fast Company",
+    "title": "AI技术加速新型抗生素研发",
+    "link": "https://www.fastcompany.com/91520978/ai-is-coming-for-superbugs",
+    "summary": "AI技术被应用于筛选新型抗生素分子，通过算法加速药物发现的工程化进程，以应对全球抗生素耐药性危机。",
+    "published": "2026-04-06T12:22:00",
+    "fetched_at": "2026-04-06T14:21:34.874960",
+    "score": 75,
+    "judgement_reason": "AI在抗生素耐药性领域的应用属于硬核医疗机制突破。"
+  },
+  {
+    "id": "85",
+    "source": "Fast Company",
+    "title": "大型赛事成为无人机防御技术实战测试场",
+    "link": "https://www.fastcompany.com/91521314/the-world-cup-could-be-a-breakout-moment-for-drone-defense-tech",
+    "summary": "美国政府利用大型赛事验证无人机拦截系统在复杂环境下的工程效能，以推动防御供应链的迭代升级。",
+    "published": "2026-04-06T11:00:00",
+    "fetched_at": "2026-04-06T14:21:34.875002",
+    "score": 85,
+    "judgement_reason": "涉及无人机防御系统的技术部署与供应链验证，属于关键基础设施安全领域。"
+  },
+  {
+    "id": "19",
+    "source": "Wired",
+    "title": "英特尔押注先进封装技术以提升AI算力",
+    "link": "https://www.wired.com/story/why-chip-packaging-could-decide-the-next-phase-of-the-ai-boom/",
+    "summary": "英特尔正通过先进封装技术强化AI芯片竞争力，将其作为提升算力密度的核心工程路径。",
+    "published": "Mon, 06 Apr 2026 09:00:00 +0000",
+    "fetched_at": "2026-04-06T14:21:30.480500",
+    "score": 95,
+    "judgement_reason": "涉及半导体先进制程封装的结构性演进，直接影响AI算力供应。"
+  },
+  {
+    "id": "20",
+    "source": "Engadget",
+    "title": "Artemis II飞船抵达月球引力范围",
+    "link": "https://www.engadget.com/science/space/artemis-ii-arrives-in-lunar-space-ahead-of-its-trip-around-the-moon-211919381.html?src=rss",
+    "summary": "Artemis II载人飞船已进入月球引力范围，旨在验证深空导航与生命支持系统的工程可靠性。",
+    "published": "Mon, 06 Apr 2026 05:56:10 +0000",
+    "fetched_at": "2026-04-06T14:21:31.534713",
+    "score": 70,
+    "judgement_reason": "Artemis II任务涉及深空探测的轨道力学与航天工程验证。"
+  },
+  {
+    "id": "39",
+    "source": "VentureBeat",
+    "title": "企业数据安全：将保护机制嵌入工作流",
+    "link": "https://venturebeat.com/security/closing-the-data-security-maturity-gap-embedding-protection-into-enterprise",
+    "summary": "企业数据安全存在成熟度缺口，核心在于缺乏将安全机制嵌入工作流的系统性架构，导致影子数据风险增加。",
+    "published": "Mon, 06 Apr 2026 04:00:00 GMT",
+    "fetched_at": "2026-04-06T14:21:32.049588",
+    "score": 65,
+    "judgement_reason": "涉及企业数据安全架构的成熟度模型，属于系统性安全工程。"
+  },
+  {
+    "id": "45",
+    "source": "ScienceAlert",
+    "title": "肠道特定蛋白质具备中和细菌活性",
+    "link": "https://www.sciencealert.com/a-special-protein-in-your-gut-has-the-power-to-neutralize-bacteria",
+    "summary": "研究发现肠道内存在具有中和细菌活性的特定蛋白质，为开发新型抗菌疗法提供了生物学机制依据。",
+    "published": "Sun, 05 Apr 2026 19:00:11 +0000",
+    "fetched_at": "2026-04-06T14:21:32.461913",
+    "score": 80,
+    "judgement_reason": "涉及肠道微生物蛋白的生物机制发现，具有潜在的抗菌药物开发价值。"
+  },
+  {
     "id": "1",
     "source": "TechCrunch",
     "title": "日本加速部署物理AI机器人以缓解劳动力短缺",
@@ -196,82 +273,5 @@
     "fetched_at": "2026-04-03T14:17:38.617578",
     "score": 82,
     "judgement_reason": "针对Nvidia GPU内存的Rowhammer攻击机制，揭示了硬件层面的安全漏洞，具有极高的工程安全研究价值。"
-  },
-  {
-    "id": "175",
-    "source": "The Next Web (TNW)",
-    "title": "Quanscient与Haiqu在IBM Heron R3上完成复杂量子流体模拟",
-    "link": "https://thenextweb.com/news/quanscient-haiqu-quantum-cfd-simulation",
-    "summary": "利用IBM Heron R3量子硬件运行非线性流体模拟，通过算法优化降低了量子比特需求与电路深度，提升了工业计算可行性。",
-    "published": "Thu, 02 Apr 2026 13:28:20 +0000",
-    "fetched_at": "2026-04-02T14:28:55.610928",
-    "score": 88,
-    "judgement_reason": "量子计算在工业流体动力学模拟中的算法突破。"
-  },
-  {
-    "id": "110",
-    "source": "Nature News",
-    "title": "新型芯片制造技术突破，助力应对AI算力需求激增",
-    "link": "https://www.nature.com/articles/d41586-026-01050-5",
-    "summary": "该技术通过高精度反射镜系统优化晶体管与电路微缩工艺，旨在解决AI算力增长带来的硬件制造瓶颈。",
-    "published": "2026-04-02",
-    "fetched_at": "2026-04-03T14:17:40.701108",
-    "score": 90,
-    "judgement_reason": "半导体制造工艺的底层技术突破，通过高精度反射镜技术提升晶体管微缩极限，直接响应AI算力需求。"
-  },
-  {
-    "id": "109",
-    "source": "Nature News",
-    "title": "抗病毒蛋白数据库构建，为分子工具开发提供新基础",
-    "link": "https://www.nature.com/articles/d41586-026-01011-y",
-    "summary": "研究人员通过挖掘细菌基因组构建了包含数千种抗病毒防御蛋白的数据库，为新型生物技术工具的研发提供了底层分子支持。",
-    "published": "2026-04-02",
-    "fetched_at": "2026-04-03T14:17:40.701100",
-    "score": 85,
-    "judgement_reason": "通过挖掘细菌基因组数据发现新型抗病毒防御蛋白，为生物技术领域提供了潜在的分子工具库。"
-  },
-  {
-    "id": "141",
-    "source": "The Next Web (TNW)",
-    "title": "晶圆代工厂Nexchip赴港上市，拟融资支持50亿美元晶圆厂建设",
-    "link": "https://thenextweb.com/news/nexchip-hong-kong-listing-chip-foundry-expansion",
-    "summary": "中国晶圆代工厂Nexchip在香港上市，旨在通过资本市场融资支持其50亿美元晶圆厂建设，以强化在美方出口管制下的本土半导体供应链韧性。",
-    "published": "Wed, 01 Apr 2026 13:26:37 +0000",
-    "fetched_at": "2026-04-01T14:33:20.792686",
-    "score": 85,
-    "judgement_reason": "半导体供应链的结构性扩张与地缘技术布局。"
-  },
-  {
-    "id": "142",
-    "source": "The Next Web (TNW)",
-    "title": "Corti推出Symphony AI，医疗编码性能超越通用大模型",
-    "link": "https://thenextweb.com/news/corti-symphony-medical-coding-ai",
-    "summary": "Corti推出的Symphony AI模型将医疗编码视为推理任务而非简单的标签分类，在临床笔记处理效率上超越了现有通用大模型。",
-    "published": "Wed, 01 Apr 2026 10:00:25 +0000",
-    "fetched_at": "2026-04-01T14:33:20.792697",
-    "score": 75,
-    "judgement_reason": "医疗编码领域的推理模型突破。"
-  },
-  {
-    "id": "217",
-    "source": "Fast Company",
-    "title": "AI驱动回声定位技术，助力小型无人机实现夜视导航",
-    "link": "https://www.fastcompany.com/91518552/how-ai-powered-echolocation-is-giving-small-drones-night-vision",
-    "summary": "研究人员开发出一种基于超声波的回声定位感知系统，模拟蝙蝠导航机制，为小型无人机在无光或低能见度环境下提供替代激光雷达与摄像头的导航方案。",
-    "published": "2026-04-01T10:00:00",
-    "fetched_at": "2026-04-01T14:33:22.163652",
-    "score": 80,
-    "judgement_reason": "新型感知机制，解决无人机在低能见度环境下的导航难题。"
-  },
-  {
-    "id": "267",
-    "source": "The New England Journal of Medicine (NEJM)",
-    "title": "CRISPR-Cas12a编辑HBG1/HBG2启动子治疗镰状细胞病",
-    "link": "https://www.nejm.org/doi/full/10.1056/NEJMoa2415550?af=R&rss=currentIssue",
-    "summary": "通过CRISPR-Cas12a编辑HBG1和HBG2启动子诱导胎儿血红蛋白表达，为镰状细胞病提供了新型基因治疗方案。",
-    "published": "2026-04-01T09:00:03Z",
-    "fetched_at": "2026-04-02T14:28:57.473883",
-    "score": 75,
-    "judgement_reason": "CRISPR-Cas12a在镰状细胞病基因治疗中的临床应用。"
   }
 ]
