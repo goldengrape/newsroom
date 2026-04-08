@@ -1,5 +1,104 @@
 [
   {
+    "id": "147",
+    "source": "VentureBeat",
+    "title": "Amazon S3 Files为AI代理提供原生文件系统工作空间",
+    "link": "https://venturebeat.com/data/amazon-s3-files-gives-ai-agents-a-native-file-system-workspace-ending-the",
+    "summary": "Amazon S3 Files引入原生文件系统工作空间，消除了对象存储与文件路径间的API隔阂，为AI代理提供标准化的数据访问接口。",
+    "published": "Tue, 07 Apr 2026 21:36:00 GMT",
+    "fetched_at": "2026-04-08T14:35:22.428724",
+    "score": 90,
+    "judgement_reason": "Amazon S3 Files解决了AI代理在对象存储与文件系统间的架构割裂问题，优化了多代理流水线的数据交互机制。"
+  },
+  {
+    "id": "149",
+    "source": "VentureBeat",
+    "title": "智谱AI发布GLM-5.1开源模型，在SWE-Bench Pro测试中超越Opus与GPT-5.4",
+    "link": "https://venturebeat.com/technology/ai-joins-the-8-hour-work-day-as-glm-ships-5-1-open-source-llm-beating-opus-4",
+    "summary": "智谱AI发布GLM-5.1开源模型，采用MIT协议，在SWE-Bench Pro基准测试中表现优异，显著提升了开源模型处理复杂工程任务的能力。",
+    "published": "Tue, 07 Apr 2026 21:27:07 GMT",
+    "fetched_at": "2026-04-08T14:35:22.428737",
+    "score": 95,
+    "judgement_reason": "GLM-5.1开源模型在SWE-Bench Pro基准测试中超越Opus 4.6与GPT-5.4，代表了开源大模型架构的性能突破。"
+  },
+  {
+    "id": "73",
+    "source": "Ars Technica",
+    "title": "Linux内核正式移除对Intel 486架构的支持",
+    "link": "https://arstechnica.com/gadgets/2026/04/linux-kernel-maintainers-are-following-through-on-removing-intel-486-support/",
+    "summary": "Linux内核维护者正式移除对Intel 486架构的支持，旨在减少技术债务并优化内核维护效率。",
+    "published": "Tue, 07 Apr 2026 16:39:12 +0000",
+    "fetched_at": "2026-04-08T14:35:21.587424",
+    "score": 70,
+    "judgement_reason": "Linux内核移除Intel 486支持，体现了基础软件对陈旧架构的清理与维护效率优化。"
+  },
+  {
+    "id": "151",
+    "source": "VentureBeat",
+    "title": "AI-RAN重构企业边缘智能与自主性",
+    "link": "https://venturebeat.com/infrastructure/ai-ran-is-redefining-enterprise-edge-intelligence-and-autonomy",
+    "summary": "AI-RAN将无线基础设施重构为集传感器、计算织物与控制平面于一体的计算层，实现了边缘智能的自主化与实时处理。",
+    "published": "Tue, 07 Apr 2026 15:05:07 GMT",
+    "fetched_at": "2026-04-08T14:35:22.428759",
+    "score": 85,
+    "judgement_reason": "AI-RAN架构将无线接入网从被动传输管道转变为主动计算层，是边缘智能的结构性演进。"
+  },
+  {
+    "id": "169",
+    "source": "IEEE Spectrum",
+    "title": "去中心化训练：缓解AI高能耗的工程路径",
+    "link": "https://spectrum.ieee.org/decentralized-ai-training-2676670858",
+    "summary": "通过去中心化训练架构利用分布式计算资源，降低单一数据中心的高能耗压力，是减少前沿模型训练碳足迹的有效方案。",
+    "published": "Tue, 07 Apr 2026 14:00:01 +0000",
+    "fetched_at": "2026-04-08T14:35:23.456416",
+    "score": 82,
+    "judgement_reason": "去中心化训练机制为解决大模型训练的高能耗问题提供了系统性架构方案。"
+  },
+  {
+    "id": "171",
+    "source": "IEEE Spectrum",
+    "title": "无线电干扰计算技术：利用信号叠加进行数据处理",
+    "link": "https://spectrum.ieee.org/wireless-network-over-air-computation",
+    "summary": "该技术通过无线电波干扰直接进行数据聚合，无需传统数据包交换，有效降低了高密度网络环境下的通信延迟与带宽需求。",
+    "published": "Tue, 07 Apr 2026 13:00:01 +0000",
+    "fetched_at": "2026-04-08T14:35:23.456429",
+    "score": 88,
+    "judgement_reason": "利用无线电干扰进行空中计算（Over-the-Air Computation）是一种创新的通信与计算融合架构，适用于高密度边缘计算场景。"
+  },
+  {
+    "id": "185",
+    "source": "Nature News",
+    "title": "细胞衰老逆转疗法即将进入人体临床试验",
+    "link": "https://www.nature.com/articles/d41586-026-01024-7",
+    "summary": "研究人员启动首项细胞衰老逆转临床试验，旨在通过调节细胞发育状态实现组织与器官的再生修复。",
+    "published": "2026-04-07",
+    "fetched_at": "2026-04-08T14:35:23.872883",
+    "score": 78,
+    "judgement_reason": "细胞衰老逆转技术的临床试验标志着生物工程在组织再生机制上的重大进展。"
+  },
+  {
+    "id": "181",
+    "source": "Nature News",
+    "title": "新型药物攻克癌症高致死性KRAS突变",
+    "link": "https://www.nature.com/articles/d41586-026-01016-7",
+    "summary": "新型药物通过多种工程化路径针对KRAS蛋白突变，成功克服了该靶点长期被视为“不可成药”的生物学障碍。",
+    "published": "2026-04-07",
+    "fetched_at": "2026-04-08T14:35:23.872862",
+    "score": 75,
+    "judgement_reason": "针对KRAS突变的药物研发突破了传统‘不可成药’的生物学限制。"
+  },
+  {
+    "id": "79",
+    "source": "Ars Technica",
+    "title": "GEN-1机器人模型：物理操作可靠性达99%",
+    "link": "https://arstechnica.com/ai/2026/04/generalists-new-physical-robotics-ai-brings-production-level-success-rates/",
+    "summary": "GEN-1机器人模型通过增强对环境扰动的响应机制，在未训练的物理操作任务中实现了99%的可靠性。",
+    "published": "Mon, 06 Apr 2026 22:18:33 +0000",
+    "fetched_at": "2026-04-08T14:35:21.587492",
+    "score": 80,
+    "judgement_reason": "GEN-1机器人模型在非训练场景下的高可靠性表现，体现了泛化能力的机制性突破。"
+  },
+  {
     "id": "54",
     "source": "The Next Web (TNW)",
     "title": "IBM与Arm合作推动大型机架构兼容性",
@@ -174,104 +273,5 @@
     "fetched_at": "2026-04-04T14:11:52.215630",
     "score": 85,
     "judgement_reason": "AI知识库架构的演进，绕过RAG的工程实践。"
-  },
-  {
-    "id": "80",
-    "source": "VentureBeat",
-    "title": "英伟达发布企业级AI代理平台，获Adobe等17家巨头采用",
-    "link": "https://venturebeat.com/technology/nvidia-launches-enterprise-ai-agent-platform-with-adobe-salesforce-sap-among",
-    "summary": "英伟达推出Agent Toolkit开源平台，通过标准化接口推动自主AI代理在企业端的部署，进一步强化其在AI软件栈的控制力。",
-    "published": "Fri, 03 Apr 2026 23:25:01 GMT",
-    "fetched_at": "2026-04-04T14:11:52.215639",
-    "score": 70,
-    "judgement_reason": "AI代理平台化与生态构建的战略变迁。"
-  },
-  {
-    "id": "85",
-    "source": "ScienceAlert",
-    "title": "新型传感器技术：通过呼气检测肺炎",
-    "link": "https://www.sciencealert.com/this-new-sensor-could-sniff-out-pneumonia-on-a-persons-breath",
-    "summary": "新型传感器通过分析人体呼出气体中的生物标志物，实现对肺炎的非侵入式快速检测，具备临床诊断的突破性潜力。",
-    "published": "Fri, 03 Apr 2026 21:00:44 +0000",
-    "fetched_at": "2026-04-04T14:11:52.660624",
-    "score": 75,
-    "judgement_reason": "临床诊断机制的创新，利用呼气传感器进行病原体检测。"
-  },
-  {
-    "id": "92",
-    "source": "The Next Web (TNW)",
-    "title": "太空数据中心：SpaceX与蓝色起源探索算力能源新路径",
-    "link": "https://thenextweb.com/news/musk-wants-a-million-data-centre-satellites-bezos-wants-51600-scientists-want-to-know-why",
-    "summary": "为应对地面电网供电瓶颈，SpaceX与蓝色起源探索将数据中心部署至近地轨道，利用空间能源解决AI算力扩张的电力需求。",
-    "published": "Fri, 03 Apr 2026 19:30:59 +0000",
-    "fetched_at": "2026-04-04T14:11:54.647648",
-    "score": 65,
-    "judgement_reason": "数据中心能源供应的宏观架构调整。"
-  },
-  {
-    "id": "144",
-    "source": "Fast Company",
-    "title": "最新研究：微塑料健康风险或被高估",
-    "link": "https://www.fastcompany.com/91521370/microplastics-health-risks-may-be-overestimated-new-research-from-university-of-michigan-plastics",
-    "summary": "密歇根大学研究指出，既往微塑料健康风险研究存在实验器材污染偏差，提示需重新评估微塑料的实际生物毒性。",
-    "published": "2026-04-03T18:00:00",
-    "fetched_at": "2026-04-04T14:11:55.811447",
-    "score": 60,
-    "judgement_reason": "科学研究方法论的修正，涉及微塑料健康风险评估。"
-  },
-  {
-    "id": "97",
-    "source": "The Next Web (TNW)",
-    "title": "腾讯基于开源框架OpenClaw构建企业级AI代理平台",
-    "link": "https://thenextweb.com/news/tencent-clawpro-openclaw-enterprise-ai-agents",
-    "summary": "腾讯推出基于开源框架OpenClaw的ClawPro平台，标志着该开源技术已成功从社区原型转化为工业级AI代理部署的核心组件。",
-    "published": "Fri, 03 Apr 2026 14:25:13 +0000",
-    "fetched_at": "2026-04-04T14:11:54.647675",
-    "score": 80,
-    "judgement_reason": "开源框架在企业级AI代理管理中的应用与扩散。"
-  },
-  {
-    "id": "154",
-    "source": "Fast Company",
-    "title": "美国海军重启退役激光武器以应对无人机威胁",
-    "link": "https://www.fastcompany.com/91520550/the-navy-brought-a-retired-laser-weapon-back-for-a-new-drone-fight",
-    "summary": "美国海军通过定向能系统集成实验室（DESIL）重启并测试高能激光武器系统，旨在提升对无人机目标的防御能力。",
-    "published": "2026-04-03T12:00:00",
-    "fetched_at": "2026-04-03T14:17:42.191669",
-    "score": 75,
-    "judgement_reason": "定向能武器系统的工程化复用与评估，涉及军事硬件供应链与技术验证机制。"
-  },
-  {
-    "id": "160",
-    "source": "Fast Company",
-    "title": "加州电池储能系统达到关键转折点",
-    "link": "https://www.fastcompany.com/91519839/california-just-hit-an-inflection-point-for-batteries",
-    "summary": "加州电网电池储能峰值功率达12.3GW，满足了约43%的电网需求，标志着大规模储能已成为电力基础设施的核心组成部分。",
-    "published": "2026-04-03T10:00:00",
-    "fetched_at": "2026-04-03T14:17:42.191716",
-    "score": 80,
-    "judgement_reason": "加州电网电池储能占比的结构性变化，反映了能源基础设施在应对高波动性需求时的技术演进。"
-  },
-  {
-    "id": "116",
-    "source": "The Next Web (TNW)",
-    "title": "Google发布Gemma 4系列模型，覆盖从手机到工作站的四种参数规模",
-    "link": "https://thenextweb.com/news/google-gemma-4-open-models-apache-2-launch",
-    "summary": "Google推出基于Gemini 3架构的Gemma 4系列模型，参数规模涵盖2B至31B，并采用Apache 2.0开源协议，以增强企业部署的灵活性与合规性。",
-    "published": "Thu, 02 Apr 2026 18:16:22 +0000",
-    "fetched_at": "2026-04-03T14:17:41.316556",
-    "score": 95,
-    "judgement_reason": "Google发布Gemma 4系列模型，采用Apache 2.0开源协议，涵盖从边缘设备到工作站的多种参数规模，具备显著的开源生态影响力。"
-  },
-  {
-    "id": "55",
-    "source": "Ars Technica",
-    "title": "新型Rowhammer攻击可完全控制运行Nvidia GPU的设备",
-    "link": "https://arstechnica.com/security/2026/04/new-rowhammer-attacks-give-complete-control-of-machines-running-nvidia-gpus/",
-    "summary": "GDDRHammer与GeForge攻击利用Rowhammer机制干扰Nvidia GPU内存，进而实现对CPU的完全控制，揭示了硬件架构的安全漏洞。",
-    "published": "Thu, 02 Apr 2026 17:00:11 +0000",
-    "fetched_at": "2026-04-03T14:17:38.617578",
-    "score": 82,
-    "judgement_reason": "针对Nvidia GPU内存的Rowhammer攻击机制，揭示了硬件层面的安全漏洞，具有极高的工程安全研究价值。"
   }
 ]
