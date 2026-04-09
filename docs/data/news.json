@@ -1,5 +1,115 @@
 [
   {
+    "id": "110",
+    "source": "VentureBeat",
+    "title": "AI代理技能重写框架：无需重训练底层模型",
+    "link": "https://venturebeat.com/orchestration/new-framework-lets-ai-agents-rewrite-their-own-skills-without-retraining-the",
+    "summary": "Memento-Skills框架通过解耦代理技能与底层大模型，支持AI代理根据环境变化动态重写自身技能，无需进行模型重训练。",
+    "published": "Wed, 08 Apr 2026 17:18:21 GMT",
+    "fetched_at": "2026-04-09T14:37:40.324461",
+    "score": 85,
+    "judgement_reason": "AI代理架构演进，实现无需重训练的技能重写机制。"
+  },
+  {
+    "id": "166",
+    "source": "The Next Web (TNW)",
+    "title": "英特尔加入马斯克Terafab项目，成为250亿美元芯片巨型工程代工伙伴",
+    "link": "https://thenextweb.com/news/intel-terafab-elon-musk-foundry-partnership",
+    "summary": "英特尔成为Terafab项目的核心代工伙伴，该项目旨在实现每年1太瓦的AI算力供应，是英特尔代工战略的重要进展。",
+    "published": "Wed, 08 Apr 2026 14:59:04 +0000",
+    "fetched_at": "2026-04-09T14:37:41.885479",
+    "score": 78,
+    "judgement_reason": "半导体供应链结构性变动，Intel与Terafab的代工合作。"
+  },
+  {
+    "id": "146",
+    "source": "Nature News",
+    "title": "镍基超晶格薄膜的超导性与电子结构",
+    "link": "https://www.nature.com/articles/s41586-026-10352-7",
+    "summary": "研究人员通过工程化Ruddlesden–Popper镍基超结构，揭示了费米面特征与常压超导行为的关联，明确了结构配置对电子结构的调控机制。",
+    "published": "2026-04-08",
+    "fetched_at": "2026-04-09T14:37:41.653703",
+    "score": 95,
+    "judgement_reason": "镍基超导体在常压下的结构与电子结构机制突破，具有极高的物理学研究价值。"
+  },
+  {
+    "id": "131",
+    "source": "Nature News",
+    "title": "动力学光晶格中基于量子比特双子态的受保护量子门",
+    "link": "https://www.nature.com/articles/s41586-026-10285-1",
+    "summary": "通过在动力学光晶格中瞬态填充费米原子双子态，实现了几何两比特SWAP门，为量子计算容错控制提供了新路径。",
+    "published": "2026-04-08",
+    "fetched_at": "2026-04-09T14:37:41.653610",
+    "score": 92,
+    "judgement_reason": "量子计算底层逻辑突破，利用动力学光晶格实现受保护的量子门操作。"
+  },
+  {
+    "id": "135",
+    "source": "Nature News",
+    "title": "基于费米原子的超高保真度碰撞量子门",
+    "link": "https://www.nature.com/articles/s41586-026-10356-3",
+    "summary": "利用光超晶格中费米原子的受控相互作用开发出复合对交换门，实现了高保真度与长贝尔态寿命，推动了全数字费米量子计算的发展。",
+    "published": "2026-04-08",
+    "fetched_at": "2026-04-09T14:37:41.653647",
+    "score": 90,
+    "judgement_reason": "量子计算底层逻辑突破，高保真费米原子碰撞门。"
+  },
+  {
+    "id": "140",
+    "source": "Nature News",
+    "title": "碱基编辑疗法治疗β-地中海贫血的临床应用",
+    "link": "https://www.nature.com/articles/s41586-026-10342-9",
+    "summary": "CS-101疗法通过Transformer碱基编辑器修饰CD34+细胞以激活胎儿血红蛋白，临床一期试验显示患者已实现长期输血独立。",
+    "published": "2026-04-08",
+    "fetched_at": "2026-04-09T14:37:41.653673",
+    "score": 88,
+    "judgement_reason": "基因编辑临床机制突破，通过碱基编辑实现β-地中海贫血的长期治疗。"
+  },
+  {
+    "id": "128",
+    "source": "Nature News",
+    "title": "基于晶格量子色动力学的夸克-胶子耦合高精度计算",
+    "link": "https://www.nature.com/articles/s41586-026-10339-4",
+    "summary": "利用大规模晶格量子色动力学（LQCD）模拟，实现了强耦合常数αs的无模型高精度测定，显著降低了理论不确定性。",
+    "published": "2026-04-08",
+    "fetched_at": "2026-04-09T14:37:41.653582",
+    "score": 82,
+    "judgement_reason": "粒子物理学基础常数测定，提升标准模型精度。"
+  },
+  {
+    "id": "137",
+    "source": "Nature News",
+    "title": "CMS实验对W玻色子质量的高精度测量",
+    "link": "https://www.nature.com/articles/s41586-026-10168-5",
+    "summary": "CERN的CMS实验完成了W玻色子质量的高精度测量，结果与标准模型预测一致，修正了此前存在的异常偏差。",
+    "published": "2026-04-08",
+    "fetched_at": "2026-04-09T14:37:41.653658",
+    "score": 80,
+    "judgement_reason": "基础物理学测量精度提升，验证标准模型。"
+  },
+  {
+    "id": "129",
+    "source": "Nature News",
+    "title": "工程化免疫抑制树突状细胞可预防心脏重构",
+    "link": "https://www.nature.com/articles/s41586-026-10346-5",
+    "summary": "通过工程化免疫抑制树突状细胞进行病灶靶向免疫调节，为心脏纤维化及心力衰竭治疗提供了新型细胞治疗平台。",
+    "published": "2026-04-08",
+    "fetched_at": "2026-04-09T14:37:41.653592",
+    "score": 75,
+    "judgement_reason": "免疫调节机制突破，工程化树突状细胞治疗心脏重构。"
+  },
+  {
+    "id": "143",
+    "source": "Nature News",
+    "title": "多组学与深度学习解析人类发育调控语法",
+    "link": "https://www.nature.com/articles/s41586-026-10326-9",
+    "summary": "通过人类发育多组学图谱，利用深度学习解析了12个器官中调控细胞类型特异性转录因子的语法规则。",
+    "published": "2026-04-08",
+    "fetched_at": "2026-04-09T14:37:41.653688",
+    "score": 72,
+    "judgement_reason": "发育生物学机制解析，多组学与深度学习结合。"
+  },
+  {
     "id": "147",
     "source": "VentureBeat",
     "title": "Amazon S3 Files为AI代理提供原生文件系统工作空间",
@@ -163,115 +273,5 @@
     "fetched_at": "2026-04-06T14:21:32.049588",
     "score": 65,
     "judgement_reason": "涉及企业数据安全架构的成熟度模型，属于系统性安全工程。"
-  },
-  {
-    "id": "45",
-    "source": "ScienceAlert",
-    "title": "肠道特定蛋白质具备中和细菌活性",
-    "link": "https://www.sciencealert.com/a-special-protein-in-your-gut-has-the-power-to-neutralize-bacteria",
-    "summary": "研究发现肠道内存在具有中和细菌活性的特定蛋白质，为开发新型抗菌疗法提供了生物学机制依据。",
-    "published": "Sun, 05 Apr 2026 19:00:11 +0000",
-    "fetched_at": "2026-04-06T14:21:32.461913",
-    "score": 80,
-    "judgement_reason": "涉及肠道微生物蛋白的生物机制发现，具有潜在的抗菌药物开发价值。"
-  },
-  {
-    "id": "1",
-    "source": "TechCrunch",
-    "title": "日本加速部署物理AI机器人以缓解劳动力短缺",
-    "link": "https://techcrunch.com/2026/04/05/japan-is-proving-experimental-physical-ai-is-ready-for-the-real-world/",
-    "summary": "日本正将物理AI机器人从试点转向工业化部署，旨在填补劳动力市场缺口。",
-    "published": "Sun, 05 Apr 2026 14:00:00 +0000",
-    "fetched_at": "2026-04-05T14:12:32.309141",
-    "score": 70,
-    "judgement_reason": "物理AI在劳动力短缺背景下的工业部署，属于宏观供应结构的演进。"
-  },
-  {
-    "id": "47",
-    "source": "The Next Web (TNW)",
-    "title": "LinkedIn被曝秘密扫描用户浏览器扩展及设备指纹",
-    "link": "https://thenextweb.com/news/linkedin-browsergate-extension-scanning-privacy-fingerprint",
-    "summary": "LinkedIn通过隐藏脚本扫描用户浏览器扩展并采集软硬件特征，用于设备指纹识别及追踪。",
-    "published": "Sun, 05 Apr 2026 11:35:47 +0000",
-    "fetched_at": "2026-04-05T14:12:36.086598",
-    "score": 75,
-    "judgement_reason": "涉及浏览器指纹采集与API请求注入的底层隐私机制分析。"
-  },
-  {
-    "id": "51",
-    "source": "The Next Web (TNW)",
-    "title": "Meta因供应链安全漏洞暂停AI数据合作",
-    "link": "https://thenextweb.com/news/meta-mercor-breach-ai-training-secrets-risk",
-    "summary": "Meta因供应链攻击导致核心训练方法论泄露，暂停与Mercor合作，凸显AI供应链安全风险。",
-    "published": "Sat, 04 Apr 2026 18:31:09 +0000",
-    "fetched_at": "2026-04-05T14:12:36.086667",
-    "score": 85,
-    "judgement_reason": "涉及AI训练方法论的供应链安全泄露，属于核心技术资产保护的结构性风险。"
-  },
-  {
-    "id": "40",
-    "source": "VentureBeat",
-    "title": "OCSF：安全行业统一数据语言标准",
-    "link": "https://venturebeat.com/security/ocsf-explained-the-shared-data-language-security-teams-have-been-missing",
-    "summary": "OCSF（开放网络安全模式框架）作为统一数据描述标准，旨在解决异构安全工具间的数据互操作性难题。",
-    "published": "Sat, 04 Apr 2026 18:06:19 GMT",
-    "fetched_at": "2026-04-05T14:12:33.436356",
-    "score": 90,
-    "judgement_reason": "OCSF作为安全数据标准化协议，属于底层架构演进，对提升跨平台安全数据互操作性具有结构性意义。"
-  },
-  {
-    "id": "53",
-    "source": "The Next Web (TNW)",
-    "title": "Keeper Security发布KeeperDB，强化数据库零信任访问",
-    "link": "https://thenextweb.com/news/keeperdb-zero-trust-database-access",
-    "summary": "Keeper Security推出KeeperDB，通过零信任架构管理数据库凭证，消除硬编码连接字符串及凭证共享风险。",
-    "published": "Sat, 04 Apr 2026 14:15:31 +0000",
-    "fetched_at": "2026-04-05T14:12:36.086685",
-    "score": 80,
-    "judgement_reason": "KeeperDB引入零信任数据库访问机制，属于企业级安全架构的底层优化。"
-  },
-  {
-    "id": "91",
-    "source": "The Next Web (TNW)",
-    "title": "英伟达对Marvell的20亿美元布局：构建硬件垄断壁垒",
-    "link": "https://thenextweb.com/news/nvidia-marvell-nvlink-fusion-ecosystem-lock-in",
-    "summary": "英伟达通过向Marvell注资并将其整合进NVLink Fusion生态，深度掌控定制AI加速器、硅光子及6G基础设施，确立了对超大规模数据中心硬件供应的垄断优势。",
-    "published": "Sat, 04 Apr 2026 13:14:58 +0000",
-    "fetched_at": "2026-04-04T14:11:54.647643",
-    "score": 95,
-    "judgement_reason": "涉及AI基础设施供应链的结构性整合与技术垄断机制。"
-  },
-  {
-    "id": "135",
-    "source": "Fast Company",
-    "title": "针刺测试：比亚迪电池安全标准引发西方车企焦虑",
-    "link": "https://www.fastcompany.com/91519302/byd-nail-test-why-this-54-billion-innovation-is-terrifying-western-auto-executives",
-    "summary": "比亚迪的针刺测试通过物理穿刺验证电池热失控抑制能力，已成为全球汽车制造商评估供应链安全的关键技术指标。",
-    "published": "2026-04-04T08:00:00",
-    "fetched_at": "2026-04-04T14:11:55.811402",
-    "score": 90,
-    "judgement_reason": "电池安全测试机制的行业标准演进与竞争格局。"
-  },
-  {
-    "id": "213",
-    "source": "The Lancet",
-    "title": "NOBLE试验10年随访结果：左主干冠状动脉疾病PCI与CABG疗效对比",
-    "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00205-9/fulltext?rss=yes",
-    "summary": "NOBLE试验10年随访数据显示，对于无复杂病变的左主干冠状动脉疾病，经皮冠状动脉介入治疗（PCI）与冠状动脉旁路移植术（CABG）在全因死亡率方面无显著差异。",
-    "published": "2026-04-04",
-    "fetched_at": "2026-04-03T14:17:43.037117",
-    "score": 88,
-    "judgement_reason": "NOBLE临床试验的10年长期随访数据，为冠状动脉左主干病变的治疗策略提供了确定的临床机制参考。"
-  },
-  {
-    "id": "79",
-    "source": "VentureBeat",
-    "title": "Karpathy提出演进式Markdown知识库架构，旨在替代RAG",
-    "link": "https://venturebeat.com/data/karpathy-shares-llm-knowledge-base-architecture-that-bypasses-rag-with-an",
-    "summary": "Andrej Karpathy提出一种由AI维护的动态Markdown库架构，旨在取代传统RAG模式，实现知识库的高效管理与实时更新。",
-    "published": "Fri, 03 Apr 2026 23:30:50 GMT",
-    "fetched_at": "2026-04-04T14:11:52.215630",
-    "score": 85,
-    "judgement_reason": "AI知识库架构的演进，绕过RAG的工程实践。"
   }
 ]
