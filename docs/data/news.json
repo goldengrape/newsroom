@@ -1,5 +1,93 @@
 [
   {
+    "id": "250",
+    "source": "The Lancet",
+    "title": "LiverScreen项目：欧洲普通人群肝纤维化患病率研究",
+    "link": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)00354-5/fulltext?rss=yes",
+    "summary": "LiverScreen项目研究显示，欧洲人群中未诊断的肝纤维化主要由代谢因素和酒精驱动，强调了早期筛查对预防肝硬化进展的临床意义。",
+    "published": "2026-04-11",
+    "fetched_at": "2026-04-10T14:24:39.995569",
+    "score": 82,
+    "judgement_reason": "肝纤维化流行病学机制与筛查策略研究。"
+  },
+  {
+    "id": "222",
+    "source": "Business Insider",
+    "title": "亚马逊启动“Houdini项目”以缩短数据中心建设周期",
+    "link": "https://www.businessinsider.com/amazon-project-houdini-aws-modular-ai-data-centers-speed-2026-4",
+    "summary": "亚马逊通过Project Houdini项目引入模块化施工技术，旨在减少数据中心建设中的人工工时，加速基础设施部署周期。",
+    "published": "2026-04-10T09:00:02Z",
+    "fetched_at": "2026-04-10T14:24:38.975669",
+    "score": 70,
+    "judgement_reason": "数据中心建设的模块化工程优化。"
+  },
+  {
+    "id": "59",
+    "source": "Ars Technica",
+    "title": "临床试验验证基因编辑治疗β-地中海贫血的有效性",
+    "link": "https://arstechnica.com/science/2026/04/clinical-trial-shows-gene-editing-works-for-%ce%b2-thalassaemia-too/",
+    "summary": "改进的基因编辑工艺通过重新激活胎儿期血红蛋白基因，有效治疗β-地中海贫血，证实了基因编辑在血液疾病中的临床可行性。",
+    "published": "Thu, 09 Apr 2026 20:28:48 +0000",
+    "fetched_at": "2026-04-10T14:24:34.341386",
+    "score": 88,
+    "judgement_reason": "基因编辑技术在β-地中海贫血治疗中的临床验证。"
+  },
+  {
+    "id": "114",
+    "source": "VentureBeat",
+    "title": "Mythos模型发现OpenBSD中潜伏27年的漏洞，安全团队需更新检测策略",
+    "link": "https://venturebeat.com/security/mythos-detection-ceiling-security-teams-new-playbook",
+    "summary": "Mythos模型发现OpenBSD TCP栈中存在27年的漏洞，该漏洞可通过双数据包导致服务器崩溃，凸显了现有代码审计与模糊测试机制的局限性。",
+    "published": "Thu, 09 Apr 2026 18:30:00 GMT",
+    "fetched_at": "2026-04-10T14:24:35.132823",
+    "score": 92,
+    "judgement_reason": "揭示了长期存在于OpenBSD TCP栈中的漏洞，对安全审计机制提出挑战。"
+  },
+  {
+    "id": "128",
+    "source": "IEEE Spectrum",
+    "title": "GoZTASP：面向任务规模的自主系统零信任治理平台",
+    "link": "https://content.knowledgehub.wiley.com/goztasp-a-zero-trust-platform-for-governing-autonomous-systems-at-mission-scale/",
+    "summary": "ZTASP平台通过安全运行时保证（SRTA）和安全空间治理机制，将无人机、机器人及传感器等异构系统集成至统一的零信任架构中，实现任务级自主系统治理。",
+    "published": "Thu, 09 Apr 2026 15:06:39 +0000",
+    "fetched_at": "2026-04-10T14:24:36.934896",
+    "score": 95,
+    "judgement_reason": "提出了一种针对自主系统任务规模的零信任治理架构，具备工程落地价值。"
+  },
+  {
+    "id": "139",
+    "source": "Nature News",
+    "title": "CAR-T疗法成功治愈罕见三联自身免疫性疾病",
+    "link": "https://www.nature.com/articles/d41586-026-01108-4",
+    "summary": "CAR-T细胞疗法成功诱导三类自身免疫性疾病患者进入长期缓解期，患者在治疗14个月后无需药物维持，验证了工程化免疫细胞在复杂免疫疾病中的重置机制。",
+    "published": "2026-04-09",
+    "fetched_at": "2026-04-10T14:24:37.444971",
+    "score": 90,
+    "judgement_reason": "CAR-T疗法在自身免疫性疾病治疗中的机制性突破。"
+  },
+  {
+    "id": "134",
+    "source": "Nature News",
+    "title": "基于芳基铋试剂的两性交叉偶联反应",
+    "link": "https://www.nature.com/articles/s41586-026-10486-8",
+    "summary": "研究提出利用芳基铋试剂进行两性交叉偶联反应，为复杂分子合成提供了新的化学机制路径。",
+    "published": "2026-04-09",
+    "fetched_at": "2026-04-10T14:24:37.444927",
+    "score": 85,
+    "judgement_reason": "新型化学合成机制，涉及芳基铋试剂的交叉偶联。"
+  },
+  {
+    "id": "136",
+    "source": "Nature News",
+    "title": "电动汽车助力电网韧性提升",
+    "link": "https://www.nature.com/articles/d41586-026-01110-w",
+    "summary": "车辆到电网（V2G）技术通过将电动汽车集成至电网作为备用电池，可有效提升电网韧性，需优化部署机制以实现规模化应用。",
+    "published": "2026-04-09",
+    "fetched_at": "2026-04-10T14:24:37.444940",
+    "score": 80,
+    "judgement_reason": "电动汽车作为电网分布式储能的机制分析。"
+  },
+  {
     "id": "110",
     "source": "VentureBeat",
     "title": "AI代理技能重写框架：无需重训练底层模型",
@@ -185,93 +273,5 @@
     "fetched_at": "2026-04-08T14:35:23.872883",
     "score": 78,
     "judgement_reason": "细胞衰老逆转技术的临床试验标志着生物工程在组织再生机制上的重大进展。"
-  },
-  {
-    "id": "181",
-    "source": "Nature News",
-    "title": "新型药物攻克癌症高致死性KRAS突变",
-    "link": "https://www.nature.com/articles/d41586-026-01016-7",
-    "summary": "新型药物通过多种工程化路径针对KRAS蛋白突变，成功克服了该靶点长期被视为“不可成药”的生物学障碍。",
-    "published": "2026-04-07",
-    "fetched_at": "2026-04-08T14:35:23.872862",
-    "score": 75,
-    "judgement_reason": "针对KRAS突变的药物研发突破了传统‘不可成药’的生物学限制。"
-  },
-  {
-    "id": "79",
-    "source": "Ars Technica",
-    "title": "GEN-1机器人模型：物理操作可靠性达99%",
-    "link": "https://arstechnica.com/ai/2026/04/generalists-new-physical-robotics-ai-brings-production-level-success-rates/",
-    "summary": "GEN-1机器人模型通过增强对环境扰动的响应机制，在未训练的物理操作任务中实现了99%的可靠性。",
-    "published": "Mon, 06 Apr 2026 22:18:33 +0000",
-    "fetched_at": "2026-04-08T14:35:21.587492",
-    "score": 80,
-    "judgement_reason": "GEN-1机器人模型在非训练场景下的高可靠性表现，体现了泛化能力的机制性突破。"
-  },
-  {
-    "id": "54",
-    "source": "The Next Web (TNW)",
-    "title": "IBM与Arm合作推动大型机架构兼容性",
-    "link": "https://thenextweb.com/news/ibm-arm-mainframe-ai-software",
-    "summary": "IBM与Arm达成合作，通过虚拟化技术使Arm架构软件能在IBM Z及LinuxONE大型机上运行，解决企业级核心平台的兼容性问题。",
-    "published": "Mon, 06 Apr 2026 12:57:14 +0000",
-    "fetched_at": "2026-04-06T14:21:33.986581",
-    "score": 90,
-    "judgement_reason": "IBM与Arm的合作实现了大型机架构与Arm生态的底层兼容，具有显著的计算架构整合意义。"
-  },
-  {
-    "id": "79",
-    "source": "Fast Company",
-    "title": "AI技术加速新型抗生素研发",
-    "link": "https://www.fastcompany.com/91520978/ai-is-coming-for-superbugs",
-    "summary": "AI技术被应用于筛选新型抗生素分子，通过算法加速药物发现的工程化进程，以应对全球抗生素耐药性危机。",
-    "published": "2026-04-06T12:22:00",
-    "fetched_at": "2026-04-06T14:21:34.874960",
-    "score": 75,
-    "judgement_reason": "AI在抗生素耐药性领域的应用属于硬核医疗机制突破。"
-  },
-  {
-    "id": "85",
-    "source": "Fast Company",
-    "title": "大型赛事成为无人机防御技术实战测试场",
-    "link": "https://www.fastcompany.com/91521314/the-world-cup-could-be-a-breakout-moment-for-drone-defense-tech",
-    "summary": "美国政府利用大型赛事验证无人机拦截系统在复杂环境下的工程效能，以推动防御供应链的迭代升级。",
-    "published": "2026-04-06T11:00:00",
-    "fetched_at": "2026-04-06T14:21:34.875002",
-    "score": 85,
-    "judgement_reason": "涉及无人机防御系统的技术部署与供应链验证，属于关键基础设施安全领域。"
-  },
-  {
-    "id": "19",
-    "source": "Wired",
-    "title": "英特尔押注先进封装技术以提升AI算力",
-    "link": "https://www.wired.com/story/why-chip-packaging-could-decide-the-next-phase-of-the-ai-boom/",
-    "summary": "英特尔正通过先进封装技术强化AI芯片竞争力，将其作为提升算力密度的核心工程路径。",
-    "published": "Mon, 06 Apr 2026 09:00:00 +0000",
-    "fetched_at": "2026-04-06T14:21:30.480500",
-    "score": 95,
-    "judgement_reason": "涉及半导体先进制程封装的结构性演进，直接影响AI算力供应。"
-  },
-  {
-    "id": "20",
-    "source": "Engadget",
-    "title": "Artemis II飞船抵达月球引力范围",
-    "link": "https://www.engadget.com/science/space/artemis-ii-arrives-in-lunar-space-ahead-of-its-trip-around-the-moon-211919381.html?src=rss",
-    "summary": "Artemis II载人飞船已进入月球引力范围，旨在验证深空导航与生命支持系统的工程可靠性。",
-    "published": "Mon, 06 Apr 2026 05:56:10 +0000",
-    "fetched_at": "2026-04-06T14:21:31.534713",
-    "score": 70,
-    "judgement_reason": "Artemis II任务涉及深空探测的轨道力学与航天工程验证。"
-  },
-  {
-    "id": "39",
-    "source": "VentureBeat",
-    "title": "企业数据安全：将保护机制嵌入工作流",
-    "link": "https://venturebeat.com/security/closing-the-data-security-maturity-gap-embedding-protection-into-enterprise",
-    "summary": "企业数据安全存在成熟度缺口，核心在于缺乏将安全机制嵌入工作流的系统性架构，导致影子数据风险增加。",
-    "published": "Mon, 06 Apr 2026 04:00:00 GMT",
-    "fetched_at": "2026-04-06T14:21:32.049588",
-    "score": 65,
-    "judgement_reason": "涉及企业数据安全架构的成熟度模型，属于系统性安全工程。"
   }
 ]
