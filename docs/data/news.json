@@ -1,5 +1,27 @@
 [
   {
+    "id": "1",
+    "source": "TechCrunch",
+    "title": "SiFive获Nvidia支持，估值达36.5亿美元",
+    "link": "https://techcrunch.com/2026/04/11/nvidia-backed-sifive-hits-3-65-billion-valuation-for-open-ai-chips/",
+    "summary": "SiFive基于RISC-V架构开发AI芯片，旨在打破x86与ARM在高性能计算领域的垄断。",
+    "published": "Sat, 11 Apr 2026 14:03:00 +0000",
+    "fetched_at": "2026-04-11T14:13:09.548438",
+    "score": 95,
+    "judgement_reason": "RISC-V架构在AI芯片领域的商业化落地，标志着底层指令集架构的结构性变动。"
+  },
+  {
+    "id": "15",
+    "source": "The Verge",
+    "title": "固态电池技术取得关键工程突破",
+    "link": "https://www.theverge.com/transportation/909480/solid-state-battery-donut-lab-ev-china",
+    "summary": "Donut Lab宣称已解决固态电池技术瓶颈，该技术具备高能量密度与快速充电特性，被视为电池领域的重大进展。",
+    "published": "2026-04-11T07:00:00-04:00",
+    "fetched_at": "2026-04-11T14:13:09.706964",
+    "score": 75,
+    "judgement_reason": "固态电池技术在能源密度与制造工艺上的潜在突破。"
+  },
+  {
     "id": "250",
     "source": "The Lancet",
     "title": "LiverScreen项目：欧洲普通人群肝纤维化患病率研究",
@@ -9,6 +31,72 @@
     "fetched_at": "2026-04-10T14:24:39.995569",
     "score": 82,
     "judgement_reason": "肝纤维化流行病学机制与筛查策略研究。"
+  },
+  {
+    "id": "88",
+    "source": "VentureBeat",
+    "title": "AI Agent架构安全：从访问控制转向动作控制",
+    "link": "https://venturebeat.com/security/ai-agent-zero-trust-architecture-audit-credential-isolation-anthropic-nvidia-nemoclaw",
+    "summary": "针对AI Agent与非受信任代码共存的风险，业界提出通过动作控制（Action Control）限制AI代理的执行权限，以缩小安全影响范围。",
+    "published": "Fri, 10 Apr 2026 22:26:53 GMT",
+    "fetched_at": "2026-04-11T14:13:11.365382",
+    "score": 85,
+    "judgement_reason": "AI Agent架构下的安全边界重构，涉及零信任机制的演进。"
+  },
+  {
+    "id": "89",
+    "source": "VentureBeat",
+    "title": "Intuit利用AI将税务代码实现周期压缩至数小时",
+    "link": "https://venturebeat.com/data/intuit-compressed-months-of-tax-code-implementation-into-hours-and-built-a",
+    "summary": "Intuit通过构建标准化工作流，成功将复杂的税务代码实现周期从数月缩短至数小时，为受监管行业提供了可复用的工程范式。",
+    "published": "Fri, 10 Apr 2026 22:09:14 GMT",
+    "fetched_at": "2026-04-11T14:13:11.365395",
+    "score": 70,
+    "judgement_reason": "复杂监管环境下AI工程化落地的效率优化。"
+  },
+  {
+    "id": "104",
+    "source": "The Next Web (TNW)",
+    "title": "法国政府指令各部委弃用Windows转向Linux",
+    "link": "https://thenextweb.com/news/france-linux-windows-migration-digital-sovereignty",
+    "summary": "为提升数字主权，法国政府要求各部委在2026年秋季前完成从Windows向Linux的迁移，以减少对非欧洲基础设施的依赖。",
+    "published": "Fri, 10 Apr 2026 21:21:12 +0000",
+    "fetched_at": "2026-04-11T14:13:13.467467",
+    "score": 90,
+    "judgement_reason": "国家级基础软件供应链的结构性脱钩，具有深远的数字主权影响。"
+  },
+  {
+    "id": "42",
+    "source": "Ars Technica",
+    "title": "F1赛事优化2026年混合动力系统控制逻辑",
+    "link": "https://arstechnica.com/cars/2026/04/f1-moves-a-step-closer-to-fixing-its-2026-hybrid-problem/",
+    "summary": "F1针对2026年混合动力系统进行算法调整，旨在解决自动加速控制逻辑带来的性能与驾驶体验失衡问题。",
+    "published": "Fri, 10 Apr 2026 19:07:46 +0000",
+    "fetched_at": "2026-04-11T14:13:10.128732",
+    "score": 65,
+    "judgement_reason": "混合动力系统控制算法的工程优化。"
+  },
+  {
+    "id": "31",
+    "source": "Wired",
+    "title": "Anthropic Mythos模型引发网络安全防御重估",
+    "link": "https://www.wired.com/story/anthropics-mythos-will-force-a-cybersecurity-reckoning-just-not-the-one-you-think/",
+    "summary": "Mythos模型的出现促使网络安全界重新审视AI辅助攻击风险，并推动软件开发生命周期中防御机制的升级。",
+    "published": "Fri, 10 Apr 2026 18:08:37 +0000",
+    "fetched_at": "2026-04-11T14:13:09.864655",
+    "score": 60,
+    "judgement_reason": "大模型安全机制的范式转移。"
+  },
+  {
+    "id": "106",
+    "source": "The Next Web (TNW)",
+    "title": "Meow Technologies推出首个AI Agent银行平台",
+    "link": "https://thenextweb.com/news/meow-technologies-agentic-banking-ai-agents",
+    "summary": "该平台支持AI Agent自主完成开户、支付及账户管理，实现金融操作的自动化闭环，无需人工干预。",
+    "published": "Fri, 10 Apr 2026 14:26:56 +0000",
+    "fetched_at": "2026-04-11T14:13:13.467487",
+    "score": 80,
+    "judgement_reason": "AI Agent在金融基础设施层面的自动化机制创新。"
   },
   {
     "id": "222",
@@ -185,93 +273,5 @@
     "fetched_at": "2026-04-09T14:37:41.653592",
     "score": 75,
     "judgement_reason": "免疫调节机制突破，工程化树突状细胞治疗心脏重构。"
-  },
-  {
-    "id": "143",
-    "source": "Nature News",
-    "title": "多组学与深度学习解析人类发育调控语法",
-    "link": "https://www.nature.com/articles/s41586-026-10326-9",
-    "summary": "通过人类发育多组学图谱，利用深度学习解析了12个器官中调控细胞类型特异性转录因子的语法规则。",
-    "published": "2026-04-08",
-    "fetched_at": "2026-04-09T14:37:41.653688",
-    "score": 72,
-    "judgement_reason": "发育生物学机制解析，多组学与深度学习结合。"
-  },
-  {
-    "id": "147",
-    "source": "VentureBeat",
-    "title": "Amazon S3 Files为AI代理提供原生文件系统工作空间",
-    "link": "https://venturebeat.com/data/amazon-s3-files-gives-ai-agents-a-native-file-system-workspace-ending-the",
-    "summary": "Amazon S3 Files引入原生文件系统工作空间，消除了对象存储与文件路径间的API隔阂，为AI代理提供标准化的数据访问接口。",
-    "published": "Tue, 07 Apr 2026 21:36:00 GMT",
-    "fetched_at": "2026-04-08T14:35:22.428724",
-    "score": 90,
-    "judgement_reason": "Amazon S3 Files解决了AI代理在对象存储与文件系统间的架构割裂问题，优化了多代理流水线的数据交互机制。"
-  },
-  {
-    "id": "149",
-    "source": "VentureBeat",
-    "title": "智谱AI发布GLM-5.1开源模型，在SWE-Bench Pro测试中超越Opus与GPT-5.4",
-    "link": "https://venturebeat.com/technology/ai-joins-the-8-hour-work-day-as-glm-ships-5-1-open-source-llm-beating-opus-4",
-    "summary": "智谱AI发布GLM-5.1开源模型，采用MIT协议，在SWE-Bench Pro基准测试中表现优异，显著提升了开源模型处理复杂工程任务的能力。",
-    "published": "Tue, 07 Apr 2026 21:27:07 GMT",
-    "fetched_at": "2026-04-08T14:35:22.428737",
-    "score": 95,
-    "judgement_reason": "GLM-5.1开源模型在SWE-Bench Pro基准测试中超越Opus 4.6与GPT-5.4，代表了开源大模型架构的性能突破。"
-  },
-  {
-    "id": "73",
-    "source": "Ars Technica",
-    "title": "Linux内核正式移除对Intel 486架构的支持",
-    "link": "https://arstechnica.com/gadgets/2026/04/linux-kernel-maintainers-are-following-through-on-removing-intel-486-support/",
-    "summary": "Linux内核维护者正式移除对Intel 486架构的支持，旨在减少技术债务并优化内核维护效率。",
-    "published": "Tue, 07 Apr 2026 16:39:12 +0000",
-    "fetched_at": "2026-04-08T14:35:21.587424",
-    "score": 70,
-    "judgement_reason": "Linux内核移除Intel 486支持，体现了基础软件对陈旧架构的清理与维护效率优化。"
-  },
-  {
-    "id": "151",
-    "source": "VentureBeat",
-    "title": "AI-RAN重构企业边缘智能与自主性",
-    "link": "https://venturebeat.com/infrastructure/ai-ran-is-redefining-enterprise-edge-intelligence-and-autonomy",
-    "summary": "AI-RAN将无线基础设施重构为集传感器、计算织物与控制平面于一体的计算层，实现了边缘智能的自主化与实时处理。",
-    "published": "Tue, 07 Apr 2026 15:05:07 GMT",
-    "fetched_at": "2026-04-08T14:35:22.428759",
-    "score": 85,
-    "judgement_reason": "AI-RAN架构将无线接入网从被动传输管道转变为主动计算层，是边缘智能的结构性演进。"
-  },
-  {
-    "id": "169",
-    "source": "IEEE Spectrum",
-    "title": "去中心化训练：缓解AI高能耗的工程路径",
-    "link": "https://spectrum.ieee.org/decentralized-ai-training-2676670858",
-    "summary": "通过去中心化训练架构利用分布式计算资源，降低单一数据中心的高能耗压力，是减少前沿模型训练碳足迹的有效方案。",
-    "published": "Tue, 07 Apr 2026 14:00:01 +0000",
-    "fetched_at": "2026-04-08T14:35:23.456416",
-    "score": 82,
-    "judgement_reason": "去中心化训练机制为解决大模型训练的高能耗问题提供了系统性架构方案。"
-  },
-  {
-    "id": "171",
-    "source": "IEEE Spectrum",
-    "title": "无线电干扰计算技术：利用信号叠加进行数据处理",
-    "link": "https://spectrum.ieee.org/wireless-network-over-air-computation",
-    "summary": "该技术通过无线电波干扰直接进行数据聚合，无需传统数据包交换，有效降低了高密度网络环境下的通信延迟与带宽需求。",
-    "published": "Tue, 07 Apr 2026 13:00:01 +0000",
-    "fetched_at": "2026-04-08T14:35:23.456429",
-    "score": 88,
-    "judgement_reason": "利用无线电干扰进行空中计算（Over-the-Air Computation）是一种创新的通信与计算融合架构，适用于高密度边缘计算场景。"
-  },
-  {
-    "id": "185",
-    "source": "Nature News",
-    "title": "细胞衰老逆转疗法即将进入人体临床试验",
-    "link": "https://www.nature.com/articles/d41586-026-01024-7",
-    "summary": "研究人员启动首项细胞衰老逆转临床试验，旨在通过调节细胞发育状态实现组织与器官的再生修复。",
-    "published": "2026-04-07",
-    "fetched_at": "2026-04-08T14:35:23.872883",
-    "score": 78,
-    "judgement_reason": "细胞衰老逆转技术的临床试验标志着生物工程在组织再生机制上的重大进展。"
   }
 ]
