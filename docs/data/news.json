@@ -1,5 +1,71 @@
 [
   {
+    "id": "56",
+    "source": "Fast Company",
+    "title": "美国国防部加大激光武器研发投入",
+    "link": "https://www.fastcompany.com/91525120/the-pentagon-is-doubling-down-on-laser-weapons-research",
+    "summary": "美国国防部在2027财年预算中增加对激光武器的研发资金，旨在加速定向能武器的实战化进程。",
+    "published": "2026-04-12T13:16:37",
+    "fetched_at": "2026-04-12T14:15:05.243460",
+    "score": 80,
+    "judgement_reason": "国防预算对定向能武器的投入，属于军事硬件供应链与技术演进的结构性变动。"
+  },
+  {
+    "id": "27",
+    "source": "CNET",
+    "title": "空中5G：新型互联网基础设施完成飞行测试",
+    "link": "https://www.cnet.com/home/internet/5g-from-the-sky-new-internet-infrastructure-takes-flight/",
+    "summary": "Sceye公司完成高空平台系统（HAPS）耐久性测试，该技术利用平流层平台提供5G覆盖，旨在优化通信基础设施。",
+    "published": "Sun, 12 Apr 2026 12:01:00 +0000",
+    "fetched_at": "2026-04-12T14:15:02.589107",
+    "score": 75,
+    "judgement_reason": "高空平台系统作为新型通信基础设施，具备改变全球网络覆盖机制的潜力。"
+  },
+  {
+    "id": "38",
+    "source": "ScienceAlert",
+    "title": "科学家发现具备近乎自我复制能力的RNA，揭示生命起源机制",
+    "link": "https://www.sciencealert.com/this-rna-almost-self-replicates-which-could-explain-lifes-origins",
+    "summary": "研究发现一种具备近乎自我复制能力的RNA分子，为理解生命起源的分子演化过程提供了关键证据。",
+    "published": "Sun, 12 Apr 2026 12:00:42 +0000",
+    "fetched_at": "2026-04-12T14:15:03.237320",
+    "score": 70,
+    "judgement_reason": "涉及生命起源的分子生物学机制研究，属于深层科学发现。"
+  },
+  {
+    "id": "39",
+    "source": "ScienceAlert",
+    "title": "肌肉拥有“记忆”：揭示其生物学机制",
+    "link": "https://www.sciencealert.com/muscles-have-their-own-kind-of-memory-heres-how-it-works",
+    "summary": "研究揭示了肌肉组织在细胞层面的记忆机制，阐明了生理适应性与训练效果背后的生物学基础。",
+    "published": "Sun, 12 Apr 2026 01:00:09 +0000",
+    "fetched_at": "2026-04-12T14:15:03.237327",
+    "score": 65,
+    "judgement_reason": "解析肌肉生理机制，属于生物学基础研究。"
+  },
+  {
+    "id": "10",
+    "source": "The Verge",
+    "title": "荷兰成为首个批准特斯拉监督式全自动驾驶（FSD）的欧洲国家",
+    "link": "https://www.theverge.com/transportation/910717/netherlands-tesla-supervised-full-self-driving",
+    "summary": "荷兰监管机构RDW正式批准特斯拉FSD Supervised，标志着该系统首次获准进入欧洲市场，有望推动其在欧盟范围内的部署。",
+    "published": "2026-04-11T19:22:15-04:00",
+    "fetched_at": "2026-04-12T14:15:01.796360",
+    "score": 85,
+    "judgement_reason": "涉及自动驾驶算法在欧洲市场的监管准入与技术落地，具有结构性影响。"
+  },
+  {
+    "id": "40",
+    "source": "ScienceAlert",
+    "title": "动物实验显示实验性药物可在数周内逆转骨关节炎",
+    "link": "https://www.sciencealert.com/experimental-drug-can-reverse-osteoarthritis-in-weeks-animal-research-shows",
+    "summary": "一种实验性药物在动物模型中展现出逆转骨关节炎的潜力，为治疗退行性关节疾病提供了新的机制路径。",
+    "published": "Sat, 11 Apr 2026 21:00:30 +0000",
+    "fetched_at": "2026-04-12T14:15:03.237333",
+    "score": 60,
+    "judgement_reason": "涉及骨关节炎的临床前机制突破，符合医疗机制研究范畴。"
+  },
+  {
     "id": "1",
     "source": "TechCrunch",
     "title": "SiFive获Nvidia支持，估值达36.5亿美元",
@@ -207,71 +273,5 @@
     "fetched_at": "2026-04-09T14:37:41.653703",
     "score": 95,
     "judgement_reason": "镍基超导体在常压下的结构与电子结构机制突破，具有极高的物理学研究价值。"
-  },
-  {
-    "id": "131",
-    "source": "Nature News",
-    "title": "动力学光晶格中基于量子比特双子态的受保护量子门",
-    "link": "https://www.nature.com/articles/s41586-026-10285-1",
-    "summary": "通过在动力学光晶格中瞬态填充费米原子双子态，实现了几何两比特SWAP门，为量子计算容错控制提供了新路径。",
-    "published": "2026-04-08",
-    "fetched_at": "2026-04-09T14:37:41.653610",
-    "score": 92,
-    "judgement_reason": "量子计算底层逻辑突破，利用动力学光晶格实现受保护的量子门操作。"
-  },
-  {
-    "id": "135",
-    "source": "Nature News",
-    "title": "基于费米原子的超高保真度碰撞量子门",
-    "link": "https://www.nature.com/articles/s41586-026-10356-3",
-    "summary": "利用光超晶格中费米原子的受控相互作用开发出复合对交换门，实现了高保真度与长贝尔态寿命，推动了全数字费米量子计算的发展。",
-    "published": "2026-04-08",
-    "fetched_at": "2026-04-09T14:37:41.653647",
-    "score": 90,
-    "judgement_reason": "量子计算底层逻辑突破，高保真费米原子碰撞门。"
-  },
-  {
-    "id": "140",
-    "source": "Nature News",
-    "title": "碱基编辑疗法治疗β-地中海贫血的临床应用",
-    "link": "https://www.nature.com/articles/s41586-026-10342-9",
-    "summary": "CS-101疗法通过Transformer碱基编辑器修饰CD34+细胞以激活胎儿血红蛋白，临床一期试验显示患者已实现长期输血独立。",
-    "published": "2026-04-08",
-    "fetched_at": "2026-04-09T14:37:41.653673",
-    "score": 88,
-    "judgement_reason": "基因编辑临床机制突破，通过碱基编辑实现β-地中海贫血的长期治疗。"
-  },
-  {
-    "id": "128",
-    "source": "Nature News",
-    "title": "基于晶格量子色动力学的夸克-胶子耦合高精度计算",
-    "link": "https://www.nature.com/articles/s41586-026-10339-4",
-    "summary": "利用大规模晶格量子色动力学（LQCD）模拟，实现了强耦合常数αs的无模型高精度测定，显著降低了理论不确定性。",
-    "published": "2026-04-08",
-    "fetched_at": "2026-04-09T14:37:41.653582",
-    "score": 82,
-    "judgement_reason": "粒子物理学基础常数测定，提升标准模型精度。"
-  },
-  {
-    "id": "137",
-    "source": "Nature News",
-    "title": "CMS实验对W玻色子质量的高精度测量",
-    "link": "https://www.nature.com/articles/s41586-026-10168-5",
-    "summary": "CERN的CMS实验完成了W玻色子质量的高精度测量，结果与标准模型预测一致，修正了此前存在的异常偏差。",
-    "published": "2026-04-08",
-    "fetched_at": "2026-04-09T14:37:41.653658",
-    "score": 80,
-    "judgement_reason": "基础物理学测量精度提升，验证标准模型。"
-  },
-  {
-    "id": "129",
-    "source": "Nature News",
-    "title": "工程化免疫抑制树突状细胞可预防心脏重构",
-    "link": "https://www.nature.com/articles/s41586-026-10346-5",
-    "summary": "通过工程化免疫抑制树突状细胞进行病灶靶向免疫调节，为心脏纤维化及心力衰竭治疗提供了新型细胞治疗平台。",
-    "published": "2026-04-08",
-    "fetched_at": "2026-04-09T14:37:41.653592",
-    "score": 75,
-    "judgement_reason": "免疫调节机制突破，工程化树突状细胞治疗心脏重构。"
   }
 ]
