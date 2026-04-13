@@ -1,5 +1,104 @@
 [
   {
+    "id": "48",
+    "source": "VentureBeat",
+    "title": "企业级代理式编程需转向规范驱动开发",
+    "link": "https://venturebeat.com/orchestration/agentic-coding-at-enterprise-scale-demands-spec-driven-development",
+    "summary": "随着代理式AI缩短软件交付周期，企业需采用规范驱动开发（spec-driven development）以确保自动化代码生成的工程可控性。",
+    "published": "Tue, 14 Apr 2026 04:00:00 GMT",
+    "fetched_at": "2026-04-13T14:35:19.200445",
+    "score": 85,
+    "judgement_reason": "代理式AI开发范式的工程化转型，强调规范驱动开发以保障企业级落地。"
+  },
+  {
+    "id": "51",
+    "source": "ScienceAlert",
+    "title": "科学家发现液体在特定条件下可像固体一样断裂",
+    "link": "https://www.sciencealert.com/scientists-discover-liquids-can-snap-like-solids",
+    "summary": "科学家观察到液体在特定条件下表现出类似固体的断裂特性，揭示了物质在微观层面的非线性力学行为。",
+    "published": "Mon, 13 Apr 2026 12:00:33 +0000",
+    "fetched_at": "2026-04-13T14:35:19.604002",
+    "score": 70,
+    "judgement_reason": "流体力学深层机制发现，挑战了传统物质状态的物理认知。"
+  },
+  {
+    "id": "61",
+    "source": "IEEE Spectrum",
+    "title": "柔性光子开关助力实现高速低功耗逻辑运算",
+    "link": "https://spectrum.ieee.org/soft-photonics",
+    "summary": "研究人员利用聚合物和凝胶等软材料开发光子开关，旨在实现比传统电子器件更高速、低功耗的逻辑运算。",
+    "published": "Mon, 13 Apr 2026 12:00:01 +0000",
+    "fetched_at": "2026-04-13T14:35:20.411062",
+    "score": 95,
+    "judgement_reason": "涉及光子计算底层架构的材料学突破，具备高能效逻辑运算潜力。"
+  },
+  {
+    "id": "153",
+    "source": "The BMJ (Recent)",
+    "title": "遗传变异影响Wegovy与Mounjaro减重效果",
+    "link": "http://www.bmj.com/content/393/bmj.s693.short?rss=1",
+    "summary": "研究发现特定遗传变异与GLP-1受体激动剂的减重效果及副作用相关，揭示了药物响应的个体差异机制。",
+    "published": "2026-04-13T02:41:02-07:00",
+    "fetched_at": "2026-04-13T14:35:34.915572",
+    "score": 80,
+    "judgement_reason": "GLP-1受体激动剂的遗传学机制解析，有助于精准医疗与代谢疾病治疗。"
+  },
+  {
+    "id": "148",
+    "source": "Business Insider",
+    "title": "花旗银行加大对数据中心基础设施融资力度",
+    "link": "https://www.businessinsider.com/citi-wall-street-financing-ai-data-center-boom-achintya-mangla-2026-4",
+    "summary": "花旗银行加大对数据中心基础设施的融资投入，旨在通过金融杠杆加速算力基础设施的规模化扩张。",
+    "published": "2026-04-13T09:32:26Z",
+    "fetched_at": "2026-04-13T14:35:33.517682",
+    "score": 60,
+    "judgement_reason": "数据中心基础设施的资本结构性变动，反映了算力供应侧的长期趋势。"
+  },
+  {
+    "id": "150",
+    "source": "Business Insider",
+    "title": "调查显示美国企业将关税视为长期常态",
+    "link": "https://www.businessinsider.com/most-executives-now-treat-tariffs-long-term-reality-pwc-survey-2026-4",
+    "summary": "PwC调查显示，美国企业已将关税视为长期规划的常态化假设，预示着全球供应链布局将持续受地缘政治约束。",
+    "published": "2026-04-13T09:00:02Z",
+    "fetched_at": "2026-04-13T14:35:33.517692",
+    "score": 55,
+    "judgement_reason": "供应链政策的长期化趋势，属于宏观供应链的结构性约束。"
+  },
+  {
+    "id": "3",
+    "source": "TechCrunch",
+    "title": "全球最大在轨计算集群正式投入商用",
+    "link": "https://techcrunch.com/2026/04/13/the-largest-orbital-compute-cluster-is-open-for-business/",
+    "summary": "Kepler Communications在轨部署40个GPU集群，提供空间计算服务，支持Sophia Space等客户的在轨数据处理需求。",
+    "published": "Mon, 13 Apr 2026 07:01:00 +0000",
+    "fetched_at": "2026-04-13T14:35:17.129166",
+    "score": 90,
+    "judgement_reason": "轨道计算集群的部署标志着边缘计算基础设施向太空环境的结构性扩展。"
+  },
+  {
+    "id": "76",
+    "source": "The Next Web (TNW)",
+    "title": "荷兰成为首个批准特斯拉FSD监督版的欧洲国家",
+    "link": "https://thenextweb.com/news/tesla-fsd-supervised-netherlands-europe",
+    "summary": "荷兰RDW批准特斯拉FSD（监督版）符合UN R171标准，成为首个获准该系统的欧洲国家，确立了区域性技术准入框架。",
+    "published": "Sun, 12 Apr 2026 17:55:05 +0000",
+    "fetched_at": "2026-04-13T14:35:32.025902",
+    "score": 65,
+    "judgement_reason": "自动驾驶监管标准的结构性突破，影响全球辅助驾驶技术准入。"
+  },
+  {
+    "id": "50",
+    "source": "VentureBeat",
+    "title": "端侧AI推理成为企业安全管控新盲点",
+    "link": "https://venturebeat.com/security/your-developers-are-already-running-ai-locally-why-on-device-inference-is",
+    "summary": "随着AI推理从云端向端侧迁移，传统基于网关的安全管控模型失效，企业需重构端侧数据安全防护策略。",
+    "published": "Sun, 12 Apr 2026 15:00:20 GMT",
+    "fetched_at": "2026-04-13T14:35:19.200469",
+    "score": 75,
+    "judgement_reason": "端侧推理普及带来的安全架构盲区，属于典型的工程安全边界变动。"
+  },
+  {
     "id": "56",
     "source": "Fast Company",
     "title": "美国国防部加大激光武器研发投入",
@@ -174,104 +273,5 @@
     "fetched_at": "2026-04-10T14:24:38.975669",
     "score": 70,
     "judgement_reason": "数据中心建设的模块化工程优化。"
-  },
-  {
-    "id": "59",
-    "source": "Ars Technica",
-    "title": "临床试验验证基因编辑治疗β-地中海贫血的有效性",
-    "link": "https://arstechnica.com/science/2026/04/clinical-trial-shows-gene-editing-works-for-%ce%b2-thalassaemia-too/",
-    "summary": "改进的基因编辑工艺通过重新激活胎儿期血红蛋白基因，有效治疗β-地中海贫血，证实了基因编辑在血液疾病中的临床可行性。",
-    "published": "Thu, 09 Apr 2026 20:28:48 +0000",
-    "fetched_at": "2026-04-10T14:24:34.341386",
-    "score": 88,
-    "judgement_reason": "基因编辑技术在β-地中海贫血治疗中的临床验证。"
-  },
-  {
-    "id": "114",
-    "source": "VentureBeat",
-    "title": "Mythos模型发现OpenBSD中潜伏27年的漏洞，安全团队需更新检测策略",
-    "link": "https://venturebeat.com/security/mythos-detection-ceiling-security-teams-new-playbook",
-    "summary": "Mythos模型发现OpenBSD TCP栈中存在27年的漏洞，该漏洞可通过双数据包导致服务器崩溃，凸显了现有代码审计与模糊测试机制的局限性。",
-    "published": "Thu, 09 Apr 2026 18:30:00 GMT",
-    "fetched_at": "2026-04-10T14:24:35.132823",
-    "score": 92,
-    "judgement_reason": "揭示了长期存在于OpenBSD TCP栈中的漏洞，对安全审计机制提出挑战。"
-  },
-  {
-    "id": "128",
-    "source": "IEEE Spectrum",
-    "title": "GoZTASP：面向任务规模的自主系统零信任治理平台",
-    "link": "https://content.knowledgehub.wiley.com/goztasp-a-zero-trust-platform-for-governing-autonomous-systems-at-mission-scale/",
-    "summary": "ZTASP平台通过安全运行时保证（SRTA）和安全空间治理机制，将无人机、机器人及传感器等异构系统集成至统一的零信任架构中，实现任务级自主系统治理。",
-    "published": "Thu, 09 Apr 2026 15:06:39 +0000",
-    "fetched_at": "2026-04-10T14:24:36.934896",
-    "score": 95,
-    "judgement_reason": "提出了一种针对自主系统任务规模的零信任治理架构，具备工程落地价值。"
-  },
-  {
-    "id": "139",
-    "source": "Nature News",
-    "title": "CAR-T疗法成功治愈罕见三联自身免疫性疾病",
-    "link": "https://www.nature.com/articles/d41586-026-01108-4",
-    "summary": "CAR-T细胞疗法成功诱导三类自身免疫性疾病患者进入长期缓解期，患者在治疗14个月后无需药物维持，验证了工程化免疫细胞在复杂免疫疾病中的重置机制。",
-    "published": "2026-04-09",
-    "fetched_at": "2026-04-10T14:24:37.444971",
-    "score": 90,
-    "judgement_reason": "CAR-T疗法在自身免疫性疾病治疗中的机制性突破。"
-  },
-  {
-    "id": "134",
-    "source": "Nature News",
-    "title": "基于芳基铋试剂的两性交叉偶联反应",
-    "link": "https://www.nature.com/articles/s41586-026-10486-8",
-    "summary": "研究提出利用芳基铋试剂进行两性交叉偶联反应，为复杂分子合成提供了新的化学机制路径。",
-    "published": "2026-04-09",
-    "fetched_at": "2026-04-10T14:24:37.444927",
-    "score": 85,
-    "judgement_reason": "新型化学合成机制，涉及芳基铋试剂的交叉偶联。"
-  },
-  {
-    "id": "136",
-    "source": "Nature News",
-    "title": "电动汽车助力电网韧性提升",
-    "link": "https://www.nature.com/articles/d41586-026-01110-w",
-    "summary": "车辆到电网（V2G）技术通过将电动汽车集成至电网作为备用电池，可有效提升电网韧性，需优化部署机制以实现规模化应用。",
-    "published": "2026-04-09",
-    "fetched_at": "2026-04-10T14:24:37.444940",
-    "score": 80,
-    "judgement_reason": "电动汽车作为电网分布式储能的机制分析。"
-  },
-  {
-    "id": "110",
-    "source": "VentureBeat",
-    "title": "AI代理技能重写框架：无需重训练底层模型",
-    "link": "https://venturebeat.com/orchestration/new-framework-lets-ai-agents-rewrite-their-own-skills-without-retraining-the",
-    "summary": "Memento-Skills框架通过解耦代理技能与底层大模型，支持AI代理根据环境变化动态重写自身技能，无需进行模型重训练。",
-    "published": "Wed, 08 Apr 2026 17:18:21 GMT",
-    "fetched_at": "2026-04-09T14:37:40.324461",
-    "score": 85,
-    "judgement_reason": "AI代理架构演进，实现无需重训练的技能重写机制。"
-  },
-  {
-    "id": "166",
-    "source": "The Next Web (TNW)",
-    "title": "英特尔加入马斯克Terafab项目，成为250亿美元芯片巨型工程代工伙伴",
-    "link": "https://thenextweb.com/news/intel-terafab-elon-musk-foundry-partnership",
-    "summary": "英特尔成为Terafab项目的核心代工伙伴，该项目旨在实现每年1太瓦的AI算力供应，是英特尔代工战略的重要进展。",
-    "published": "Wed, 08 Apr 2026 14:59:04 +0000",
-    "fetched_at": "2026-04-09T14:37:41.885479",
-    "score": 78,
-    "judgement_reason": "半导体供应链结构性变动，Intel与Terafab的代工合作。"
-  },
-  {
-    "id": "146",
-    "source": "Nature News",
-    "title": "镍基超晶格薄膜的超导性与电子结构",
-    "link": "https://www.nature.com/articles/s41586-026-10352-7",
-    "summary": "研究人员通过工程化Ruddlesden–Popper镍基超结构，揭示了费米面特征与常压超导行为的关联，明确了结构配置对电子结构的调控机制。",
-    "published": "2026-04-08",
-    "fetched_at": "2026-04-09T14:37:41.653703",
-    "score": 95,
-    "judgement_reason": "镍基超导体在常压下的结构与电子结构机制突破，具有极高的物理学研究价值。"
   }
 ]
